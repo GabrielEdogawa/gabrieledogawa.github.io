@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: ublications in reversed chronological order. Feel free to find the PDF version of some papers as they abide with publishers' copyright rules.
+description: Publications in reversed chronological order. Feel free to find the PDF version of some papers as they abide with publishers' copyright rules.
 nav: true
 nav_order: 2
 ---
