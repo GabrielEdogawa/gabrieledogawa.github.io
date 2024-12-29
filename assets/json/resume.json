@@ -1,6 +1,6 @@
 {
   "basics": {
-    "name": "Shengfei Yin",
+    "name": "Shengfei 'Gabriel' Yin",
     "label": "Senior Software Engineer",
     "image": "",
     "email": "bistoury007@gmail.com",
@@ -29,17 +29,26 @@
       "url": "https://www.gevernova.com/software/products/gridos/energy-markets-software",
       "startDate": "2024-06",
       "endDate": "Present",
-      "summary": "Work for the Market Clearing Engine Division as the lead optimization architect/developer for the energy management system. *Report to* [Maria Tamayo - Senior Manager, Software Engineering](https://www.linkedin.com/in/maria-tamayo-a9762326/)",
-      "highlights": ["Develop ISO-scale unit commitment and dispatch operations, working for national-level energy market clearing engines used by MISO, PJM, SPP, and ISO-NE covering 30+ states' electricity management in the US.", "Conduct research and development on large-scale and distributed mathematical optimization models with practical implementations.", "Lead on the production-level optimization software development on *Java-CPLEX* API with best software development practice and solver tuning to achieve computational performance and more flexible user interface.", "Upgrade and optimize the workflow and automatic test pipelines between operation codebase, customers, and database.", "Communicate with clients and lead a seasoned team with technical know-how."]
-    }
+      "summary": "Work for the Market Clearing Engine Division as the lead optimization architect/developer for the energy management system. **Report to** [Maria Tamayo - Senior Manager, Software Engineering](https://www.linkedin.com/in/maria-tamayo-a9762326/)",
+      "highlights": ["Develop ISO-scale unit commitment and dispatch operations, working for national-level energy market clearing engines used by MISO, PJM, SPP, and ISO-NE covering 30+ states' electricity management in the US.", "Conduct research and development on large-scale and distributed mathematical optimization models with practical implementations.", "Lead on the production-level optimization software development on *Java-CPLEX* API with best software development practice and solver tuning to achieve computational performance and more flexible user interface.", "Upgrade and optimize the workflow and automatic *Jenkins cucumber test* pipelines between operation codebase, customers, and database.", "Communicate with clients and lead a seasoned team with technical know-how."]
+    },
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Ascend Analytics, LLC",
+      "position": "Senior Optimization Engineer",
+      "url": "https://www.ascendanalytics.com/",
+      "startDate": "2022-3",
+      "endDate": "2024-06",
+      "summary": "Work for the Development Department as the chief and sole optimization architect/developer for company's flagship millions-earning software. **Report to** [Vena Kostroun - SVP of Development and Co-founder](https://www.linkedin.com/in/vena-kostroun-5307874/)",
+      "highlights": ["Develop large-scale mixed-integer programming models, including single/dual battery storage bidding, renewable-dominant energy market clearing operations, and multi-year generation and transmission expansion planning for [PowerSIMM Suite](https://www.ascendanalytics.com/solutions/powersimm-suite) and [Smartbidder](https://www.ascendanalytics.com/solutions/smartbidder).", "Lead on the production-level software refactoring from GAMS to *Python-FICO Xpress* API with solver tuning to achieve higher computational performance and a more flexible user interface.", "Upgrade and optimize the workflow and automatic *unit test* pipelines between operation code and database, accelerating pre-/post-processing within the solution procedure.", "Develop new features in optimization models to satisfy clients' needs, involving tens of unit modules such as battery storage, hydro operation, multi-energy networks, etc.", "Communicate with clients and help to deliver consulting services with high-dimensional customer data."]
+    },
+    {
+      "name": "Lawrence Berkeley National Laboratory (LBNL)",
+      "position": "Postdoctoral Research Associate",
+      "url": "https://emp.lbl.gov/",
+      "startDate": "2021-09",
+      "endDate": "2022-03",
+      "summary": "Work for the LBNL Electricity Market and Policy Department. This research position involves the investigation on future clean energy market with environmental impacts via machine learning and optimization. **Report to** [Dr. Jiang Lin - Staff Scientist](https://eta.lbl.gov/people/jiang-lin)",
+      "highlights": ["Predict and analyze the solar generation potential in existing building rooftops by *Deep Learning* techniques, including Graph Neural Nets.", "Implement Python programs for automatic I/O data flow with professional simulation software. Develop GUI and SQL databases for open-source power system optimization software.", "Model and simulate the national power capacity expansion planning and production cost modeling in *PLEXOS* through 2020-2035, considering the power reliability and CO$_2$ emission.", "Draft grant proposals for US DOE and California funding agencies, including the California multi-objective power-eco optimization and 2050 carbon neutrality projects.", "Mentor interns and visiting Ph.D., host research calls, and manage academic seminars."]
     }
   ],
   "volunteer": [
