@@ -1,25 +1,26 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Operations Research Researcher, Deep Learning Learner, Cat Fanatic
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+- **Senior Software Engineer** at [GE Vernova, Inc](https://www.gevernova.com/software/products/gridos/energy-markets-software). 
+- Past Senior Optimization Engineer at [Ascend Analytics, LLC](https://www.ascendanalytics.com/). 
+- Past Postdoc at the [Lawrence Berkeley Lab](https://emp.lbl.gov/) in 2021-2022.
+- Past Researcher of the R&D Department at [Midcontinent Independent System Operator, Inc.](https://www.misoenergy.org/) in 2020-2021. 
+- Past Research Intern at PSEC of [National Renewable Energy Laboratory](https://www.nrel.gov/grid/) in 2019.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I received the Ph.D. degree from **Southern Methodist University**, *Dallas*, *TX*, in 2021, the M.S. degree from **Illinois Institute of Technology**, *Chicago*, *IL*, in 2017, and the B. Eng. degree from **Hunan University**, *Changsha*, *China*, in 2016, all majoring in Electrical Engineering. My Ph.D. advisor is [Prof. Jianhui Wang, IEEE Fellow](https://sites.google.com/site/eejhwang/). My Master advisor is [Prof. Zuyi Li, IEEE Fellow](https://www.iit.edu/directory/people/zuyi-li).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I serve as Reviewer for many reputable journals, e.g., *Applied Energy*, *IEEE Transactions on Smart Grid*, *IEEE Transactions on Power Systems*, *IEEE Transactions on Sustainable Energy*, etc. I love deep-diving in **Operations Research**, **Artificial Intelligence** and their applications in **Energy Market**.
