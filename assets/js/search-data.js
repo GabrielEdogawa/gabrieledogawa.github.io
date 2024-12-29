@@ -37,12 +37,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
+        },{id: "nav-cv",
+          title: "cv",
+          description: "vita brevis, ars longa",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
         },{id: "nav-teaching",
           title: "teaching",
           description: "Materials for courses you taught. Replace this text with your description.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
+          },
+        },{id: "nav-people",
+          title: "people",
+          description: "members of the lab or group",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/people/";
           },
         },{id: "dropdown-publications",
               title: "publications",
@@ -492,7 +506,7 @@ ninja.data = [{
         title: 'IEEE Xplore',
         section: 'Socials',
         handler: () => {
-          window.open("https://ieeexplore.ieee.org/author/https://ieeexplore.ieee.org/author/37086397759/", "_blank");
+          window.open("https://ieeexplore.ieee.org/author/37086397759/", "_blank");
         },
       },{
         id: 'social-leetcode',
@@ -506,7 +520,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/https://www.linkedin.com/in/shengfei-yin/", "_blank");
+          window.open("https://www.linkedin.com/in/shengfei-yin", "_blank");
         },
       },{
         id: 'social-orcid',
@@ -527,7 +541,7 @@ ninja.data = [{
         title: 'ResearchGate',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.researchgate.net/profile/https://www.researchgate.net/profile/Shengfei-Yin/", "_blank");
+          window.open("https://www.researchgate.net/profile/Shengfei-Yin/", "_blank");
         },
       },{
         id: 'social-scholar',
