@@ -1,36 +1,30 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Shengfei Yin",
+    "label": "Senior Software Engineer",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "email": "bistoury007@gmail.com",
+    "phone": "(312) yin - gabe",
+    "url": "https://gabriel-yin.com",
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "GE Vernova, Inc",
+      "position": "Senior Software Engineer",
+      "url": "https://www.gevernova.com/software/products/gridos/energy-markets-software",
+      "startDate": "2024-06",
+      "endDate": "Present",
+      "summary": "Work for the Market Clearing Engine Division as the lead optimization architect/developer for the energy management system. **Report to:** [Maria Tamayo - Senior Manager, Software Engineering](https://www.linkedin.com/in/maria-tamayo-a9762326/)",
+      "highlights": ["Develop ISO-scale unit commitment and dispatch operations, working for national-level energy market clearing engines used by MISO, PJM, SPP, and ISO-NE covering 30+ states' electricity management in the US.", "Conduct research and development on large-scale and distributed mathematical optimization models with practical implementations.", "Lead on the production-level optimization software development on *Java-CPLEX* API with best software development practice and solver tuning to achieve computational performance and more flexible user interface.", "Upgrade and optimize the workflow and Jenkins cucumber test pipelines between operation codebase, customers, and database.", "Communicate with clients and lead a seasoned team with technical know-how."]
+    },
+    {
+      "name": "Ascend Analytics, LLC",
+      "position": "Senior Optimization Engineer",
+      "url": "https://www.ascendanalytics.com/",
+      "startDate": "2024-06",
+      "endDate": "Present",
+      "summary": "Work for the Market Clearing Engine Division as the lead optimization architect/developer for the energy management system. **Report to:** [Maria Tamayo - Senior Manager, Software Engineering](https://www.linkedin.com/in/maria-tamayo-a9762326/)",
+      "highlights": ["Develop ISO-scale unit commitment and dispatch operations, working for national-level energy market clearing engines used by MISO, PJM, SPP, and ISO-NE covering 30+ states' electricity management in the US.", "Conduct research and development on large-scale and distributed mathematical optimization models with practical implementations.", "Lead on the production-level optimization software development on *Java-CPLEX* API with best software development practice and solver tuning to achieve computational performance and more flexible user interface.", "Upgrade and optimize the workflow and Jenkins cucumber test pipelines between operation codebase, customers, and database.", "Communicate with clients and lead a seasoned team with technical know-how."]
     }
   ],
   "volunteer": [
