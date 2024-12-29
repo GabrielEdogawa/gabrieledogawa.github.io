@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /people/
 title: Family
-description: Love always protects, always trusts, always hopes, always perseveres.
+description: $$\textbf{Love always protects, always trusts, always hopes, always perseveres.}$$
 nav: true
 nav_order: 7
 
