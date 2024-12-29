@@ -1,7 +1,7 @@
 ---
 layout: profiles
 permalink: /people/
-title: people
+title: Peopl
 description: ***Love always protects, always trusts, always hopes, always perseveres.***
 nav: true
 nav_order: 7
