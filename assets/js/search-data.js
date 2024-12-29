@@ -39,14 +39,14 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "$$\textbf{\textit{vita brevis, ars longa}}$$",
+          description: "$$\mathbf{\textit{vita brevis, ars longa}}$$",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
         },{id: "nav-family",
           title: "Family",
-          description: "$$\textbf{\textit{Love always protects, always trusts, always hopes, always perseveres.}}$$",
+          description: "$$\mathbf{\textit{Love always protects, always trusts, always hopes, always perseveres.}}$$",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
