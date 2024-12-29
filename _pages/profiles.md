@@ -1,8 +1,8 @@
 ---
 layout: profiles
 permalink: /people/
-title: people
-description: members of the lab or group
+title: Family
+description: Love always protects, always trusts, always hopes, always perseveres.
 nav: true
 nav_order: 7
 
@@ -10,19 +10,18 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
-    image: prof_pic.jpg
+    image: wedding_pic.jpg
     content: about_wedding.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
   - align: left
-    image: prof_pic.jpg
+    image: jie_pic.jpg
     content: about_jie.md
-    image_circular: false # crops the image to make it circular
+    image_circular: true # crops the image to make it circular
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+  - align: right
+    image: chuqi_pic.jpg
+    content: about_chuqi.md
+    image_circular: true # crops the image to make it circular
+    more_info: >
 ---
