@@ -38,7 +38,7 @@ ninja.data = [{
             window.location.href = "/repositories/";
           },
         },{id: "nav-cv",
-          title: "cv",
+          title: "CV",
           description: "vita brevis, ars longa",
           section: "Navigation",
           handler: () => {
@@ -51,9 +51,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
+        },{id: "nav-family",
+          title: "Family",
+          description: "Love always protects, always trusts, always hopes, always perseveres.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
