@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-publications",
           title: "Publications",
-          description: "ublications in reversed chronological order. Feel free to find the PDF version of some papers as they abide with publishers&#39; copyright rules.",
+          description: "Publications in reversed chronological order. Feel free to find the PDF version of some papers as they abide with publishers&#39; copyright rules.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
