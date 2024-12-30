@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-- **Senior Software Engineer** at [GE Vernova, Inc](https://www.gevernova.com/software/products/gridos/energy-markets-software). 
+- **Senior Software Engineer - Lead Professional** at [GE Vernova, Inc](https://www.gevernova.com/software/products/gridos/energy-markets-software). 
 - Past Senior Optimization Engineer at [Ascend Analytics, LLC](https://www.ascendanalytics.com/) in 2022-2024. 
 - Past Postdoc at the [Lawrence Berkeley Lab](https://emp.lbl.gov/) in 2021-2022.
 - Past Researcher of the R&D Department at [Midcontinent Independent System Operator, Inc.](https://www.misoenergy.org/) in 2020-2021. 
