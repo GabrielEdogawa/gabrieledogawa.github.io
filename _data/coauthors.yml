@@ -1,32 +1,40 @@
-"Wang":
+"wang":
   - firstname: ["Jianhui", "J."]
     url: https://sites.google.com/site/eejhwang/
 
-"Gangammanavar":
+"gangammanavar":
   - firstname: ["Harsha", "H."]
     url: https://gjharsha.github.io/
 
-"Fang":
+"fang":
   - firstname: ["Xin", "X."]
     url: https://www.linkedin.com/in/xin-fang-82b90646/
 
-"Cui":
+"cui":
   - firstname: ["Mingjian", "M."]
     url: https://mjcui.github.io/
 
-"Chen":
+"chen":
   - firstname: ["Chunyu", "C."]
     url: https://www.researchgate.net/profile/Chunyu-Chen-6
     
-"Li":
+"li":
   - firstname: ["Zhengshuo", "Z."]
     url: https://www.ee.sdu.edu.cn/info/1253/12636.htm
     
-"Lin":
+"lin":
   - firstname: ["Jiang", "J."]
     url: https://eta.lbl.gov/people/jiang-lin
     
-"Zhou":
+"zhou":
   - firstname: ["Anping", "A."]
     url: https://www.linkedin.com/in/anping-zhou-a97b1a242/
+    
+"feizi":
+  - firstname: ["Mohammad Ramin", "M. R."]
+    url: https://www.linkedin.com/in/mohammad-ramin-feizi-ph-d-b8209b87/
+    
+"khodayar":
+  - firstname: ["Mohammad", "M."]
+    url: https://www.linkedin.com/in/mohammad-e-khodayar-050b1241/
 
