@@ -3,9 +3,9 @@
   contents:
     - title: Coding
       items:
-        - <b><span title="Include package expertise like PyTorch, TensorFlow 2.0, Numpy, Pandas, Matplotlib, Pyomo, Scikit-learn...">Python</span></b>
-        - <b>CPLEX/Gurobi/FICO-Xpress</b>
-        - <b>Julia/JuMP</b>
+        - <span title="Include package expertise like PyTorch, TensorFlow 2.0, Numpy, Pandas, Matplotlib, Pyomo, Scikit-learn...">Python</span>
+        - CPLEX/Gurobi/FICO-Xpress
+        - Julia/JuMP
         - GAMS/AMPL
         - Java
         - MATLAB (Simulink)
