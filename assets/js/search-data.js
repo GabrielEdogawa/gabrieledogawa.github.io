@@ -75,8 +75,8 @@ ninja.data = [{
           description: "Open-source codebase for scheduling in Python",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-startup-shutdown-prediction",
-          title: 'startup/shutdown prediction',
+            },},{id: "projects-unit-startup-shutdown-prediction",
+          title: 'Unit Startup/Shutdown Prediction',
           description: "Use ML/DL for generation apparatus modeling",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
