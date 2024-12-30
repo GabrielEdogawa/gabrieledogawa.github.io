@@ -5,7 +5,7 @@ permalink: /
 subtitle: Operations Research Researcher, Deep Learning Learner, Cat Fanatic
 
 profile:
-  align: left
+  align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
@@ -29,6 +29,6 @@ I serve as Reviewer for many reputable journals, e.g., *Applied Energy*, *IEEE T
 
 <br/>
 
-<div id="clustrmaps-widget">
+<div id="clustrmaps-widget" style="display: none;">
     <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=k90u1MICPzaxJJzMFDPq3jtHFWjkkR81M-0KW_LPes0"></script>
 </div>

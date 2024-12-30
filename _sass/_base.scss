@@ -1343,3 +1343,21 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
+
+// fancy-button
+.fancy-button {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #3ec9f3, #37b4e1, #309ed0);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.fancy-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
