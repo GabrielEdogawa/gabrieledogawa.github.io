@@ -35,7 +35,7 @@ $$
 By following this procedure, here is one sample preprocessing:
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/sample_sudata.jpg" title="sample_sudata" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/sample_sudata.jpg" title="sample_sudata" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -49,7 +49,7 @@ After the data preprocessing is complete, we conduct feature selection by applyi
 The final feature scoring for different types of units based on the feature selection procedure is as follows:
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/feature_importance.jpg" title="feature_importance" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/feature_importance.jpg" title="feature_importance" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -62,7 +62,7 @@ Gradient boosting tree (GBT) is a boosting algorithm using ensembled decision tr
 The test MAPE for each unit is shown below, compared between the preprocessed datasets and raw datasets. Certainly, the dataset is divided into a training set (75%) and a testing set (25%).
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gbt_performance.jpg" title="gbt_performance" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/gbt_performance.jpg" title="gbt_performance" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -74,7 +74,7 @@ The test MAPE for each unit is shown below, compared between the preprocessed da
 While the ofﬂine approach suits the need of the LAC curves, for real-time UDS with ﬁner granularity, the prediction quality of the ofﬂine approach needs further improvement. However, the UDS follows a rolling-horizon manner, which means for every ﬁve minutes, we could leverage the previously predicted error to enhance the current-interval prediction. This asynchronous error correction could be best tackled by an LSTM network. We adopt the following LSTM framework:
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/LSTM.jpg" title="LSTM" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/LSTM.jpg" title="LSTM" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -84,7 +84,7 @@ While the ofﬂine approach suits the need of the LAC curves, for real-time UDS 
 Each LSTM cell leverages layer normalization (LN) to smooth the activations along the feature direction with whitening. The training procedure observed from [TensorBoard](https://www.tensorflow.org/tensorboard) is as follows:
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/lstm_performance.jpg" title="lstm_performance" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/lstm_performance.jpg" title="lstm_performance" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -96,7 +96,7 @@ Each LSTM cell leverages layer normalization (LN) to smooth the activations alon
 After we obtain the startup/shutdown curves discussed above, we plug in these curves for the LAC and UDS coordinated operation. We studied all units recorded in the MISO state estimation for the startup/shutdown curve prediction, but not all generators within the operation have associated curves. Some units might have startup/shutdown time shorter than ﬁfteen minutes, while some units are not frequently committed or de-committed. We choose units with a high prediction performance of startup/shutdown curves, i.e., MAPE less than 10%, in the test case. Whole-day operations with the rolling LAC instances and associated UDS instances are executed for a sample week in this study. Using SLAC could better capture the system characteristics conditioned by the uncertain renewable resources. Then, we pick two days, i.e., Day 1 and Day 5, to see whether the predicted startup/shutdown curves could synergize with SLAC. Below shows the economic improvements:
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/economic.jpg" title="economic" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/economic.jpg" title="economic" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

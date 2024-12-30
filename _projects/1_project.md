@@ -18,7 +18,7 @@ My work was focusing on developing the MIDAS-Scheduling package and all the othe
 Here is the framework for MIDAS-Scheduling:
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/midas_framework.jpg" title="midas_framework" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/midas_framework.jpg" title="midas_framework" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -40,7 +40,7 @@ I'd like to introduce more about some fun stuffs of MIDAS-Scheduling.
 In detail, we consider an energy storage system (ESS) with a general and flexible setting. The ESSs incorporated in our system can have flexible types, including pumped storage and battery storage. For the storage simulation modeling, we consider the idle status of the ESS unit, and whenever it is charging, discharging, or idle, it can provide ancillary services (ASs) in both up and down directions. This is the key advantage of our schemes compared with the SOTAs. Our ESS framework can fully leverage the ESS’s flexibility for both energy and ASs and better contribute to the system scheduling operation, particularly with PV units. 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/ESS.jpg" title="ESS operations" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/ESS.jpg" title="ESS operations" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -53,7 +53,7 @@ As shown above, the pumped storage (PESS) can provide both up and down services 
 In real world, synchronous generators require start-up time and shutdown time to perform turn-on and turn-off. We differentiate generators by their trajectory time to flexible units, inflexible units and renewable units. The inflexible units’ trajectories are modeled in the DAUC, and the flexible units’ trajectories are modeled in the RTUC. Certainly, during startup/shutdown trajectory, the generator cannot provide any ancillary service (excluding non-spinning reserve capacity).
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/unit_traj.jpg" title="Unit Trajectory" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/unit_traj.jpg" title="Unit Trajectory" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -66,7 +66,7 @@ Say, if Unit G1 is scheduled to startup at Hour 5, in the real-time operation, c
 Since RTUC is also a rolling-horizon operation, the operator will update the startup/shutdown statuses in the most recent RTUC. Hence, if the current RTUC changes the startup decision determined in the last RTUC, the non-spinning reserve scheduled in the last RTUC will violate the startup logic. Hence, we develop the following scheme: the first interval’s commitment is fixed by the second interval’s commitment in the last RTUC. The first interval’s commitment of each RTUC is consistent in any connecting period and hence will not violate the last RTUC’s startup decisions.
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/fixed_commitment_rtuc.jpg" title="Fixed-interval RTUC" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/fixed_commitment_rtuc.jpg" title="Fixed-interval RTUC" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -79,7 +79,7 @@ Note that this scheme has been actually adopted by [MISO](https://www.misoenergy
 We use the toy 18-bus system reduced from the [WECC system](https://www.wecc.org/epubs/StateOfTheInterconnection/Pages/Western-Interconnection.aspx) as an example. Here is the diagram:
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/18bus.jpg" title="18-bus diagram" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/18bus.jpg" title="18-bus diagram" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -88,10 +88,10 @@ We use the toy 18-bus system reduced from the [WECC system](https://www.wecc.org
 After running the MIDAS-Scheduling program, the automated result-generation code will provide you with the following fancy-looking summary charts:
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/midas_result_fig1.jpg" title="DAUC Dispatch result" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/midas_result_fig1.jpg" title="DAUC Dispatch result" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/midas_result_fig2.jpg" title="RTED ESS result" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/midas_result_fig2.jpg" title="RTED ESS result" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
