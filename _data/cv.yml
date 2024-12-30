@@ -2,109 +2,173 @@
   type: map
   contents:
     - name: Full Name
-      value: Shengfei Yin
-    - name: Date of Birth
+      value: Shengfei (Gabriel) Yin
+    - name: DoB
       value: 27th June 1994
     - name: Languages
       value: English, Chinese
     - name: Summary
-      value: A seasoned operations research and deep learning specialist with fruitful domain knowledge in electricity market and battery storage bidding.
+      value: A seasoned <b>operations research</b> and <b>deep learning</b> specialist with fruitful domain knowledge in <u>electricity market</u> and <u>battery storage bidding</u>.
       
-- title: Experience
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Coding
+      items:
+        - <b>Python (PyTorch/TensorFlow/Numpy/Pandas...)</b>, <b>CPLEX/Gurobi/FICO-Xpress</b>, <b>Julia/JuMP</b>, GAMS/AMPL, Java, MATLAB (Simulink), SQL, R, C/C++, AIMMS.
+    - title: Software
+      items:
+        - PLEXOS, PSS/E, AutoCAD, Tableau, Office Suite.
+    - title: Domain Knowledge
+      items:
+        - <b>Stochastic Optimization</b>, <b>Deep Learning</b>, <b>U.S. Electricity Market</b>, Power System Operations and Control, Battery Bidding Strategies.
+      
+- title: Work Experience
   type: time_table
   contents:
     - title: Senior Software Engineer
       institution: <a href="https://www.gevernova.com/software/products/gridos/energy-markets-software">GE Vernova, Inc.</a>
       year: 2024.06 - Present
       description:
-        - Work for the Market Clearing Engine Division as the lead optimization architect/developer for the energy management system. *Report to* <a href="https://www.linkedin.com/in/maria-tamayo-a9762326/">Maria Tamayo - Senior Manager, Software Engineering</a>.
+        - Work for the Market Clearing Engine Division as the lead optimization architect/developer for the energy management system. <u>Report to</u> <a href="https://www.linkedin.com/in/maria-tamayo-a9762326/">Maria Tamayo - Senior Manager, Software Engineering</a>.
         - title: Details
           contents:
-            - Develop ISO-scale unit commitment and dispatch operations, working for national-level energy market clearing engines used by MISO, PJM, SPP, and ISO-NE covering 30+ states electricity management in the US.
+            - Develop ISO-scale unit commitment and dispatch operations, working for national-level energy market clearing engines used by MISO, PJM, SPP, and ISO-NE covering 30+ 'states''' electricity management in the US.
             - Conduct research and development on large-scale and distributed mathematical optimization models with practical implementations.
-            - Lead on the production-level optimization software development using *Java-CPLEX* API with best software development practice and solver tuning to achieve computational performance and more flexible user interface.
-            - Upgrade and optimize the workflow and automatic **Jenkins cucumber test** pipelines between operation codebase, customers, and database.
+            - Lead on the production-level optimization software development using <b>Java-CPLEX</b> API with best software development practice and solver tuning to achieve computational performance and more flexible user interface.
+            - Upgrade and optimize the workflow and automatic <b>Jenkins Cucumber Test</b> pipelines between operation codebase, customers, and database.
             - Communicate with clients and lead a seasoned team with technical know-how.
             
     - title: Senior Optimization Engineer
       institution: <a href="https://www.ascendanalytics.com/">Ascend Analytics, LLC</a>
       year: 2022.03 - 2024.06
       description:
-        - Work for the Development Department as the chief and sole optimization architect/developer for company flagship millions-earning software. *Report to* <a href="https://www.linkedin.com/in/vena-kostroun-5307874/">Vena Kostroun - SVP of Development and Co-founder</a>.
+        - Work for the Development Department as the chief and sole optimization architect/developer for company flagship millions-earning software. <u>Report to</u> <a href="https://www.linkedin.com/in/vena-kostroun-5307874/">Vena Kostroun - SVP of Development and Co-founder</a>.
         - title: Details
           contents:
             - Develop large-scale mixed-integer programming models, including single/dual battery storage bidding, renewable-dominant energy market clearing operations, and multi-year generation and transmission expansion planning for <a href="https://www.ascendanalytics.com/solutions/powersimm-suite">PowerSIMM Suite</a> and <a href="https://www.ascendanalytics.com/solutions/smartbidder">Smartbidder</a>.
-            - Lead on the production-level software refactoring from GAMS to **Python-FICO Xpress** API with solver tuning to achieve higher computational performance and a more flexible user interface.
-            - Upgrade and optimize the workflow and automatic *pytest* unit test pipelines between operation code and database, accelerating pre-/post-processing within the solution procedure.
-            - Develop new features in optimization models to satisfy client needs, involving tens of unit modules such as battery storage, hydro operation, multi-energy networks, etc.
+            - Lead on the production-level software refactoring from GAMS to <b>Python-FICO Xpress</b> API with solver tuning to achieve higher computational performance and a more flexible user interface.
+            - Upgrade and optimize the workflow and automatic <b>pytest</b> unit test pipelines between operation code and database, accelerating pre-/post-processing within the solution procedure.
+            - Develop new features in optimization models to satisfy 'clients''' needs, involving tens of unit modules such as battery storage, hydro operation, multi-energy networks, etc.
             - Communicate with clients and help to deliver consulting services with high-dimensional customer data.
 
     - title: Postdoctoral Research Associate
       institution: <a href="https://emp.lbl.gov/">Lawrence Berkeley National Laboratory (LBNL)</a>
       year: 2021.09 - 2022.03
       description:
-        - Work for the LBNL Electricity Market and Policy Department. This research position involves the investigation on future clean energy market with environmental impacts via machine learning and optimization. *Report to* <a href="https://eta.lbl.gov/people/jiang-lin">Dr. Jiang Lin - Staff Scientist</a>.
+        - Work for the LBNL Electricity Market and Policy Department. This research position involves the investigation on future clean energy market with environmental impacts via machine learning and optimization. <u>Report to</u> <a href="https://eta.lbl.gov/people/jiang-lin">Dr. Jiang Lin - Staff Scientist</a>.
         - title: Details
           contents:
-            - Predict and analyze the solar generation potential in existing building rooftops by **Deep Learning** techniques, including Graph Neural Nets.
+            - Predict and analyze the solar generation potential in existing building rooftops by <b>Deep Learning</b> techniques, including Graph Neural Nets.
             - Implement Python programs for automatic I/O data flow with professional simulation software. Develop GUI and SQL databases for open-source power system optimization software.
-            - Model and simulate the national power capacity expansion planning and production cost modeling in **PLEXOS** through 2020-2035, considering the power reliability and CO$_2$ emission.
+            - Model and simulate the national power capacity expansion planning and production cost modeling in <b>PLEXOS</b> through 2020-2035, considering the power reliability and CO<sub>2</sub> emission.
             - Draft grant proposals for US DOE and California funding agencies, including the California multi-objective power-eco optimization and 2050 carbon neutrality projects.
             - Mentor interns and visiting Ph.D., host research calls, and manage academic seminars.
-
-- title: Open Source Projects
+            
+    - title: Research and Development Fellow (Co-op)
+      institution: <a href="https://www.misoenergy.org/">Midcontinent Independent System Operator (MISO)</a>
+      year: 2020.05 - 2021.06
+      description:
+        - Work for the MISO R\&D Department. This research-based position involves real-time supply chain optimization in 'MISO''s' daily operations. <u>Report to</u> <a href="https://research-hub.nrel.gov/en/persons/yonghong-chen">Dr. Yonghong Chen - R\&D Senior Consulting Advisor</a>.
+        - title: Details
+          contents:
+            - Perform time-series prediction of power 'generators''' startup/shutdown trajectory by employing <b>Gradient Boosting Tree</b> for the offline task and <b>Long Short Term Memory</b> network for the online task.
+            - Design the deterministic MISO real-time look-ahead power supply chain optimization routine and implement it in <b>Python-Gurobi</b> API with calibration via the MISO production engine.
+            - Query and parse the time-series data of 'units''' startup and shutdown processes by <b>SQL</b> in the MISO private database, with cleaning and restructuring of original data pairs.
+            - Deploy the improved start/shutdown curves in the stochastic supply chain optimization model on several typical operation days. The daily production cost saving on average is around 8% (<b>10<sup>6</sup></b> level in dollars).
+            - Assist in software documentation, team collaboration, and milestone reports.
+            
+    - title: Research Engineer (Summer Intern)
+      institution: <a href="https://research-hub.nrel.gov/en/organisations/grid-planning-and-analysis-center">National Renewable Energy Laboratory (NREL)</a>
+      year: 2019.05 - 2019.08
+      description:
+        - Work for the NREL Power System Engineering Center. This research position builds integrated optimization models between steady-state scheduling and transient-state dynamics, focusing on assessing solar 'energy''s' potential in the energy-reserve market. <u>Report to</u> <a href="https://research-hub.nrel.gov/en/persons/bryan-palmintier">Dr. Bryan Palmintier - Principal Research Engineer</a>.
+        - title: Details
+          contents:
+            - Build the multi-timescale optimization framework for short-term market analyses in <b>Python-Gurobi</b> API with unique steady-state turbine physical models for renewables.
+            - Conduct techno-economic assessments of solar 'panels''' potentials with built-in energy storage systems in the energy and reserve co-optimization, considering the multi-timescale coordination.
+            - Debug the simulation software and perform sensitivity analyses with different parameters while adding new and reliable features with validations to mimic the practical market environment better.
+            - Help design the interface between scheduling operations in Python and transient-state dynamics in PSS/E.
+            - Responsible for software documentation, team collaboration, and milestone reports.
+        
+- title: Project Participation
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
+    - title: Stochastic Optimal Power Flow for Real-time Management of DERs (SLAC)
+      year: 2019.05 - 2021.09
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - <u>Funded by DOE ARPA-E ($4.35M)</u>
+        - In this project, I focused on developing a new stochastic power flow model and solution techniques. I worked on tailoring the large-scale distributed ADMM algorithm and deployed it in the stochastic optimal power flow model with practical market operations. The multi-thread processing was utilized when solving independent stochastic subproblems.
+        - I generated stochastic scenario trees based on historical wind and solar data by applying the K-means clustering.
+        - <a href="https://www.osti.gov/servlets/purl/1990021">Final Tech Report</a>
+    - title: Multi-timescale Integrated Dynamic And Scheduling (MIDAS)
+      year: 2018.09 - 2021.11
       items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
+        - <u>Funded by DOE SETO ($3.00M)</u>
+        - In this project, I focused on developing a generalized Python software package for multi-timescale short-term market operations interfaced with the system dynamics simulation. Final code availability is dependent of NREL.
+        - Focusing on the scheduling part, I designed and realized flexible and user-friendly functions for system operations, such as retrievals of system sensitivities like LMPs. The I/O interfaces between different optimization modules were also implemented.
+        - <a href="https://www.nrel.gov/docs/fy23osti/85679.pdf">Final Tech Report</a>
+    - title: Hybrid Stochastic Energy Storage Management for Integrated Energy Systems
+      year: 2019.10 - 2020.10
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - <u>Funded by GEIRI-NA ($500K)</u> via <a href="https://www.linkedin.com/in/xiaohu-zhang-05593a56/">Dr. X. Zhang</a>.
+        - I developed a power market simulation platform in MATLAB for the multi-energy network, including electricity, gas, and heat, exemplified by the operations of multi-energy storage systems. Nonconvex power flow, gas flow, and heat flow equations are convexified via the second-order cone.
+        - I analyzed energy 'storage''s' capability of providing different energy products in the steady-state energy market. Scenario-based stochastic programming for a massive amount of distributed renewable resources was employed.
+        - <a href="https://www">Code</a>
+    - title: Multi-Stage Stochastic \& Robust Power System Capacity Expansion Planning
+      year: 2018.01 - 2019.10
       items:
-        - Description 1.
-        - Description 2.
-
-
+        - <u>Funded by DOE NEPA ($400K)</u>
+        - I designed a multi-stage and multi-timescale capacity expansion planning framework considering plant contingencies and renewable uncertainties. I formulated the problem as a hybrid stochastic and robust MILP program with discrete and continuous uncertainties.
+        - I devised a Benders-embedded Column-and-Constraint Generation algorithm to facilitate the solution. Extensive economic assessments were carried out to evaluate long-term renewable paybacks.
+        - <a href="https://www.osti.gov/servlets/purl/1868949">Final Tech Report</a>, <a href="https://www.energy.gov/sites/prod/files/2017/07/f35/3.%20Wu%20Clarkson.pdf">Presentation</a>.
+        
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: Southern Methodist University, Dallas, TX
-      year: 2021
+    - title: Ph.D.
+      institution: <a href="https://www.smu.edu/lyle/departments/ece">Southern Methodist University</a>
+      year: 2018 - 2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Specializing in <u>Energy System Optimization</u>. Advised by <a href="https://sites.google.com/site/eejhwang/">Prof. Jianhui Wang, IEEE Fellow</a>.
+        - Final Dissertation: <a href="https://scholar.smu.edu/engineering_electrical_etds/44/"><u>Electricity Market Operations with Massive Renewable Penetration: New Designs</u></a>.
+    - title: M.Sc.
+      institution: <a href="https://www.iit.edu/ece">Illinois Institute of Technology</a>
+      year: 2017 - 2018
       description:
-        - Description 1.
-        - Description 2.
+        - Specializing in <u>Energy Economics</u>. Advised by <a href="https://www.iit.edu/directory/people/zuyi-li">Prof. Zuyi Li, IEEE Fellow</a>.
+    - title: B.Eng.
+      institution: <a href="https://www-en.hnu.edu.cn/">Hunan University</a>
+      year: 2012 - 2016
+    - title: High School Diploma
+      institution: <a href="https://www.changjun.com.cn/">Changjun High School</a>
+      year: 2009 - 2012
+            
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2021
+      items:
+        - SMU University Outstanding Graduate Student
+        
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: <b>Stochastic Optimization Theories</b>.
+      items:
+        - Traditional stochastic optimization including scenario-based multi-stage stochastic programs, robust optimization, and distributionally robust optimization.
+        - Newly blossomed (again) approximate dynamic programming including reinforcement learning, online convex optimization and fast solution algorithms.
+        - Application of the state-of-the-art deep learning techniques assisting in searching for high-quality solutions of ultra-scale (stochastic) optimization problems, including using GPU and quantum computing units.
+    - title: <b>Electricity Market Operations and Economics</b>.
+      items:
+        - Wholesale electricity market clearing processes including unit commitment and economic dispatch under stringent scenarios of 100% renewable penetration.
+        - Real-time energy bidding and trading of flexible energy resources like battery storages and distributed energy resources.
+        - Capacity planning and market power exercise from bulk renewable companies.
 
-
-- title: Other Interests
+- title: Certifications
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - CFA Level 1
+    - <a href="https://www.coursera.org/account/accomplishments/certificate/PNCPHXN35P58">Fundamentals of Reinforcement Learning - Coursera [Dec 2019]</a>.
+    - <a href="https://www.coursera.org/account/accomplishments/certificate/X8XWLFA9Y43A">Neural Networks and Deep Learning - Coursera [Mar 2019]</a>.
+
