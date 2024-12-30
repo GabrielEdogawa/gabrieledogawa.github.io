@@ -131,7 +131,7 @@
       year: 2018 - 2021
       description:
         - Specializing in <u>Energy System Optimization</u>. Advised by <a href="https://sites.google.com/site/eejhwang/">Prof. Jianhui Wang, IEEE Fellow</a>.
-        - Final Dissertation: <u><a href="https://scholar.smu.edu/engineering_electrical_etds/44/">"Electricity Market Operations with Massive Renewable Penetration: New Designs"</a></u>.
+        - "Final Dissertation: <u><a href=\"https://scholar.smu.edu/engineering_electrical_etds/44/\">\"Electricity Market Operations with Massive Renewable Penetration - New Designs\"</a></u>."
     - title: M.Sc.
       institution: <a href="https://www.iit.edu/ece">Illinois Institute of Technology</a>
       year: 2017 - 2018
@@ -169,6 +169,6 @@
   type: list
   contents:
     - CFA Level 1
-    - <a href="https://www.coursera.org/account/accomplishments/certificate/PNCPHXN35P58">Fundamentals of Reinforcement Learning - Coursera [Dec 2019]</a>.
-    - <a href="https://www.coursera.org/account/accomplishments/certificate/X8XWLFA9Y43A">Neural Networks and Deep Learning - Coursera [Mar 2019]</a>.
+    - <a href="https://www.coursera.org/account/accomplishments/certificate/PNCPHXN35P58">Fundamentals of Reinforcement Learning - Coursera [Dec 2019]</a>
+    - <a href="https://www.coursera.org/account/accomplishments/certificate/X8XWLFA9Y43A">Neural Networks and Deep Learning - Coursera [Mar 2019]</a>
 
