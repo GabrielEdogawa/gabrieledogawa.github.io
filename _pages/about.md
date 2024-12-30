@@ -28,3 +28,7 @@ I serve as Reviewer for many reputable journals, e.g., *Applied Energy*, *IEEE T
 <a href="zh" class="fancy-button">中文界面</a>
 
 <br/>
+
+<div id="clustrmaps-widget">
+    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=k90u1MICPzaxJJzMFDPq3jtHFWjkkR81M-0KW_LPes0"></script>
+</div>
