@@ -74,7 +74,7 @@
       institution: <a href="https://www.misoenergy.org/">Midcontinent Independent System Operator (MISO)</a>
       year: 2020.05 - 2021.06
       description:
-        - Work for the MISO R\&D Department. This research-based position involves real-time supply chain optimization in 'MISO''s' daily operations. <u>Report to</u> <a href="https://research-hub.nrel.gov/en/persons/yonghong-chen">Dr. Yonghong Chen - R\&D Senior Consulting Advisor</a>.
+        - Work for the MISO R&D Department. This research-based position involves real-time supply chain optimization in 'MISO''s' daily operations. <u>Report to</u> <a href="https://research-hub.nrel.gov/en/persons/yonghong-chen">Dr. Yonghong Chen - R&D Senior Consulting Advisor</a>.
         - title: Details
           contents:
             - Perform time-series prediction of power generators' startup/shutdown trajectory by employing <b>Gradient Boosting Tree</b> for the offline task and <b>Long Short Term Memory</b> network for the online task.

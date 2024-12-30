@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - gabrieledogawa
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - gabrieledogawa/TDCED-with-Uncertainties
+  - gabrieledogawa/GTEP-mCCG
+  - GabrielEdogawa/JuliaOpt-Start-up-in-Power-System
+  - GabrielEdogawa/LaTeX-Tutorial-on-IEEE-Trans-Journal-Writing
