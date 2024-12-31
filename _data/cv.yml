@@ -1,10 +1,17 @@
 - title: Skills
   type: list_groups
   contents:
+    - category: Software
+      items:
+        - name: <b>PLEXOS</b>
+        - name: PSS/E
+        - name: AutoCAD
+        - name: Tableau
+        - name: MS Office Suite
     - category: Coding
       items:
-        - name: Python (PyTorch/Numpy/Pandas)
-        - name: CPLEX/Gurobi/FICO-Xpress
+        - name: <b>Python (PyTorch/TensorFlow/Numpy/Pandas/Pyomo)</b>
+        - name: <b>CPLEX/Gurobi/FICO-Xpress<b>
         - name: Julia/JuMP
         - name: GAMS/AMPL
         - name: Java
@@ -13,18 +20,13 @@
         - name: R
         - name: C/C++
         - name: AIMMS
-    - category: Software
-      items:
-        - name: PLEXOS
-        - name: PSS/E
-        - name: AutoCAD
-        - name: Tableau
-        - name: MS Office Suite
+        - name: Linux/Bash
+        - name: LaTeX
     - category: Domain Knowledge
       items:
-        - name: Stochastic Optimization
-        - name: Deep Learning
-        - name: U.S. Electricity Market
+        - name: <b>Deep Learning</b>
+        - name: <b>Stochastic Optimization</b>
+        - name: <b>U.S. Electricity Market</b>
         - name: Power System Operations and Control
         - name: Battery Bidding Strategies
       
