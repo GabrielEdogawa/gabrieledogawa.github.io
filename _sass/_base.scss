@@ -1396,3 +1396,19 @@ ninja-keys::part(ninja-input-wrapper) {
 .tooltip:hover:after {
   display: block;
 }
+
+.google-scholar {
+  position: relative; /* Allows precise positioning */
+  text-align: right; /* Align content to the right */
+  margin-bottom: 20px; /* Add spacing below the icon */
+}
+
+.google-scholar a {
+  font-size: 24px; /* Adjust icon size */
+  color: #4285F4; /* Google Scholar blue */
+  text-decoration: none;
+}
+
+.google-scholar a:hover {
+  color: #2a65d4; /* Darker blue on hover */
+}

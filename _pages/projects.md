@@ -5,7 +5,7 @@ permalink: /projects/
 description: Work hard, play harder 😊
 nav: true
 nav_order: 2
-display_categories: [Work, Fun]
+display_categories: [work, fun]
 horizontal: false
 ---
 
