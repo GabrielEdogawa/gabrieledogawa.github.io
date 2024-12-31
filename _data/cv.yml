@@ -22,9 +22,9 @@
         - name: MS Office Suite
     - category: Domain Knowledge
       items:
-        - name: **Stochastic Optimization**
-        - name: **Deep Learning**
-        - name: **U.S. Electricity Market**
+        - name: Stochastic Optimization
+        - name: Deep Learning
+        - name: U.S. Electricity Market
         - name: Power System Operations and Control
         - name: Battery Bidding Strategies
       
