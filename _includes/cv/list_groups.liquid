@@ -1,43 +1,30 @@
 <div class="list-groups">
   <table class="table-cv list-group-table">
+    <!-- Display category headers in a single row -->
     <thead>
       <tr>
         {% for content in entry.contents %}
-          <!-- Display each category in a separate column -->
           <th class="list-group-category">{{ content.category }}</th>
         {% endfor %}
       </tr>
     </thead>
     <tbody>
+      <!-- Calculate the maximum number of rows needed -->
       {% assign max_items = 0 %}
-      <!-- Find the maximum number of items across all categories -->
       {% for content in entry.contents %}
         {% if content.items.size > max_items %}
           {% assign max_items = content.items.size %}
         {% endif %}
       {% endfor %}
 
-      <!-- Iterate row by row based on the maximum number of items -->
-      {% for index in (0..max_items) %}
+      <!-- Display items row by row -->
+      {% for row in (0..max_items-1) %}
         <tr>
           {% for content in entry.contents %}
             <td>
-              {% if content.items[index] %}
-                <td></td>
-                {{ content.items[index].name }}
-                {% if content.items[index].level %}
-                  <span class="list-group-level">({{ content.items[index].level }})</span>
-                {% endif %}
-                {% if content.items[index].school %}
-                  <br>{{ content.items[index].school }}
-                {% endif %}
-                {% if content.items[index].time %}
-                  <br>{{ content.items[index].time }}
-                {% endif %}
-                {% if content.items[index].link %}
-                  <br>
-                  <a href="{{ content.items[index].link }}" target="_blank">{{ content.items[index].linkname | default: "DOC" }}</a>
-                {% endif %}
+              <td></td>
+              {% if content.items[row] %}
+                {{ content.items[row] }}
               {% endif %}
             </td>
           {% endfor %}

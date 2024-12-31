@@ -3,32 +3,32 @@
   contents:
     - category: Coding
       items:
-        - name: <b>Python (PyTorch/TensorFlow/Numpy/Pandas/Pyomo)</b>
-        - name: <b>CPLEX/Gurobi/FICO-Xpress</b>
-        - name: Julia/JuMP
-        - name: GAMS/AMPL
-        - name: Java
-        - name: MATLAB (Simulink)
-        - name: SQL
-        - name: R
-        - name: C/C++
-        - name: AIMMS
-        - name: Linux/Bash
-        - name: LaTeX
+        - <b>Python (PyTorch/TensorFlow/Numpy/Pandas/Pyomo)</b>
+        - <b>CPLEX/Gurobi/FICO-Xpress</b>
+        - Julia/JuMP
+        - GAMS/AMPL
+        - Java
+        - MATLAB (Simulink)
+        - SQL
+        - R
+        - C/C++
+        - AIMMS
+        - Linux/Bash
+        - LaTeX
     - category: Software
       items:
-        - name: <b>PLEXOS</b>
-        - name: PSS/E
-        - name: AutoCAD
-        - name: Tableau
-        - name: MS Office Suite
+        - <b>PLEXOS</b>
+        - PSS/E
+        - AutoCAD
+        - Tableau
+        - MS Office Suite
     - category: Domain Knowledge
       items:
-        - name: <b>Deep Learning</b>
-        - name: <b>Stochastic Optimization</b>
-        - name: <b>U.S. Electricity Market</b>
-        - name: Power System Operations and Control
-        - name: Battery Bidding Strategies
+        - <b>Deep Learning</b>
+        - <b>Stochastic Optimization</b>
+        - <b>U.S. Electricity Market</b>
+        - Power System Operations and Control
+        - Battery Bidding Strategies
       
 - title: Work Experience
   type: time_table

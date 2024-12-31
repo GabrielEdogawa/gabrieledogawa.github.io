@@ -7,35 +7,37 @@
 # bluesky_url: # your bluesky URL
 # dblp_url: # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
+scholar_userid: gMaOSxgAAAAJ
+ieee_id: 37086397759
 email: bistoury007@gmail.com # your email address
 # facebook_id: # your facebook id
 # flickr_id: # your flickr id
 github_username: gabrieledogawa
 # gitlab_username: # your GitLab user name
-ieee_id: 37086397759
 #inspirehep_id: 1010907 # Inspire HEP author ID
 # instagram_id: # your instagram id
 # kaggle_id: # your kaggle id
 # keybase_username: # your keybase user name
 # lastfm_id: # your lastfm id
 # lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-leetcode_id: GabrielYin
 linkedin_username: shengfei-yin
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
 orcid_id: 0000-0001-6108-3813
+telegram_username: GabrielYin
 # osf_id: # your OSF ID
 # pinterest_id: # your pinterest id
 publons_id: ACI-6878-2022
 # quora_username: # your Quora username
 research_gate_profile: Shengfei-Yin
 #rss_icon: true # set to true to show the RSS icon
-scholar_userid: gMaOSxgAAAAJ # your Google Scholar ID
+ # your Google Scholar ID
 # scopus_id: # your profile on Scopus
-# semanticscholar_id: # your Semantic Scholar ID
+semanticscholar_id: 50880941# your Semantic Scholar ID
 # spotify_id: # your spotify id
 # stackoverflow_id: # your stackoverflow id
-telegram_username: GabrielYin
+
+leetcode_id: GabrielYin
 # unsplash_id: # your unsplash id
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
