@@ -5,9 +5,18 @@ title: Publications
 description: Publications in reversed chronological order. Feel free to find the PDF version of some papers as they abide with publishers' copyright rules.
 nav: true
 nav_order: 3
+google_scholar: "https://scholar.google.com/citations?user=gMaOSxgAAAAJ&hl=en"
 ---
 
 <!-- _pages/publications.md -->
+<a
+  href="{{ page.google_scholar }}"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="float-right"
+>
+  <i class="fa-solid fa-graduation-cap"></i>
+</a>
 
 <!-- Bibsearch Feature -->
 

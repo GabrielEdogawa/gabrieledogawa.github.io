@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Projects
+title: Work & Life
 permalink: /projects/
-description: Learn more about my work and life.
+description: Work hard, play harder 😊
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [Work, Fun]
 horizontal: false
 ---
 

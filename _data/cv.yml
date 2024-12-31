@@ -1,9 +1,9 @@
 - title: Skills
   type: list_groups
   contents:
-    - category: Coding
+    - category: Programming
       items:
-        - name: <b>Python (PyTorch/Numpy/Pandas/Pyomo)</b>
+        - name: <b>Python (PyTorch/TensorFlow/Numpy/Pandas)</b>
         - name: <b>CPLEX/Gurobi/FICO-Xpress and APIs</b>
         - name: Julia/JuMP
         - name: GAMS/AMPL
@@ -16,11 +16,11 @@
       items:
         - name: <b>PLEXOS</b>
         - name: <b>Tableau</b>
-        - name: PSS/E
+        - name: AIMMS
+        - name: PSS®E
         - name: AutoCAD
         - name: MS Office Suite
         - name: Enterprise Architect
-        - name: AIMMS
     - category: Domain Knowledge
       items:
         - name: <b>Deep Learning</b>
@@ -31,11 +31,11 @@
     - category: Language
       items:
         - name: <b>English</b>
-          level: Bilingual
+          level: (Bilingual)
         - name: <b>Mandarin</b>
-          level: Native
+          level: (Native)
         - name: <b>Japanese</b>
-          level: Professional Proficiency
+          level: (Professional Proficiency)
       
 - title: Work Experience
   type: time_table
@@ -119,7 +119,7 @@
       year: 2018.09 - 2021.11
       items:
         - <u>Funded by DOE SETO ($3.00M)</u>
-        - In this project, I focused on developing a generalized Python software package for multi-timescale short-term market operations interfaced with the system dynamics simulation. Final code availability is dependent of NREL.
+        - In this project, I focused on developing a generalized software package on <b>Python/Pyomo</b> for multi-timescale short-term market operations interfaced with the system dynamics simulation. Final code availability is dependent of NREL.
         - Focusing on the scheduling part, I designed and realized flexible and user-friendly functions for system operations, such as retrievals of system sensitivities like LMPs. The I/O interfaces between different optimization modules were also implemented.
         - <a href="https://www.nrel.gov/docs/fy23osti/85679.pdf">Final Tech Report</a>
     - title: Hybrid Stochastic Energy Storage Management for Integrated Energy Systems
@@ -140,7 +140,7 @@
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D. Electrical Engineering
+    - title: Ph.D.  - Electrical Engineering
       institution: <a href="https://www.smu.edu/lyle/departments/ece">Southern Methodist University</a>
       location: Dallas, USA
       year: 2018 - 2021
@@ -148,14 +148,14 @@
         - Specializing in <u>Energy System Optimization</u>.
         - Advised by <a href="https://sites.google.com/site/eejhwang/">Prof. Jianhui Wang, IEEE Fellow</a>.
         - <a href="https://scholar.smu.edu/engineering_electrical_etds/44/">Dissertation</a>
-    - title: M.Sc. Electrical Engineering
+    - title: M.Sc.  - Electrical Engineering
       institution: <a href="https://www.iit.edu/ece">Illinois Institute of Technology</a>
       location: Chicago, USA
       year: 2017 - 2018
       description:
         - Specializing in <u>Energy Economics</u>.
         - Advised by <a href="https://www.iit.edu/directory/people/zuyi-li">Prof. Zuyi Li, IEEE Fellow</a>.
-    - title: B.Eng. Electrical Engineering
+    - title: B.Eng.  - Electrical Engineering and Authomation
       institution: <a href="https://www-en.hnu.edu.cn/">Hunan University</a>
       location: Changsha, PRC
       year: 2012 - 2016
