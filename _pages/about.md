@@ -25,7 +25,10 @@ I received the Ph.D. degree from **Southern Methodist University**, *Dallas*, *T
 
 I serve as Reviewer for many reputable journals, e.g., *Applied Energy*, *IEEE Transactions on Smart Grid*, *IEEE Transactions on Power Systems*, *IEEE Transactions on Sustainable Energy*, etc. I love deep-diving in **Operations Research**, **Artificial Intelligence** and their applications in **Energy Market**. Though I have settled in the U.S. energy industry, I still hold tremendous passion for academic research, so I look forward to connecting with fellow researchers!
 
-<a href="zh" class="fancy-button">中文</a>
+<div class="button-row">
+  <a href="zh" class="fancy-button">中文</a>
+  <a href="zh" class="fancy-button">中文</a>
+</div>
 
 <br/>
 

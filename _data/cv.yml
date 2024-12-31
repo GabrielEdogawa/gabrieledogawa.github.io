@@ -14,21 +14,20 @@
         - name: C/C++
         - name: AIMMS
         - name: Linux/Bash
-        - name: LaTeX
     - category: Software
       items:
         - name: <b>PLEXOS</b>
+        - name: <b>Tableau</b>
         - name: PSS/E
         - name: AutoCAD
-        - name: Tableau
         - name: MS Office Suite
     - category: Domain Knowledge
       items:
         - name: <b>Deep Learning</b>
         - name: <b>Stochastic Optimization</b>
-        - name: <b>U.S. Electricity Market</b>
-        - name: Power System Operations and Control
-        - name: Battery Bidding Strategies
+        - name: <b>U.S. Electricity Market Operations</b>
+        - name: <b>Transmission/Distribution System Operation and Control</b>
+        - name: <b>Battery Bidding Strategies</b>
       
 - title: Work Experience
   type: time_table
