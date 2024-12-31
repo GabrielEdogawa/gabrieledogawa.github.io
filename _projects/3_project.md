@@ -89,7 +89,7 @@ $$
 \sum_{b \in S_i^{P, e}} m_{b, t}^{p, r}+\sum_{j \in S_i^L} m_{j, t}^L=\sum_{b \in S_i^{P, s}} m_{b, t}^{p, r}+\sum_{k \in S_i^S} m_{k, t}^S
 $$
 
-We leave the notation at the end of this section. Thermal conditions characterize the relationship among nodal temperatures and thermal energy productions/consumptions, and consist of the following constraints. Thermal energy provided by the CHP is
+We leave the notation at the end of this section. Thermal conditions characterize the relationship among nodal temperatures and thermal energy productions/consumptions, and consist of the following constraints. Thermal energy provided by the combined heat and power (CHP) unit is
 
 $$
 h_{i, t}^S=c_p m_{i, t}^S\left(\tau s_{i, t}^S-\tau r_{i, t}^S\right)
@@ -149,17 +149,17 @@ This equation suggests that $$\Delta Q_t^b$$ is independent of MFR $$m_{b,t}^p$$
 
 The following table provides all the notations throughout this subsection.
 
-| Variables                                       |  Notations                                             |
-|-------------------------------------------------|--------------------------------------------------------|
-| $$p_{h,t}$$                                     | Power produced from CHP $$h$$ at timestep $$t$$        |
-| $$h_{h,t}$$                                     | Heat energy produced from CHP $$h$$ at timestep $$t$$  |
-| $$m_{b, t}^{p, s} / m_{b, t}^{p, r}$$           | Mass flow rate in supply/return pipeline               | 
-| $$m_{i, t}^S / m_{i, t}^L$$                     | Mass flow rate in heat source/load                     | 
-| $$\tau r_{b, t}^{p, i} / \tau r_{b, t}^{p, o}$$ | Temperature at inlet/outlet of the return pipeline     | 
-| $$\tau s_{b, t}^{p, i} / \tau S_{b, t}^{p, o}$$ | Temperature at inlet/outlet of the supply pipeline     | 
-| $$\tau s_{i, t}^S / \tau s_{i, t}^S$$           | Supply/return temperature of heat source               | 
-| $$\tau s_{b, t}^L / \tau r_{b, t}^L$$           | Supply/return temperature of heat load                 | 
-| $$\tau s_{i, t}^n / \tau r_{i, t}^n$$           | Mixture temperature at supply/return node              | 
+| Variables                                       |  Notations                                                  |
+|-------------------------------------------------|-------------------------------------------------------------|
+| $$p_{h,t}$$                                     | Power produced from CHP unit $$h$$ at timestep $$t$$        |
+| $$h_{h,t}$$                                     | Heat energy produced from CHP unit $$h$$ at timestep $$t$$  |
+| $$m_{b, t}^{p, s} / m_{b, t}^{p, r}$$           | Mass flow rate in supply/return pipeline                    | 
+| $$m_{i, t}^S / m_{i, t}^L$$                     | Mass flow rate in heat source/load                          | 
+| $$\tau r_{b, t}^{p, i} / \tau r_{b, t}^{p, o}$$ | Temperature at inlet/outlet of the return pipeline          | 
+| $$\tau s_{b, t}^{p, i} / \tau S_{b, t}^{p, o}$$ | Temperature at inlet/outlet of the supply pipeline          | 
+| $$\tau s_{i, t}^S / \tau s_{i, t}^S$$           | Supply/return temperature of heat source                    | 
+| $$\tau s_{b, t}^L / \tau r_{b, t}^L$$           | Supply/return temperature of heat load                      | 
+| $$\tau s_{i, t}^n / \tau r_{i, t}^n$$           | Mixture temperature at supply/return node                   | 
 
 | Parameters       |  Notations                              |
 |------------------|-----------------------------------------|
@@ -168,8 +168,8 @@ The following table provides all the notations throughout this subsection.
 | $$L_b$$          | Length of pipeline                      | 
 | $$T^a_t$$        | Ambient temperature at timestep $$t$$   | 
 | $$\lambda_b$$    | Heat transfer coefficient of pipeline   |   
-
-
+<br>
+<br>
 After modeling all the electric, gas, and heat networks, I added generating unit modeling and energy storage system modeling for all energy types, then performed the simulation on multiple scenarios to confirm the efficacy of the proposed model.
 
 ### Further Works
