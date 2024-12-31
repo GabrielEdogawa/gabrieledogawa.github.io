@@ -28,6 +28,14 @@
         - name: <b>U.S. Electricity Market Operations</b>
         - name: <b>Transmission/Distribution System Operation and Control</b>
         - name: <b>Battery Bidding Strategies</b>
+    - category: Language
+      items:
+        - name: English
+          level: Bilingual
+        - name: Chinese
+          level: Native
+        - name: Japanese
+          level: Professional Proficiency
       
 - title: Work Experience
   type: time_table
@@ -167,14 +175,14 @@
   contents:
     - title: <b>Stochastic Optimization Theories</b>.
       items:
-        - Traditional stochastic optimization including scenario-based '<b style="color: red;">multi-stage stochastic programs</b>', '<b style="color: red;">robust optimization</b>', and '<b style="color: red;">distributionally robust optimization</b>'.
-        - Newly blossomed (again) approximate dynamic programming including '<b style="color: red;">reinforcement learning</b>', '<b style="color: red;">online convex optimization</b>' and fast solution algorithms.
-        - Application of the state-of-the-art '<b style="color: red;">deep learning</b>' techniques assisting in searching for high-quality solutions of ultra-scale (stochastic) optimization problems, including using GPU and quantum computing units.
+        - Traditional stochastic optimization including scenario-based "<b style=\"color: red;\">multi-stage stochastic programs</b>", "<b style=\"color: red;\">robust optimization</b>", and "<b style=\"color: red;\">distributionally robust optimization</b>".
+        - Newly blossomed (again) approximate dynamic programming including "<b style=\"color: red;\">reinforcement learning</b>", "<b style=\"color: red;\">online convex optimization</b>" and fast solution algorithms.
+        - Application of the state-of-the-art "<b style=\"color: red;\">deep learning</b>" techniques assisting in searching for high-quality solutions of ultra-scale (stochastic) optimization problems, including using GPU and quantum computing units.
     - title: <b>Electricity Market Operations and Economics</b>.
       items:
-        - Wholesale electricity market clearing processes including '<b style="color: red;">unit commitment</b>' and '<b style="color: red;">economic dispatch</b>' under stringent scenarios of 100% renewable penetration.
-        - Real-time '<b style="color: red;">energy bidding and trading</b>' of flexible energy resources like battery storages and distributed energy resources.
-        - '<b style="color: red;">Capacity planning</b>' and market power exercise from bulk renewable companies.
+        - Wholesale electricity market clearing processes including "<b style=\"color: red;\">unit commitment</b>" and "<b style=\"color: red;\">economic dispatch</b>" under stringent scenarios of 100% renewable penetration.
+        - Real-time "<b style=\"color: red;\">energy bidding and trading</b>" of flexible energy resources like battery storages and distributed energy resources.
+        - "<b style=\"color: red;\">Capacity planning</b>" and market power exercise from bulk renewable companies.
 
 - title: Certifications
   type: list
