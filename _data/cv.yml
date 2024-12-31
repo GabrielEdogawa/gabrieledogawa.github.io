@@ -3,7 +3,7 @@
   contents:
     - title: Coding
       items:
-        - <div class="tooltip">Python<span class="tooltiptext">Include package expertise like PyTorch, TensorFlow 2.0, Numpy, Pandas, Matplotlib, Pyomo, Scikit-learn...</span></div>
+        - <span title="Include package expertise like PyTorch, TensorFlow 2.0, Numpy, Pandas, Matplotlib, Pyomo, Scikit-learn..." style="text-decoration: underline; text-decoration-style: dashed;">Python</span>.
         - CPLEX/Gurobi/FICO-Xpress
         - Julia/JuMP
         - GAMS/AMPL
