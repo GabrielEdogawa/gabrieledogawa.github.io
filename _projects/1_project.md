@@ -13,7 +13,7 @@ MIDAS-Scheduling is the first open-source Python package I developed for creatin
  
  As this is the first open-source package I developed, the coding style was not well regularized and the performance was not optimized. NREL used this package to work for a DOE SETO-funded project called MIDAS-Solar. It developed both a multi-timescale grid simulation model and an integrated photovoltaic (PV) model to seamlessly simulate solar PV variability and its impact on power system operations from economic scheduling timescales (day-ahead to hours) to dynamic response analysis (seconds to sub-seconds). For scheduling with very high levels of inverter-based resources (IBRs), up to and including 100%, stability of grid controls was evaluated through targeted electromagnetic transient (EMT) simulations and power hardware-in-the-loop simulations of key transient events at key schedule points. NREL has a [detailed description page](https://www.nrel.gov/grid/midas.html) to disseminate this. 
 
-My work was focusing on developing the MIDAS-Scheduling package and all the other stuffs NREL did were still conducted via commercial software like [PSSE](https://new.siemens.com/global/en/products/energy/energy-automation-and-smart-grid/pss-software/pss-e.html) and [PSCAD](https://www.pscad.com/). Due to proprietary information limit, I could not say much about the details for MIDAS-Solar.
+My work was focusing on developing the MIDAS-Scheduling package and the other stuffs NREL did were partially conducted via commercial software like [PSSE](https://new.siemens.com/global/en/products/energy/energy-automation-and-smart-grid/pss-software/pss-e.html) and [PSCAD](https://www.pscad.com/). Due to proprietary information limit, I could not say much about the details for MIDAS-Solar.
 
 Here is the framework for MIDAS-Scheduling:
 <div class="row justify-content-sm-center">
@@ -101,28 +101,24 @@ After running the MIDAS-Scheduling program, the automated result-generation code
 ### Some showcases of the code snippets
 
 If you are interested in how I structure the code, here is how users run MIDAS-Scheduling interactively:
+
 {% raw %}
-```python
-import midass as ms
 
-results_mode1 = ms.run_mode1(solver_name = "gurobi",
-                             prefix_dir = r"midass/data/18_bus/",
-                             verbose = True)
-results_mode4 = ms.run_mode4(solver_name = "gurobi",
-                             prefix_dir = r"midass/data/18_bus/",
-                             psse_folder = r"PSSE/",
-                             case_name = r"Case1",
-                             run_name = r"Case1_24hr",
-                             close_loop_flag = False, 
-                             ess_interpolate_method = True,
-                             ess_dispatchable = False, 
-                             verbose = True)
-
-Fig_Plot = ms.FigurePlot("DAUC",  results_mode4)
+```liquid
+{::nomarkdown}
+{% assign jupyter_path = 'assets/jupyter/MIDASS_SampleCode.ipynb' | relative_url %}
+{% capture notebook_exists %}{% file_exists assets/jupyter/MIDASS_SampleCode.ipynb %}{% endcapture %}
+{% if notebook_exists == 'true' %}
+  {% jupyter_notebook jupyter_path %}
+{% else %}
+  <p>Sorry, the notebook you are looking for does not exist.</p>
+{% endif %}
+{:/nomarkdown}
 ```
+
 {% endraw %}
 
-Here is how we build the DAUC model inside the code:
+Here is an example how we build the DAUC model inside the code:
 {% raw %}
 ```python
 UCmdl = pe.AbstractModel()
@@ -142,7 +138,7 @@ getattr(Objective_function, "DAUC_objective_basic")(UCmdl)
 ```
 {% endraw %}
 
-Here is how we define constraints inside the model:
+Here is an example how we define constraints inside the model:
 {% raw %}
 ```python
 def _Define_PFRup(md):
