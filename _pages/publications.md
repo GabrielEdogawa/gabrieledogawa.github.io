@@ -15,7 +15,7 @@ nav_order: 3
     rel="noopener noreferrer"
     class="float-right"
   >
-    <i class="fa-solid fa-graduation-cap"></i>
+    <i class="si si-google-scholar"></i>
   </a>
 </div>
 

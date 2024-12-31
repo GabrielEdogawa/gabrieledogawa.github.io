@@ -40,7 +40,7 @@
 - title: Work Experience
   type: time_table
   contents:
-    - title: Senior Software Engineer
+    - title: Senior Software Engineer - Lead Professional
       institution: <a href="https://www.gevernova.com/software/products/gridos/energy-markets-software">GE Vernova, Inc.</a>
       year: 2024.06 - Present
       description:
@@ -173,12 +173,12 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: <b>Stochastic Optimization Theories</b>.
+    - title: <b>Stochastic Optimization Theories</b>
       items:
         - Traditional stochastic optimization including scenario-based <b class="red-text">multi-stage stochastic programs</b>, <b class="red-text">robust optimization</b>, and <b class="red-text">distributionally robust optimization</b>.
         - Newly blossomed (again) approximate dynamic programming including <b class="red-text">reinforcement learning</b>, <b class="red-text">online convex optimization</b> and fast solution algorithms.
         - Application of the state-of-the-art <b class="red-text">deep learning</b> techniques assisting in searching for high-quality solutions of ultra-scale (stochastic) optimization problems, including using GPU and quantum computing units.
-    - title: <b>Electricity Market Operations and Economics</b>.
+    - title: <b>Electricity Market Operations and Economics</b>
       items:
         - Wholesale electricity market clearing processes including <b class="red-text">unit commitment</b> and <b class="red-text">economic dispatch</b> under stringent scenarios of 100% renewable penetration.
         - Real-time <b class="red-text">energy bidding and trading</b> of flexible energy resources like battery storages and distributed energy resources.

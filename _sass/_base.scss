@@ -1404,11 +1404,11 @@ ninja-keys::part(ninja-input-wrapper) {
 }
 
 .google-scholar a {
-  font-size: 24px; /* Adjust icon size */
-  color: #4285F4; /* Google Scholar blue */
+  font-size: 36px; /* Adjust icon size */
+  color: var(--global-theme-color);
   text-decoration: none;
 }
 
 .google-scholar a:hover {
-  color: #2a65d4; /* Darker blue on hover */
+  color: #870e87; /* Darker blue on hover */
 }
