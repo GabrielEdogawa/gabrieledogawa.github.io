@@ -80,6 +80,11 @@ ninja.data = [{
           description: "Use ML/DL for generation apparatus modeling",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
+            },},{id: "projects-electric-gas-heat-coordination",
+          title: 'Electric-Gas-Heat Coordination',
+          description: "Energy hub scheduling with multiple energy networks",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project/";
             },},{id: "projects-chuqi-photography",
           title: 'Chuqi Photography',
           description: "Some stupid but funny photos for my beloved cat, Chuqi",
