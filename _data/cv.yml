@@ -134,7 +134,7 @@
   contents:
     - title: Ph.D. Electrical Engineering
       institution: <a href="https://www.smu.edu/lyle/departments/ece">Southern Methodist University</a>
-      location: Dallas, TX, USA
+      location: Dallas, USA
       year: 2018 - 2021
       description:
         - Specializing in <u>Energy System Optimization</u>.
@@ -142,18 +142,18 @@
         - <a href="https://scholar.smu.edu/engineering_electrical_etds/44/">Dissertation</a>
     - title: M.Sc. Electrical Engineering
       institution: <a href="https://www.iit.edu/ece">Illinois Institute of Technology</a>
-      location: Chicago, IL, USA
+      location: Chicago, USA
       year: 2017 - 2018
       description:
         - Specializing in <u>Energy Economics</u>.
         - Advised by <a href="https://www.iit.edu/directory/people/zuyi-li">Prof. Zuyi Li, IEEE Fellow</a>.
     - title: B.Eng. Electrical Engineering
       institution: <a href="https://www-en.hnu.edu.cn/">Hunan University</a>
-      location: Changsha, Hunan, PRC
+      location: Changsha, PRC
       year: 2012 - 2016
     - title: High School Diploma
       institution: <a href="https://www.changjun.com.cn/">Changjun High School</a>
-      location: Changsha, Hunan, PRC
+      location: Changsha, PRC
       year: 2009 - 2012
             
 - title: Honors and Awards
@@ -161,21 +161,20 @@
   contents:
     - title: University Outstanding Graduate Student
       year: 2021
-      awarder: SMU
         
 - title: Academic Interests
   type: nested_list
   contents:
     - title: <b>Stochastic Optimization Theories</b>.
       items:
-        - Traditional stochastic optimization including scenario-based <u>multi-stage stochastic programs</u>, <u>robust optimization</u>, and <u>distributionally robust optimization</u>.
-        - Newly blossomed (again) approximate dynamic programming including <u>reinforcement learning, <u>online convex optimization</u> and fast solution algorithms.
-        - Application of the state-of-the-art <u>deep learning techniques assisting in searching for high-quality solutions of ultra-scale (stochastic) optimization problems, including using GPU and quantum computing units.
+        - Traditional stochastic optimization including scenario-based <b style="color: red;">multi-stage stochastic programs</b>, <b style="color: red;">robust optimization</b>, and <b style="color: red;">distributionally robust optimization</b>.
+        - Newly blossomed (again) approximate dynamic programming including <b style="color: red;">reinforcement learning</b>, <b style="color: red;">online convex optimization</b> and fast solution algorithms.
+        - Application of the state-of-the-art <b style="color: red;">deep learning</b> techniques assisting in searching for high-quality solutions of ultra-scale (stochastic) optimization problems, including using GPU and quantum computing units.
     - title: <b>Electricity Market Operations and Economics</b>.
       items:
-        - Wholesale electricity market clearing processes including <u>unit commitment</u> and <u>economic dispatch</u> under stringent scenarios of 100% renewable penetration.
-        - Real-time <u>energy bidding and trading</u> of flexible energy resources like battery storages and distributed energy resources.
-        - <u>Capacity planning</u> and market power exercise from bulk renewable companies.
+        - Wholesale electricity market clearing processes including <b style="color: red;">unit commitment</b> and <b style="color: red;">economic dispatch</b> under stringent scenarios of 100% renewable penetration.
+        - Real-time <b style="color: red;">energy bidding and trading</b> of flexible energy resources like battery storages and distributed energy resources.
+        - <b style="color: red;">Capacity planning</b> and market power exercise from bulk renewable companies.
 
 - title: Certifications
   type: list

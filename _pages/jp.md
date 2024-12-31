@@ -1,7 +1,7 @@
 ---
 layout: about
-title: Zh
-permalink: /zh
+title: JP
+permalink: /jp
 subtitle: オペレーションズリサーチ学者、ディープラーニング実践者
 
 profile:
@@ -21,13 +21,13 @@ social: true # includes social icons at the bottom of the page
 - 2020年から2021年まで、[アメリカ中部電力網独立系統運営者（MISO）](https://www.misoenergy.org/)で研究開発科学者を務めていました。
 - 2019年に[アメリカ国立再生可能エネルギー研究所（NREL）](https://www.nrel.gov/grid/)でインターンとして研究開発エンジニアを務めていました。
 
-私は2021年に**アメリカ南メソジスト大学**電気・コンピュータ工学部で哲学博士（Ph.D.）を取得し、2017年に**アメリカ・イリノイ工科大学**電気・コンピュータ工学部で理学修士（M.S.）を取得し、2016年に**湖南大学**電気情報工学部で工学学士（B.Eng.）を取得しました。博士課程の指導教授は、IEEEフェローである[王剣輝教授](https://sites.google.com/site/eejhwang/)です。修士課程の指導教授は、IEEEフェローである[李祖毅教授](https://person.zju.edu.cn/lizuyi)です。
+2021年に**アメリカ南メソジスト大学**電気・コンピュータ工学部で哲学博士（Ph.D.）を取得し、2017年に**アメリカ・イリノイ工科大学**電気・コンピュータ工学部で理学修士（M.S.）を取得し、2016年に**湖南大学**電気情報工学部で工学学士（B.Eng.）を取得しました。博士課程の指導教授は、IEEEフェローである[王剣輝教授](https://sites.google.com/site/eejhwang/)です。修士課程の指導教授は、IEEEフェローである[李祖毅教授](https://person.zju.edu.cn/lizuyi)です。
 
-我在诸多著名期刊杂志担任审稿人，包括 *Applied Energy*，*IEEE Transactions on Smart Grid*，*IEEE Transactions on Power Systems*，*IEEE Transactions on Sustainable Energy*，等等。我的研究兴趣包括**运筹优化理论**，**人工智能算法**和将它们应用解决实际**电力市场交易与运行**问题。现虽已在美国工业界安家落户，但仍然对科研抱有热情，希望与各路同行交流！
+*Applied Energy*、*IEEE Transactions on Smart Grid*、*IEEE Transactions on Power Systems*、*IEEE Transactions on Sustainable Energy*など、多くの著名な学術誌の査読者を務めています。私の研究関心は、**オペレーションズリサーチ最適化理論**、**人工知能アルゴリズム**、およびそれらを**実際の電力市場**の取引と運用の問題解決に応用することにあります。現在はアメリカの産業界で働いていますが、依然として研究への情熱を持ち続けており、さまざまな分野の同業者との交流を楽しみにしています！
 
 <div class="button-row">
   <a href="zh" class="fancy-button">中文</a>
-  <a href="jp" class="fancy-button">English</a>
+  <a href="/" class="fancy-button">English</a>
 </div>
 
 <br/>
