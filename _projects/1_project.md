@@ -101,21 +101,25 @@ After running the MIDAS-Scheduling program, the automated result-generation code
 ### Some showcases of the code snippets
 
 If you are interested in how I structure the code, here is how users run MIDAS-Scheduling interactively:
-
 {% raw %}
+```python
+import midass as ms
 
-```liquid
-{::nomarkdown}
-{% assign jupyter_path = 'assets/jupyter/MIDASS_SampleCode.ipynb' | relative_url %}
-{% capture notebook_exists %}{% file_exists assets/jupyter/MIDASS_SampleCode.ipynb %}{% endcapture %}
-{% if notebook_exists == 'true' %}
-  {% jupyter_notebook jupyter_path %}
-{% else %}
-  <p>Sorry, the notebook you are looking for does not exist.</p>
-{% endif %}
-{:/nomarkdown}
+results_mode1 = ms.run_mode1(solver_name = "gurobi",
+                             prefix_dir = r"midass/data/18_bus/",
+                             verbose = True)
+results_mode4 = ms.run_mode4(solver_name = "gurobi",
+                             prefix_dir = r"midass/data/18_bus/",
+                             psse_folder = r"PSSE/",
+                             case_name = r"Case1",
+                             run_name = r"Case1_24hr",
+                             close_loop_flag = False, 
+                             ess_interpolate_method = True,
+                             ess_dispatchable = False, 
+                             verbose = True)
+
+Fig_Plot = ms.FigurePlot("DAUC",  results_mode4)
 ```
-
 {% endraw %}
 
 Here is an example how we build the DAUC model inside the code:

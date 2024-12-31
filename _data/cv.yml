@@ -49,7 +49,7 @@
           contents:
             - Develop ISO-scale unit commitment and dispatch operations, working for national-level energy market clearing engines used by MISO, PJM, SPP, and ISO-NE covering 30+ states' electricity management in the US.
             - Conduct research and development on large-scale and distributed mathematical optimization models with practical implementations.
-            - Lead on the production-level optimization software development using <b>Java-CPLEX</b> API with best software development practice and solver tuning to achieve computational performance and more flexible user interface.
+            - Lead on the production-level optimization software development using <b>Java-CPLEX</b> API with best software development practice.
             - Upgrade and optimize the workflow and automatic <b>Jenkins Cucumber Test</b> pipelines between operation codebase, customers, and database.
             - Communicate with clients and lead a seasoned team with technical know-how.
             
