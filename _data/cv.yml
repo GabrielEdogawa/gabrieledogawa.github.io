@@ -41,8 +41,8 @@
           contents:
             - Develop ISO-scale unit commitment and dispatch operations, working for national-level energy market clearing engines used by MISO, PJM, SPP, and ISO-NE covering 30+ states' electricity management in the US.
             - Conduct research and development on large-scale and distributed mathematical optimization models with practical implementations.
-            - Lead on the production-level optimization software development using <u>Java-CPLEX</u> API with best software development practice and solver tuning to achieve computational performance and more flexible user interface.
-            - Upgrade and optimize the workflow and automatic <u>Jenkins Cucumber Test</u> pipelines between operation codebase, customers, and database.
+            - Lead on the production-level optimization software development using <b>Java-CPLEX</b> API with best software development practice and solver tuning to achieve computational performance and more flexible user interface.
+            - Upgrade and optimize the workflow and automatic <b>Jenkins Cucumber Test</b> pipelines between operation codebase, customers, and database.
             - Communicate with clients and lead a seasoned team with technical know-how.
             
     - title: Senior Optimization Engineer
@@ -53,8 +53,8 @@
         - title: Details
           contents:
             - Develop large-scale mixed-integer programming models, including single/dual battery storage bidding, renewable-dominant energy market clearing operations, and multi-year generation and transmission expansion planning for <a href="https://www.ascendanalytics.com/solutions/powersimm-suite">PowerSIMM Suite</a> and <a href="https://www.ascendanalytics.com/solutions/smartbidder">Smartbidder</a>.
-            - Lead on the production-level software refactoring from GAMS to <u>Python-FICO Xpress</u> API with solver tuning to achieve higher computational performance and a more flexible user interface.
-            - Upgrade and optimize the workflow and automatic <u>pytest</u> unit test pipelines between operation code and database, accelerating pre-/post-processing within the solution procedure.
+            - Lead on the production-level software refactoring from GAMS to <b>Python-FICO Xpress</b> API with solver tuning to achieve higher computational performance and a more flexible user interface.
+            - Upgrade and optimize the workflow and automatic <b>pytest</b> unit test pipelines between operation code and database, accelerating pre-/post-processing within the solution procedure.
             - Develop new features in optimization models to satisfy clients' needs, involving tens of unit modules such as battery storage, hydro operation, multi-energy networks, etc.
             - Communicate with clients and help to deliver consulting services with high-dimensional customer data.
 
@@ -65,9 +65,9 @@
         - Work for the LBNL Electricity Market and Policy Department. This research position involves the investigation on future clean energy market with environmental impacts via machine learning and optimization. Report to <a href="https://eta.lbl.gov/people/jiang-lin">Dr. Jiang Lin - Staff Scientist</a>.
         - title: Details
           contents:
-            - Predict and analyze the solar generation potential in existing building rooftops by <u>Deep Learning</u> techniques, including Graph Neural Nets.
+            - Predict and analyze the solar generation potential in existing building rooftops by <b>Deep Learning</b> techniques, including Graph Neural Nets.
             - Implement Python programs for automatic I/O data flow with professional simulation software. Develop GUI and SQL databases for open-source power system optimization software.
-            - Model and simulate the national power capacity expansion planning and production cost modeling in <u>PLEXOS</u> through 2020-2035, considering the power reliability and CO<sub>2</sub> emission.
+            - Model and simulate the national power capacity expansion planning and production cost modeling in <b>PLEXOS</b> through 2020-2035, considering the power reliability and CO<sub>2</sub>/SO<sub>2</sub>/NO<sub>x</sub> emission.
             - Draft grant proposals for US DOE and California funding agencies, including the California multi-objective power-eco optimization and 2050 carbon neutrality projects.
             - Mentor interns and visiting Ph.D., host research calls, and manage academic seminars.
             
@@ -78,10 +78,10 @@
         - Work for the MISO R&D Department. This research-based position involves real-time supply chain optimization in 'MISO''s' daily operations. Report to <a href="https://research-hub.nrel.gov/en/persons/yonghong-chen">Dr. Yonghong Chen - R&D Senior Consulting Advisor</a>.
         - title: Details
           contents:
-            - Perform time-series prediction of power generators' startup/shutdown trajectory by employing <u>Gradient Boosting Tree</u> for the offline task and <u>Long Short Term Memory</u> network for the online task.
-            - Design the deterministic MISO real-time look-ahead power supply chain optimization routine and implement it in <u>Python-Gurobi</u> API with calibration via the MISO production engine.
-            - Query and parse the time-series data of units' startup and shutdown processes by <u>SQL</u> in the MISO private database, with cleaning and restructuring of original data pairs.
-            - Deploy the improved start/shutdown curves in the stochastic supply chain optimization model on several typical operation days. The daily production cost saving on average is around 8% (<u>10<sup>6</sup></u> level in dollars).
+            - Perform time-series prediction of power generators' startup/shutdown trajectory by employing <b>Gradient Boosting Tree</b> for the offline task and <b>Long Short Term Memory</b> network for the online task.
+            - Design the deterministic MISO real-time look-ahead power supply chain optimization routine and implement it in <b>Python-Gurobi</b> API with calibration via the MISO production engine.
+            - Query and parse the time-series data of units' startup and shutdown processes by <b>SQL</b> in the MISO private database, with cleaning and restructuring of original data pairs.
+            - Deploy the improved start/shutdown curves in the stochastic supply chain optimization model on several typical operation days. The daily production cost saving on average is around 8% (<b>10<sup>6</sup></b> level in dollars).
             - Assist in software documentation, team collaboration, and milestone reports.
             
     - title: Research Engineer (Summer Intern)
@@ -91,10 +91,10 @@
         - Work for the NREL Power System Engineering Center. This research position builds integrated optimization models between steady-state scheduling and transient-state dynamics, focusing on assessing solar energy's potential in the energy-reserve market. Report to <a href="https://research-hub.nrel.gov/en/persons/bryan-palmintier">Dr. Bryan Palmintier - Principal Research Engineer</a>.
         - title: Details
           contents:
-            - Build the multi-timescale optimization framework for short-term market analyses in <u>Python-Gurobi</u> API with unique steady-state turbine physical models for renewables.
+            - Build the multi-timescale optimization framework for short-term market analyses in <b>Python-Gurobi</b> API with unique steady-state turbine physical models for renewables.
             - Conduct techno-economic assessments of solar panels' potentials with built-in energy storage systems in the energy and reserve co-optimization, considering the multi-timescale coordination.
             - Debug the simulation software and perform sensitivity analyses with different parameters while adding new and reliable features with validations to mimic the practical market environment better.
-            - Help design the interface between scheduling operations in Python and transient-state dynamics in <u>PSS/E</u>.
+            - Help design the interface between scheduling operations in Python and transient-state dynamics in <b>PSS/E</b>.
             - Responsible for software documentation, team collaboration, and milestone reports.
         
 - title: Project Participation
@@ -167,14 +167,14 @@
   contents:
     - title: <b>Stochastic Optimization Theories</b>.
       items:
-        - Traditional stochastic optimization including scenario-based <b style="color: red;">multi-stage stochastic programs</b>, <b style="color: red;">robust optimization</b>, and <b style="color: red;">distributionally robust optimization</b>.
-        - Newly blossomed (again) approximate dynamic programming including <b style="color: red;">reinforcement learning</b>, <b style="color: red;">online convex optimization</b> and fast solution algorithms.
-        - Application of the state-of-the-art <b style="color: red;">deep learning</b> techniques assisting in searching for high-quality solutions of ultra-scale (stochastic) optimization problems, including using GPU and quantum computing units.
+        - Traditional stochastic optimization including scenario-based "<b style="color: red;">multi-stage stochastic programs</b>", "<b style="color: red;">robust optimization</b>", and "<b style="color: red;">distributionally robust optimization</b>".
+        - Newly blossomed (again) approximate dynamic programming including "<b style="color: red;">reinforcement learning</b>", "<b style="color: red;">online convex optimization</b>" and fast solution algorithms.
+        - Application of the state-of-the-art "<b style="color: red;">deep learning</b>" techniques assisting in searching for high-quality solutions of ultra-scale (stochastic) optimization problems, including using GPU and quantum computing units.
     - title: <b>Electricity Market Operations and Economics</b>.
       items:
-        - Wholesale electricity market clearing processes including <b style="color: red;">unit commitment</b> and <b style="color: red;">economic dispatch</b> under stringent scenarios of 100% renewable penetration.
-        - Real-time <b style="color: red;">energy bidding and trading</b> of flexible energy resources like battery storages and distributed energy resources.
-        - <b style="color: red;">Capacity planning</b> and market power exercise from bulk renewable companies.
+        - Wholesale electricity market clearing processes including "<b style="color: red;">unit commitment</b>" and "<b style="color: red;">economic dispatch</b>" under stringent scenarios of 100% renewable penetration.
+        - Real-time "<b style="color: red;">energy bidding and trading</b>" of flexible energy resources like battery storages and distributed energy resources.
+        - "<b style="color: red;">Capacity planning</b>" and market power exercise from bulk renewable companies.
 
 - title: Certifications
   type: list
