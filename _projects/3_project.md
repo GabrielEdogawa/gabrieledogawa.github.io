@@ -32,7 +32,7 @@ $$
 $$
 
 $$
-\omega_{i,t}\leq \gamma_c\cdot \omega_{j,t}
+\omega_{j,t}\leq \gamma_c\cdot \omega_{i,t}
 $$
 
 $$
@@ -59,11 +59,11 @@ $$
 $$
 
 $$
-\omega_{j,t}^2 \leq \omega_{i,t}^2 \cdot \gamma_c^2,
+\omega_{j,t}^2 \leq \gamma_c^2\cdot \omega_{i,t}^2 ,
 $$
 
 $$
-\omega_{i,t}^2 - \omega_{j,t}^2 \leq u_{\ell,t}\cdot \sqrt{\frac{\omega_{i,t}^{\max} - \omega_{j,t}^{\min}}{\theta}}.
+\omega_{i,t}^2 - \omega_{j,t}^2 = u_{\ell,t}\cdot \sqrt{\frac{\omega_{i,t}^{\max} - \omega_{j,t}^{\min}}{\theta}}.
 $$
 
 ### Heat Network
@@ -140,12 +140,12 @@ $$
 \Delta Q_t^b=C_p m_{b, t}^p\left(\tau_{b, t}^{p, i}-T_t^a\right) \frac{\lambda_b L_b}{C_p m_{b, t}^{p, r}}=\lambda_b L_b\left(\tau_{b, t}^{p, i}-T_t^a\right)
 $$
 
-This equation suggests that $$\Delta Q_t^b$$ is independent of MFR $$m_{b,t}^p$$. Hence, by fixing MFR, the above heat system operation model is a linear optimization problem. A two-step hydraulic-thermal decomposition is adopted to find a near-optimal solution. The workflow is summarized below.
+This equation suggests that $$\Delta Q_t^b$$ is independent of MFR $$m_{b,t}^p$$. Hence, by fixing MFR, the above heat system operation model is a linear program. Then, I use a heuristic two-step hydraulic-thermal decomposition to find a near-optimal solution with good quality. The workflow is summarized below.
 
 - Step 1: Set all pipeline temperatures to the lower limits and calculate the heat loss.
 - Step 2: Calculate the required heat sources by the summation of heat demand and the calculated heat loss. Then calculate the heat source and heat load MFR per their models.
 - Step 3: Calculate the pipeline MFR per the MFR balance equations.
-- Step 4:Fix all MFR variables, then perform the optimization.
+- Step 4: Fix all MFR variables, then perform the optimization.
 
 The following table provides all the notations throughout this subsection.
 
@@ -168,6 +168,7 @@ The following table provides all the notations throughout this subsection.
 | $$L_b$$          | Length of pipeline                      | 
 | $$T^a_t$$        | Ambient temperature at timestep $$t$$   | 
 | $$\lambda_b$$    | Heat transfer coefficient of pipeline   |   
+
 
 After modeling all the electric, gas, and heat networks, I added generating unit modeling and energy storage system modeling for all energy types, then performed the simulation on multiple scenarios to confirm the efficacy of the proposed model.
 
