@@ -4,7 +4,7 @@
     - category: Coding
       items:
         - name: <b>Python (PyTorch/Numpy/Pandas/Pyomo)</b>
-        - name: <b>CPLEX/Gurobi/FICO-Xpress</b>
+        - name: <b>CPLEX/Gurobi/FICO-Xpress and APIs</b>
         - name: Julia/JuMP
         - name: GAMS/AMPL
         - name: Java
@@ -12,8 +12,6 @@
         - name: SQL
         - name: R
         - name: C/C++
-        - name: AIMMS
-        - name: Linux/Bash
     - category: Software
       items:
         - name: <b>PLEXOS</b>
@@ -21,20 +19,22 @@
         - name: PSS/E
         - name: AutoCAD
         - name: MS Office Suite
+        - name: Enterprise Architect
+        - name: AIMMS
     - category: Domain Knowledge
       items:
         - name: <b>Deep Learning</b>
         - name: <b>Stochastic Optimization</b>
         - name: <b>U.S. Electricity Market Operations</b>
-        - name: <b>Transmission/Distribution System Operation and Control</b>
+        - name: <b>Transmission/Distribution System Operation</b>
         - name: <b>Battery Bidding Strategies</b>
     - category: Language
       items:
-        - name: English
+        - name: <b>English</b>
           level: Bilingual
-        - name: Chinese
+        - name: <b>Mandarin</b>
           level: Native
-        - name: Japanese
+        - name: <b>Japanese</b>
           level: Professional Proficiency
       
 - title: Work Experience

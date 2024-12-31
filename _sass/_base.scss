@@ -1381,7 +1381,7 @@ ninja-keys::part(ninja-input-wrapper) {
 }
 
 .tooltip:after {
-  content: "foo bar";
+  content: attr(data-tooltip);
   position: absolute;
   top: -30px;
   right: 0;
