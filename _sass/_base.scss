@@ -1364,41 +1364,48 @@ ninja-keys::part(ninja-input-wrapper) {
 
 /* Tooltip container */
 .tooltip {
-    position: relative;
-    cursor: pointer;
-    text-decoration: underline dashed black; /* Dashed underline for the text */
-    color: inherit; /* Ensure the text color is inherited and visible */
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
 }
 
-/* Tooltip container */
-.tooltip {
-    position: relative;
-    cursor: pointer;
-    text-decoration: underline dashed black; /* Dashed underline for the text */
-    color: inherit; /* Inherit text color */
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #f1c232;
+  color: #000000;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 
-/* Tooltip text (hidden by default) */
-.tooltip:hover::after {
-    content: attr(data-tooltip); /* Use the `data-tooltip` attribute for the tooltip text */
-    position: absolute;
-    top: 100%; /* Position below the text */
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: black; /* Black background for tooltip */
-    color: white; /* White text for contrast */
-    padding: 5px 10px; /* Padding inside the tooltip */
-    border-radius: 4px; /* Slightly rounded corners */
-    font-size: 14px; /* Adjust text size */
-    white-space: nowrap; /* Prevent text wrapping */
-    z-index: 10; /* Ensure tooltip appears above other elements */
-    opacity: 1; /* Make it visible */
-    visibility: visible;
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
 }
 
-/* Default hidden state for the tooltip */
-.tooltip::after {
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 0.2s ease-in-out; /* Smooth fade-in */
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
 }
