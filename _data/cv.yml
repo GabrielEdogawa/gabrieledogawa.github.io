@@ -3,30 +3,30 @@
   contents:
     - category: Coding
       items:
-        - Python (PyTorch/Numpy/Pandas)
-        - CPLEX/Gurobi/FICO-Xpress
-        - Julia/JuMP
-        - GAMS/AMPL
-        - Java
-        - MATLAB (Simulink)
-        - SQL
-        - R
-        - C/C++
-        - AIMMS
+        - name: Python (PyTorch/Numpy/Pandas)
+        - name: CPLEX/Gurobi/FICO-Xpress
+        - name: Julia/JuMP
+        - name: GAMS/AMPL
+        - name: Java
+        - name: MATLAB (Simulink)
+        - name: SQL
+        - name: R
+        - name: C/C++
+        - name: AIMMS
     - category: Software
       items:
-        - PLEXOS
-        - PSS/E
-        - AutoCAD
-        - Tableau
-        - MS Office Suite
+        - name: PLEXOS
+        - name: PSS/E
+        - name: AutoCAD
+        - name: Tableau
+        - name: MS Office Suite
     - category: Domain Knowledge
       items:
-        - <b>Stochastic Optimization</b>
-        - <b>Deep Learning</b>
-        - <b>U.S. Electricity Market</b>
-        - Power System Operations and Control
-        - Battery Bidding Strategies
+        - name: **Stochastic Optimization**
+        - name: **Deep Learning**
+        - name: **U.S. Electricity Market**
+        - name: Power System Operations and Control
+        - name: Battery Bidding Strategies
       
 - title: Work Experience
   type: time_table
