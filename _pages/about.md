@@ -31,11 +31,11 @@ I serve as Reviewer for many reputable journals, e.g., *Applied Energy*, *IEEE T
 </div>
 
 <div class="university-logos">
-  <img src="/assets/img/logo/GE.jpg" alt="Work" class="logo">
-  <img src="/assets/img/logo/smu.jpg" alt="University 1" class="logo">
-  <img src="/assets/img/logo/iit.jpg" alt="University 2" class="logo">
-  <img src="/assets/img/logo/hnu.jpg" alt="University 3" class="logo">
-  <img src="/assets/img/logo/changjun.jpg" alt="High School" class="logo">
+  <img src="/assets/img/logo/GE_filled.jpg" alt="Work" class="logo">
+  <img src="/assets/img/logo/smu_filled.jpg" alt="University 1" class="logo">
+  <img src="/assets/img/logo/iit_filled.jpg" alt="University 2" class="logo">
+  <img src="/assets/img/logo/hnu_filled.jpg" alt="University 3" class="logo">
+  <img src="/assets/img/logo/changjun_filled.jpg" alt="High School" class="logo">
 </div>
 
 <br/>
