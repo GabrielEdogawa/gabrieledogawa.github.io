@@ -86,6 +86,20 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=gMaOSxgAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-ieee',
+        title: 'IEEE Xplore',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://ieeexplore.ieee.org/author/37086397759/", "_blank");
+        },
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
@@ -98,20 +112,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/gabrieledogawa", "_blank");
-        },
-      },{
-        id: 'social-ieee',
-        title: 'IEEE Xplore',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://ieeexplore.ieee.org/author/37086397759/", "_blank");
-        },
-      },{
-        id: 'social-leetcode',
-        title: 'LeetCode',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://leetcode.com/u/GabrielYin/", "_blank");
         },
       },{
         id: 'social-linkedin',
@@ -128,6 +128,13 @@ ninja.data = [{
           window.open("https://orcid.org/0000-0001-6108-3813", "_blank");
         },
       },{
+        id: 'social-telegram',
+        title: 'telegram',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://telegram.me/GabrielYin", "_blank");
+        },
+      },{
         id: 'social-publons',
         title: 'Publons',
         section: 'Socials',
@@ -142,18 +149,18 @@ ninja.data = [{
           window.open("https://www.researchgate.net/profile/Shengfei-Yin/", "_blank");
         },
       },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
+        id: 'social-semanticscholar',
+        title: 'Semantic Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=gMaOSxgAAAAJ", "_blank");
+          window.open("https://www.semanticscholar.org/author/50880941# your Semantic Scholar ID", "_blank");
         },
       },{
-        id: 'social-telegram',
-        title: 'telegram',
+        id: 'social-leetcode',
+        title: 'LeetCode',
         section: 'Socials',
         handler: () => {
-          window.open("https://telegram.me/GabrielYin", "_blank");
+          window.open("https://leetcode.com/u/GabrielYin/", "_blank");
         },
       },{
       id: 'light-theme',
