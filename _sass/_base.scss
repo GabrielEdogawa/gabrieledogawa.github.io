@@ -1418,11 +1418,11 @@ ninja-keys::part(ninja-input-wrapper) {
   justify-content: center; /* Center the logos horizontally */
   align-items: center; /* Align logos vertically */
   gap: 20px; /* Space between logos */
-  margin-top: 10px; /* Add some spacing above */
+  margin-top: 50px; /* Add some spacing above */
 }
 
 .university-logos .logo {
-  width: 60px; /* Set a fixed width for logos */
+  width: 120px; /* Set a fixed width for logos */
   height: auto; /* Maintain aspect ratio */
   border-radius: 8px; /* Optional: Rounded corners */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow effect */
