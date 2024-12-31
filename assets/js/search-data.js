@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "$$\mathbf{\textit{vita brevis, ars longa}}$$",
+          description: "$$\mathbf{\textit{\Large{vita brevis, ars longa}}}$$",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -153,14 +153,7 @@ ninja.data = [{
         title: 'Semantic Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.semanticscholar.org/author/50880941# your Semantic Scholar ID", "_blank");
-        },
-      },{
-        id: 'social-leetcode',
-        title: 'LeetCode',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://leetcode.com/u/GabrielYin/", "_blank");
+          window.open("https://www.semanticscholar.org/author/Shengfei-Yin/50880941", "_blank");
         },
       },{
       id: 'light-theme',
