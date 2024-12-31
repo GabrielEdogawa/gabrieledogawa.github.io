@@ -1412,3 +1412,24 @@ ninja-keys::part(ninja-input-wrapper) {
 .google-scholar a:hover {
   color: #870e87; /* Darker blue on hover */
 }
+
+.university-logos {
+  display: flex; /* Enable flexbox for horizontal alignment */
+  justify-content: center; /* Center the logos horizontally */
+  align-items: center; /* Align logos vertically */
+  gap: 20px; /* Space between logos */
+  margin-top: 10px; /* Add some spacing above */
+}
+
+.university-logos .logo {
+  width: 60px; /* Set a fixed width for logos */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow effect */
+  transition: transform 0.2s ease-in-out; /* Add hover effect */
+}
+
+.university-logos .logo:hover {
+  transform: scale(1.1); /* Slightly enlarge logo on hover */
+}
+
