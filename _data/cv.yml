@@ -3,8 +3,7 @@
   contents:
     - category: Coding
       items:
-        - name: <b>Python (PyTorch/TensorFlow/Numpy/Pandas/Pyomo)</b>
-        - name: <div class="tooltip">Hover over me</div>
+        - name: <b>Python (PyTorch/Numpy/Pandas/Pyomo)</b>
         - name: <b>CPLEX/Gurobi/FICO-Xpress</b>
         - name: Julia/JuMP
         - name: GAMS/AMPL
