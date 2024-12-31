@@ -3,32 +3,32 @@
   contents:
     - category: Coding
       items:
-        - <b>Python (PyTorch/TensorFlow/Numpy/Pandas/Pyomo)</b>
-        - <b>CPLEX/Gurobi/FICO-Xpress</b>
-        - Julia/JuMP
-        - GAMS/AMPL
-        - Java
-        - MATLAB (Simulink)
-        - SQL
-        - R
-        - C/C++
-        - AIMMS
-        - Linux/Bash
-        - LaTeX
+        - name: <b>Python (PyTorch/TensorFlow/Numpy/Pandas/Pyomo)</b>
+        - name: <b>CPLEX/Gurobi/FICO-Xpress</b>
+        - name: Julia/JuMP
+        - name: GAMS/AMPL
+        - name: Java
+        - name: MATLAB (Simulink)
+        - name: SQL
+        - name: R
+        - name: C/C++
+        - name: AIMMS
+        - name: Linux/Bash
+        - name: LaTeX
     - category: Software
       items:
-        - <b>PLEXOS</b>
-        - PSS/E
-        - AutoCAD
-        - Tableau
-        - MS Office Suite
+        - name: <b>PLEXOS</b>
+        - name: PSS/E
+        - name: AutoCAD
+        - name: Tableau
+        - name: MS Office Suite
     - category: Domain Knowledge
       items:
-        - <b>Deep Learning</b>
-        - <b>Stochastic Optimization</b>
-        - <b>U.S. Electricity Market</b>
-        - Power System Operations and Control
-        - Battery Bidding Strategies
+        - name: <b>Deep Learning</b>
+        - name: <b>Stochastic Optimization</b>
+        - name: <b>U.S. Electricity Market</b>
+        - name: Power System Operations and Control
+        - name: Battery Bidding Strategies
       
 - title: Work Experience
   type: time_table
@@ -133,32 +133,36 @@
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D.
+    - title: Ph.D. Electrical Engineering
       institution: <a href="https://www.smu.edu/lyle/departments/ece">Southern Methodist University</a>
+      location: Dallas, TX, USA
       year: 2018 - 2021
       description:
         - Specializing in <u>Energy System Optimization</u>.
         - Advised by <a href="https://sites.google.com/site/eejhwang/">Prof. Jianhui Wang, IEEE Fellow</a>.
-        - "Final Dissertation: <u><a href=\"https://scholar.smu.edu/engineering_electrical_etds/44/\">\"Electricity Market Operations with Massive Renewable Penetration - New Designs\"</a></u>."
-    - title: M.Sc.
+        - <a href="https://scholar.smu.edu/engineering_electrical_etds/44/">Dissertation</a>
+    - title: M.Sc. Electrical Engineering
       institution: <a href="https://www.iit.edu/ece">Illinois Institute of Technology</a>
+      location: Chicago, IL, USA
       year: 2017 - 2018
       description:
         - Specializing in <u>Energy Economics</u>.
         - Advised by <a href="https://www.iit.edu/directory/people/zuyi-li">Prof. Zuyi Li, IEEE Fellow</a>.
-    - title: B.Eng.
+    - title: B.Eng. Electrical Engineering
       institution: <a href="https://www-en.hnu.edu.cn/">Hunan University</a>
+      location: Changsha, Hunan, PRC
       year: 2012 - 2016
     - title: High School Diploma
       institution: <a href="https://www.changjun.com.cn/">Changjun High School</a>
+      location: Changsha, Hunan, PRC
       year: 2009 - 2012
             
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2021
-      items:
-        - SMU University Outstanding Graduate Student
+    - title: University Outstanding Graduate Student
+      year: 2021
+      awarder: SMU
         
 - title: Academic Interests
   type: nested_list

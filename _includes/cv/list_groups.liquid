@@ -1,35 +1,51 @@
 <div class="list-groups">
-  <table class="table-cv list-group-table">
-    <!-- Display category headers in a single row -->
-    <thead>
-      <tr>
-        {% for content in entry.contents %}
-          <th class="list-group-category">{{ content.category }}</th>
-        {% endfor %}
-      </tr>
-    </thead>
-    <tbody>
-      <!-- Calculate the maximum number of rows needed -->
-      {% assign max_items = 0 %}
-      {% for content in entry.contents %}
-        {% if content.items.size > max_items %}
-          {% assign max_items = content.items.size %}
-        {% endif %}
-      {% endfor %}
-
-      <!-- Display items row by row -->
-      {% for row in (0..max_items-1) %}
-        <tr>
-          {% for content in entry.contents %}
-            <td>
+  {% for content in entry.contents %}
+    <div class="list-group col-md-6">
+      <table class="table-cv list-group-table">
+        <tbody>
+          <tr>
+            {% if content.icon %}
+              <td class="list-group-category-icon"><i class="{{ content.icon }}"></i></td>
+            {% else %}
+              <td class="list-group-category-icon"></td>
+            {% endif %}
+            <!-- Calculate colspan number for category title -->
+            {% assign i = 1 %}
+            {% for item in content.items %}
+              {% assign i = i | plus: 1 %}
+            {% endfor %}
+            <td colspan="{{ i+1 }}" class="list-group-category">{{ content.category }}</td>
+          </tr>
+          {% for item in content.items %}
+            <tr>
               <td></td>
-              {% if content.items[row] %}
-                {{ content.items[row] }}
+              <td class="list-group-name">
+                <b>{{ item.name }}</b>
+              </td>
+              {% if item.level %}
+                <td class="list-group-level">{{ item.level }}</td>
               {% endif %}
-            </td>
+              {% if item.school %}
+                <td class="list-group-school">{{ item.school }}
+              {% endif %}
+              {% if item.time %}
+                <br>
+                <span class="list-group-time">{{ item.time }}</span>
+                </td>
+              {% else %}
+                </td>
+              {% endif %}
+              {% if item.link %}
+                <td class="list-group-link">
+                  <a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">
+                    {% if item.linkname %}{{ item.linkname }}{% else %}DOC{% endif %}
+                  </a>
+                </td>
+              {% endif %}
+            </tr>
           {% endfor %}
-        </tr>
-      {% endfor %}
-    </tbody>
-  </table>
+        </tbody>
+      </table>
+    </div>
+  {% endfor %}
 </div>
