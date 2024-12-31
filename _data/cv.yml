@@ -1,17 +1,10 @@
 - title: Skills
   type: list_groups
   contents:
-    - category: Software
-      items:
-        - name: <b>PLEXOS</b>
-        - name: PSS/E
-        - name: AutoCAD
-        - name: Tableau
-        - name: MS Office Suite
     - category: Coding
       items:
         - name: <b>Python (PyTorch/TensorFlow/Numpy/Pandas/Pyomo)</b>
-        - name: <b>CPLEX/Gurobi/FICO-Xpress<b>
+        - name: <b>CPLEX/Gurobi/FICO-Xpress</b>
         - name: Julia/JuMP
         - name: GAMS/AMPL
         - name: Java
@@ -22,6 +15,13 @@
         - name: AIMMS
         - name: Linux/Bash
         - name: LaTeX
+    - category: Software
+      items:
+        - name: <b>PLEXOS</b>
+        - name: PSS/E
+        - name: AutoCAD
+        - name: Tableau
+        - name: MS Office Suite
     - category: Domain Knowledge
       items:
         - name: <b>Deep Learning</b>
