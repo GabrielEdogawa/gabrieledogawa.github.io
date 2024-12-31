@@ -5,7 +5,7 @@ title: CV
 nav: true
 nav_order: 5
 cv_pdf: Gabriel_CV.pdf # you can also use external links here
-description: $${\Large \textbf{\textit{vita brevis, ars longa}}}$$
+description: $${\Large \textit{\textbf{\mbox{vita brevis, ars longa}}}}$$
 toc:
   sidebar: left
 ---
