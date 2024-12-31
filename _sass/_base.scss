@@ -1370,47 +1370,35 @@ ninja-keys::part(ninja-input-wrapper) {
     color: inherit; /* Ensure the text color is inherited and visible */
 }
 
-/* Tooltip text (hidden by default, positioned above) */
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    cursor: pointer;
+    text-decoration: underline dashed black; /* Dashed underline for the text */
+    color: inherit; /* Inherit text color */
+}
+
+/* Tooltip text (hidden by default) */
 .tooltip:hover::after {
     content: attr(data-tooltip); /* Use the `data-tooltip` attribute for the tooltip text */
     position: absolute;
-    bottom: 120%; /* Position the tooltip above the element */
+    top: 100%; /* Position below the text */
     left: 50%;
     transform: translateX(-50%);
-    background-color: gold; /* Golden bubble */
-    color: black; /* Black text */
-    padding: 10px;
-    border-radius: 8px; /* Rounded edges */
-    font-size: 14px;
-    font-weight: bold;
+    background-color: black; /* Black background for tooltip */
+    color: white; /* White text for contrast */
+    padding: 5px 10px; /* Padding inside the tooltip */
+    border-radius: 4px; /* Slightly rounded corners */
+    font-size: 14px; /* Adjust text size */
     white-space: nowrap; /* Prevent text wrapping */
-    z-index: 1000; /* Ensure tooltip is above other elements */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
-    border: 2px solid black; /* Optional: black border */
-    opacity: 1; /* Ensure tooltip is visible */
+    z-index: 10; /* Ensure tooltip appears above other elements */
+    opacity: 1; /* Make it visible */
     visibility: visible;
 }
 
-/* Add a small arrow below the tooltip (optional) */
-.tooltip:hover::before {
-    content: '';
-    position: absolute;
-    bottom: 110%; /* Position the arrow just below the tooltip */
-    left: 50%;
-    transform: translateX(-50%);
-    border-width: 6px;
-    border-style: solid;
-    border-color: gold transparent transparent transparent; /* Golden arrow */
-}
-
-/* Tooltip default (hidden state) */
-.tooltip::after, .tooltip::before {
+/* Default hidden state for the tooltip */
+.tooltip::after {
     visibility: hidden;
     opacity: 0;
     transition: opacity 0.2s ease-in-out; /* Smooth fade-in */
-}
-
-.tooltip:hover::after, .tooltip:hover::before {
-    visibility: visible;
-    opacity: 1;
 }
