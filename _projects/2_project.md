@@ -4,7 +4,7 @@ title: Unit Startup/Shutdown Prediction
 description: Use ML/DL for generation apparatus modeling
 img: assets/img/susd_pic.jpg
 importance: 2
-category: work
+category: Work
 ---
 
 This project was the main contribution I devoted when I was co-op with [MISO](https://www.misoenergy.org/). We collaborated with [Dr. Junshan Zhang](https://faculty.engineering.ucdavis.edu/jzhang/) from ASU (now with UC Davis), [Dr. Ben Knueven](https://www.nrel.gov/research/staff/bernard-knueven.html) from NREL, [Dr. Manuel Garcia](https://energy.sandia.gov/programs/electric-grid/advanced-grid-modeling/key-personnel/manuel-garcia-ph-d/) from Sandia Lab, and [Dr. Roger Treinen](https://www.resource-innovations.com/about/leadership/roger-treinen) from Nexant. [Here](https://www.osti.gov/servlets/purl/1861473) is a mid-term report submitted to ARPA-E.

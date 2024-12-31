@@ -102,7 +102,7 @@
             - Build the multi-timescale optimization framework for short-term market analyses in <b>Python-Gurobi</b> API with unique steady-state turbine physical models for renewables.
             - Conduct techno-economic assessments of solar panels' potentials with built-in energy storage systems in the energy and reserve co-optimization, considering the multi-timescale coordination.
             - Debug the simulation software and perform sensitivity analyses with different parameters while adding new and reliable features with validations to mimic the practical market environment better.
-            - Help design the interface between scheduling operations in Python and transient-state dynamics in <b>PSS/E</b>.
+            - Help design the interface between scheduling operations in Python and transient-state dynamics in <b>PSS®E</b>.
             - Responsible for software documentation, team collaboration, and milestone reports.
         
 - title: Project Participation
@@ -141,7 +141,7 @@
   type: time_table
   contents:
     - title: Ph.D.  - Electrical Engineering
-      institution: <a href="https://www.smu.edu/lyle/departments/ece">Southern Methodist University</a>
+      institution: <a href="https://www.smu.edu/lyle/departments/ece">Southern Methodist University (SMU)</a>
       location: Dallas, USA
       year: 2018 - 2021
       description:
@@ -149,20 +149,52 @@
         - Advised by <a href="https://sites.google.com/site/eejhwang/">Prof. Jianhui Wang, IEEE Fellow</a>.
         - <a href="https://scholar.smu.edu/engineering_electrical_etds/44/">Dissertation</a>
     - title: M.Sc.  - Electrical Engineering
-      institution: <a href="https://www.iit.edu/ece">Illinois Institute of Technology</a>
+      institution: <a href="https://www.iit.edu/ece">Illinois Institute of Technology (IIT)</a>
       location: Chicago, USA
       year: 2017 - 2018
       description:
         - Specializing in <u>Energy Economics</u>.
         - Advised by <a href="https://www.iit.edu/directory/people/zuyi-li">Prof. Zuyi Li, IEEE Fellow</a>.
     - title: B.Eng.  - Electrical Engineering and Authomation
-      institution: <a href="https://www-en.hnu.edu.cn/">Hunan University</a>
+      institution: <a href="https://www-en.hnu.edu.cn/">Hunan University (HNU)</a>
       location: Changsha, PRC
       year: 2012 - 2016
     - title: High School Diploma
       institution: <a href="https://www.changjun.com.cn/">Changjun High School</a>
       location: Changsha, PRC
       year: 2009 - 2012
+      
+- title: Coursework
+  type: list_groups
+  contents:
+    - category: SMU
+      items:
+        - name: <b>Adaptive Algorithms in Machine Learning</b>
+          level: (A)
+        - name: <b>Deep Learning and Neural Networks</b>
+          level: (A)
+        - name: <b>Stochastic Optimization</b>
+          level: (A-)
+        - name: Distribution System Analysis
+          level: (A)
+        - name: Data Analytics and Decision Support
+          level: (A)
+        - name: Machine Learning in Power Systems
+          level: (A)
+    - category: IIT
+      items:
+        - name: <b>Statistical Pattern Recognition</b>
+          level: (A)
+        - name: <b>Applied Optimization for Engineering</b>
+          level: (A)
+        - name: <b>Objective-oriented Programming and Computer Simulation</b>
+          level: (A)
+        - name: Power Market Operation and Economics
+          level: (A)
+        - name: Control and Operation of Electric Power Systems
+          level: (A-)
+        - name: Power System Planning
+          level: (A)
             
 - title: Honors and Awards
   type: time_table

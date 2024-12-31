@@ -1,8 +1,8 @@
 ---
 layout: page
-title: MIDAS-Scheduling
-description: Open-source codebase for scheduling in Python
-img: assets/img/midas_pic.jpg
+title: Electric-Gas-Heat Coordination
+description: Energy hub scheduling with multiple energy networks
+img: assets/img/geirina/title.png
 importance: 1
 category: Work
 ---
