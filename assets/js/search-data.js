@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "$${\Large \textit{\textbf{\mbox{vita brevis, ars longa}}}}$$",
+          description: "$${\LARGE \textit{vita brevis, ars longa}}$$",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
