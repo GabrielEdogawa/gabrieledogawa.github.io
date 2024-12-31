@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "$${\Large \textbf{\textit{vita brevis, ars longa}}}$$",
+          description: "$${\Large \textit{\textbf{\mbox{vita brevis, ars longa}}}}$$",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -135,6 +135,13 @@ ninja.data = [{
           window.open("https://telegram.me/GabrielYin", "_blank");
         },
       },{
+        id: 'social-semanticscholar',
+        title: 'Semantic Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.semanticscholar.org/author/Shengfei-Yin/50880941", "_blank");
+        },
+      },{
         id: 'social-publons',
         title: 'Publons',
         section: 'Socials',
@@ -147,13 +154,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.researchgate.net/profile/Shengfei-Yin/", "_blank");
-        },
-      },{
-        id: 'social-semanticscholar',
-        title: 'Semantic Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.semanticscholar.org/author/Shengfei-Yin/50880941", "_blank");
         },
       },{
       id: 'light-theme',
