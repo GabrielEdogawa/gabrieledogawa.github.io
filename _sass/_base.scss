@@ -57,7 +57,7 @@ table.table a {
 .table-dark {
   background-color: transparent;
   &.table-bordered {
-    border: 1px solid var(--global-divider-color) !important;
+    border: 1px solid var(--global-divider-color)  ;
   }
 }
 
@@ -268,7 +268,7 @@ ul.task-list input[type="checkbox"] {
   }
 
   .dropdown-divider {
-    border-top: 1px solid var(--global-divider-color) !important;
+    border-top: 1px solid var(--global-divider-color)  ;
   }
 }
 
@@ -523,8 +523,8 @@ footer.sticky-bottom {
       border-color: var(--global-divider-color);
 
       .badge {
-        color: var(--global-card-bg-color) !important;
-        background-color: var(--global-theme-color) !important;
+        color: var(--global-card-bg-color)  ;
+        background-color: var(--global-theme-color)  ;
       }
     }
   }
@@ -755,7 +755,7 @@ footer.sticky-bottom {
         }
 
         .award {
-          color: var(--global-theme-color) !important;
+          color: var(--global-theme-color)  ;
           border: 1px solid var(--global-theme-color);
         }
       }
@@ -907,8 +907,8 @@ html.transition,
 html.transition *,
 html.transition *:before,
 html.transition *:after {
-  transition: all 750ms !important;
-  transition-delay: 0 !important;
+  transition: all 750ms  ;
+  transition-delay: 0  ;
 }
 
 // Extra Markdown style (post Customization)
@@ -1030,13 +1030,13 @@ progress::-moz-progress-bar {
     }
 
     &:not(.active) {
-      background-color: var(--global-bg-color) !important;
+      background-color: var(--global-bg-color)  ;
       color: var(--global-text-color);
     }
 
     &:hover {
-      background-color: var(--global-hover-color) !important;
-      color: var(--global-hover-text-color) !important;
+      background-color: var(--global-hover-color)  ;
+      color: var(--global-hover-text-color)  ;
     }
   }
 
@@ -1056,7 +1056,7 @@ progress::-moz-progress-bar {
   .dropdown-item.active,
   .dropdown-item:active {
     background-color: var(--global-hover-color);
-    color: var(--global-hover-text-color) !important;
+    color: var(--global-hover-text-color)  ;
 
     &:hover {
       color: var(--global-hover-text-color);
@@ -1133,7 +1133,7 @@ nav[data-toggle="toc"] {
 }
 
 .unloaded {
-  display: none !important;
+  display: none  ;
 }
 
 .medium-zoom-overlay,
@@ -1219,7 +1219,7 @@ ninja-keys::part(ninja-input-wrapper) {
 }
 
 .newsletter-form-input:focus {
-  border-color: var(--global-theme-color) !important;
+  border-color: var(--global-theme-color)  ;
 }
 
 .newsletter-form-button {
@@ -1295,7 +1295,7 @@ ninja-keys::part(ninja-input-wrapper) {
   .newsletter-loading-button,
   .newsletter-success,
   .newsletter-error {
-    font-size: 16px !important;
+    font-size: 16px  ;
   }
   .newsletter-form-container {
     margin-right: 20px;
@@ -1375,26 +1375,26 @@ ninja-keys::part(ninja-input-wrapper) {
 
 /* Tooltip container */
 .tooltip {
-  position: relative !important;
-  display: inline-block !important;
-  border-bottom: 1px dotted black !important;
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
 }
 
 .tooltip:after {
-  content: "kkk" !important;
-  position: absolute !important;
-  top: -30px !important;
-  right: 0 !important;
-  left: 0 !important;
-  display: none !important;
-  text-align: center !important;
-  background-color: #000 !important;
-  color: #fff !important;
-  border-radius: 4px !important;
-  padding: 2px !important;
+  content: "kkk";
+  position: absolute;
+  top: -30px;
+  right: 0;
+  left: 0;
+  display: none;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  border-radius: 4px;
+  padding: 2px;
 }
 .tooltip:hover:after {
-  display: block !important;
+  display: block;
 }
 
 [data-tooltip]:hover::after {
