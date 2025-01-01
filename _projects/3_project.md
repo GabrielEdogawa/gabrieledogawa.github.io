@@ -168,7 +168,7 @@ The following table provides all the notations throughout this subsection.
 | $$L_b$$          | Length of pipeline                      | 
 | $$T^a_t$$        | Ambient temperature at timestep $$t$$   | 
 | $$\lambda_b$$    | Heat transfer coefficient of pipeline   |   
-<br>
+
 <br>
 After modeling all the electric, gas, and heat networks, I added generating unit modeling and energy storage system modeling for all energy types, then performed the simulation on multiple scenarios to confirm the efficacy of the proposed model.
 
