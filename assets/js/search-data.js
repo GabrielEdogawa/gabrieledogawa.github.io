@@ -70,26 +70,31 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-midas-scheduling",
+          section: "News",},{id: "projects-solver-tuning-for-cplex",
+          title: 'Solver tuning for CPLEX',
+          description: "Beginner&#39;s guide on how to effectively make your optimization solver a pro",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project/";
+            },},{id: "projects-midas-scheduling",
           title: 'MIDAS-Scheduling',
           description: "Open-source codebase for scheduling in Python",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
+              window.location.href = "/projects/3_project/";
             },},{id: "projects-unit-startup-shutdown-prediction",
           title: 'Unit Startup/Shutdown Prediction',
           description: "Use ML/DL for generation apparatus modeling",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
+              window.location.href = "/projects/4_project/";
             },},{id: "projects-electric-gas-heat-coordination",
           title: 'Electric-Gas-Heat Coordination',
           description: "Energy hub scheduling with multiple energy networks",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
+              window.location.href = "/projects/5_project/";
             },},{id: "projects-chuqi-photography",
           title: 'Chuqi Photography',
           description: "Some stupid but funny photos for my beloved cat, Chuqi",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
+              window.location.href = "/projects/6_project/";
             },},{
         id: 'social-scholar',
         title: 'Google Scholar',
@@ -159,6 +164,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.researchgate.net/profile/Shengfei-Yin/", "_blank");
+        },
+      },{
+        id: 'social-MyWorld',
+        title: 'Myworld',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.gabriel-yin.com/", "_blank");
         },
       },{
       id: 'light-theme',
