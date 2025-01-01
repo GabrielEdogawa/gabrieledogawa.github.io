@@ -95,8 +95,8 @@ ninja.data = [{
           description: "Some stupid but funny photos for my beloved cat, Chuqi",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-cuisine-recipe",
-          title: 'Cuisine Recipe',
+            },},{id: "projects-cuisine-recipes",
+          title: 'Cuisine Recipes',
           description: "Self-scribed secret recipes for both authentic Chinese and Western cuisines",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
