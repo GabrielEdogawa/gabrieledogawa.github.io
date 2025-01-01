@@ -3,7 +3,7 @@ layout: page
 title: Chuqi Photography
 description: Some stupid but funny photos for my beloved cat, Chuqi
 img: assets/img/chuqi/chuqi_home.jpg
-importance: 3
+importance: 1
 category: Life
 ---
 
