@@ -7,24 +7,14 @@ importance: 2
 category: Work
 ---
 
-[IBM ILOG CPLEX](https://www.ibm.com/products/ilog-cplex-optimization-studio) is one of the most powerful commercial solvers in the world widely used in industry and academia. However, as we all know, 
-
-<span
-  data-toggle="tooltip"
-  data-placement="top"
-  title="This is the popover content."
->
-  Hover over this text
-</span>
-
-MIP problems could be extremely hard to solve especially when the problem size goes wild or the problem falls into some specific structures like near-singular constraint space. In these cases, using particular solver options (often referred as <b>solver tuning</b>) could yield surprisingly efficient solution processes. This project offers a fundamental guidance for beginners facing excessively long solution times in CPLEX. The tuning procedures are also applicable to other solvers, such as FICO-Xpress and Gurobi, as they typically share similar solver options. (arguably Gurobi might have the best performance, but still case dependent).
+[IBM ILOG CPLEX](https://www.ibm.com/products/ilog-cplex-optimization-studio) is one of the most powerful commercial solvers in the world widely used in industry and academia. However, as we all know, <span data-toggle="tooltip" data-placement="top" title="This is the popover content.">Hover over this text</span> MIP problems could be extremely hard to solve especially when the problem size goes wild or the problem falls into some specific structures like near-singular constraint space. In these cases, using particular solver options (often referred as <b>solver tuning</b>) could yield surprisingly efficient solution processes. This project offers a fundamental guidance for beginners facing excessively long solution times in CPLEX. The tuning procedures are also applicable to other solvers, such as FICO-Xpress and Gurobi, as they typically share similar solver options. (arguably Gurobi might have the best performance, but still case dependent).
 
 ### General Rule of Thumb
 
 To be clear at the beginning, like all the tuning procedures, the ways provided in this guide is very <b>subjective</b>. All solvers in fact largely depend on many sophisticated heuristics to initialize the algorithm or preprocess the branch and cut searching. Refer to [this documentation](https://www.gurobi.com/resources/mixed-integer-programming-mip-a-primer-on-the-basics/) from Gurobi (yes, they get a far better and user-friendlier doc!) for more details regarding how solver works towards solving MIP. What we are technically doing for the solver tuning is to modify the heuristic methods (kind of adding another self-designed heuristic onto the existing ones). So it should be kept in mind that one good solver tuning result is <u>with probability zero</u> applicable to all scenarios, even if the scenarios are alike. But it could hold substantial merits in sequential or parallel problem solving in large quantities for identical problem structure (like how GPU works for us). 
 
-It should be noted that the example case we are talking in this guide is a MILP problem with millions of constraints & variables for a [unit commitment](https://en.wikipedia.org/wiki/Unit_commitment_problem_in_electrical_power_production) (UC) problem. Compared to other MIP applications, the unit commitment problem has the following unique features:
-- <b>Extremely high dimensionality</b> due to the tight coupling between the integer and continuous variables
+It should be noted that the example case we are talking in this guide is a MILP problem with millions of constraints & variables for a [unit commitment](https://en.wikipedia.org/wiki/Unit_commitment_problem_in_electrical_power_production) (UC) problem. Compared to other MIP applications, the UC problem has the following unique features:
+- <b>Extremely high dimensionality</b> due to the tight coupling between the integer and continuous variables.
 - <b>Stringent time coupling constraints</b> across the whole problem, which renders the feasibility space overwhelmingly large.
 - <b>Highly sparse yet redundant constraints with highly symmetric formulation structure</b>, leading to heavy dual degeneracy risk.
 
@@ -32,13 +22,15 @@ Those unique features give us an initial idea on how we should tell the solver t
 
 ### Inspect the Optimization Log
 
-We should always start with the **default** solver setting. After getting the optimization log, it is very possible to gain a lot better understanding on the problem when checking the log. When doing so, ask yourself the following questions:
+We should always start with the <b>default</b> solver setting. After obtaining the optimization log, it is very possible to gain a lot better understanding on the problem when checking the log. When doing so, ask the following questions:
 
-#### Does the problem have a hard time finding incumbents?
+#### Does the solver have a hard time finding incumbents?
 
 This is arguably the most common issue we would face when solving large-scale UC problems. [Incumbent](https://www.ibm.com/docs/en/cofz/12.9.0?topic=optimizer-when-integer-solution-is-found-incumbent) is the best feasible solution found so far that could satisfy all constraints in the model. So when the solver takes minutes or even hours finding the next improved incumbent, it means that the model is extremely near-infeasible or the constraint space is too smooth. Then, there are two potential ways to speed up the searching if you don't want to change (simplify) your model.
 
 - Set the solver option <b>MIP Emphasis</b> to <u>Emphasize Feasibility over Optimality</u>: `cpx.parameters.emphasis.mip.set(1)`. Doing so commands the solver to use more aggressive branching strategies to find feasible solutions as soon as possible.
 - Set the solver option <b>Variable Selection</b> to <u>Emphasize Feasibility over Optimality</u>: `cplex.parameters.mip.strategy.variableselect(3)`. This setting causes variable selection based on partially solving a number of subproblems with tentative branches to see which branch is most promising. This is often effective on large, difficult problems.
 
-#### Does the problem have a hard time finding incumbents?
+#### Does the solver spend too much time in presolve?
+
+[Presolve](https://support.gurobi.com/hc/en-us/articles/360024738352-How-does-presolve-work) is a significant procedure that the solver usually first enters in the solving stage, where it prunes the model with redundant constraints & variables and prepares reduced branches and nodes for further inspection. However, the abundance of tight physical constraints and symmetry model structure in UC problems sometimes could jeopardize the presolve stage.
