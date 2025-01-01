@@ -35,7 +35,7 @@ More details regarding the software like necessarily dependent packages and virt
 
 I'd like to introduce more about some fun stuffs of MIDAS-Scheduling.
 
-### Storage Modeling
+## Storage Modeling
 
 In detail, we consider an energy storage system (ESS) with a general and flexible setting. The ESSs incorporated in our system can have flexible types, including pumped storage and battery storage. For the storage simulation modeling, we consider the idle status of the ESS unit, and whenever it is charging, discharging, or idle, it can provide ancillary services (ASs) in both up and down directions. This is the key advantage of our schemes compared with the SOTAs. Our ESS framework can fully leverage the ESS’s flexibility for both energy and ASs and better contribute to the system scheduling operation, particularly with PV units. 
 <div class="row justify-content-sm-center">
@@ -48,7 +48,7 @@ In detail, we consider an energy storage system (ESS) with a general and flexibl
 </div>
 As shown above, the pumped storage (PESS) can provide both up and down services in the three states, while the battery storage (BESS) can provide ASs under a more flexible setting that honors the fact that the battery storage can respond much faster. The system operators can more explicitly consider ESSs’ two types of flexibilities in the market operation, which can yield more practical and accurate decisions. Read more details in [our NAPS paper](https://ieeexplore.ieee.org/abstract/document/9449810).
 
-### Startup/Shutdown Trajectories
+## Startup/Shutdown Trajectories
 
 In real world, synchronous generators require start-up time and shutdown time to perform turn-on and turn-off. We differentiate generators by their trajectory time to flexible units, inflexible units and renewable units. The inflexible units’ trajectories are modeled in the DAUC, and the flexible units’ trajectories are modeled in the RTUC. Certainly, during startup/shutdown trajectory, the generator cannot provide any ancillary service (excluding non-spinning reserve capacity).
 <div class="row justify-content-sm-center">
@@ -61,7 +61,7 @@ In real world, synchronous generators require start-up time and shutdown time to
 </div>
 Say, if Unit G1 is scheduled to startup at Hour 5, in the real-time operation, considering its startup time, the unit will be actually started at Hour 3.2, as the scheduled startup at Hour 5 means it should be at least reaching its minimum capacity at that time. Conversely, for shutdown, if Unit 1 is scheduled to shutdown at Hour 6, it will actually begin its shutdown at Hour 6 in real time, because practically that is the moment when the unit receives the shutdown signal.
 
-### Fixed-interval RTUC
+## Fixed-interval RTUC
 
 Since RTUC is also a rolling-horizon operation, the operator will update the startup/shutdown statuses in the most recent RTUC. Hence, if the current RTUC changes the startup decision determined in the last RTUC, the non-spinning reserve scheduled in the last RTUC will violate the startup logic. Hence, we develop the following scheme: the first interval’s commitment is fixed by the second interval’s commitment in the last RTUC. The first interval’s commitment of each RTUC is consistent in any connecting period and hence will not violate the last RTUC’s startup decisions.
 <div class="row justify-content-sm-center">
@@ -74,7 +74,7 @@ Since RTUC is also a rolling-horizon operation, the operator will update the sta
 </div>
 Note that this scheme has been actually adopted by [MISO](https://www.misoenergy.org/), a famous ISO in the U.S.
 
-### Some showcases of the result output
+## Some showcases of the result output
 
 We use the toy 18-bus system reduced from the [WECC system](https://www.wecc.org/epubs/StateOfTheInterconnection/Pages/Western-Interconnection.aspx) as an example. Here is the diagram:
 <div class="row justify-content-sm-center">
@@ -98,7 +98,7 @@ After running the MIDAS-Scheduling program, the automated result-generation code
     Result showcases
 </div>
 
-### Some showcases of the code snippets
+## Some showcases of the code snippets
 
 If you are interested in how I structure the code, here is how users run MIDAS-Scheduling interactively:
 {% raw %}

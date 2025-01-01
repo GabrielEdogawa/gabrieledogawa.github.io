@@ -13,7 +13,7 @@ This project is funded by [GEIRI-NA](https://www.linkedin.com/company/geiri-nort
 
 This research involves the co-simulation and scheduling of the generating units, energy storage systems (including all the electric, gas, and heat storage systems), and renewable assets from a distributed microgrid in the wholesale energy market operation. We need a comprehensive modeling of the triumvirate of electric, gas, and heat networks to fully capture the energy flow inside the energy hub. We will discuss them in details in the following sections.
 
-### Electric Network
+## Electric Network
 
 In the electric network modeling, I used the DistFlow model (explained well in [this post](https://chrisyeh96.github.io/2023/03/28/simplified-distflow.html)), which is commonly used in the operation and optimization of electrical distribution systems. It is a set of equations that describe the flow of power in a radial distribution network. It models the relationship between power injections, power flows, and voltages along the distribution lines.
 
@@ -23,7 +23,7 @@ $$
 
 where $$v_{(i,j),t}$$ denotes the voltage of bus $$i$$ or $$j$$ at timestep $$t$$, $$r_{\ell}$$ and $$x_{\ell}$$ denote resistance and reactance of line $$\ell$$ (connecting $$i$$ and $$j$$), and $$p_{\ell,t}$$ and $$q_{\ell,t}$$ denote active and reactive power flow of line $$\ell$$ at timestep $$t$$. Using this equation together with capacity/voltage limit constraints and power balance equation, we could approximate the distribution-level power flow and thus model the network.
 
-### Gas Network
+## Gas Network
 
 The gas network flow problem is highly nonlinear due to the notorious [Weymouth equations](https://www.webbusterz.org/weymouth-equation-for-flow-rate-calculation/). A common way to do this is to use the second-order cone program to convexify the nonlinearity. 
 
@@ -66,7 +66,7 @@ $$
 \omega_{i,t}^2 - \omega_{j,t}^2 = u_{\ell,t}\cdot \sqrt{\frac{\omega_{i,t}^{\max} - \omega_{j,t}^{\min}}{\theta}}.
 $$
 
-### Heat Network
+## Heat Network
 
 The heat network is also a very complicated energy network. The heat network consists of symmetric supply and return pipelines, and the figure below shows a typical topology of the heat system. At each source (load) node, heat is injected into (withdrawn from) the network via a heat exchanger between the supply side and the return side. The network model obeys the hydraulic conditions and thermal conditions. 
 

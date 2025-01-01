@@ -42,7 +42,7 @@ By following this procedure, here is one sample preprocessing:
     Sample for startup data cleaning
 </div>
 
-### Feature Selection
+## Feature Selection
 
 After the data preprocessing is complete, we conduct feature selection by applying the Deep Feature Synthesis algorithm. This algorithm follows the inherent relationships between original input features and then sequentially applies mathematical functions along the relationships to create new features. It is efﬁcient when we do not know the complete list of correlated features. More details about how to implement this algorithm can be found [here](https://ieeexplore.ieee.org/document/7344858).
 
@@ -56,7 +56,7 @@ The final feature scoring for different types of units based on the feature sele
     Feature Importance Scoring based on Unit Types
 </div>
 
-### Gradient Boosting Tree: Offline Predicting
+## Gradient Boosting Tree: Offline Predicting
 
 Gradient boosting tree (GBT) is a boosting algorithm using ensembled decision trees. By leveraging the greedy boosting concept, stage-wise decision trees use the last-stage prediction residuals as training data to enhance the initial prediction, reducing both the bias and variance. However, we have lots of categorical features in our problem, which could not be directly applied with GBT. Hence, we leverage the categorical boosting algorithm with [Catboost](https://catboost.ai/) to perform our prediction. We use around 1,000 generating units with different types in our analysis.
 The test MAPE for each unit is shown below, compared between the preprocessed datasets and raw datasets. Certainly, the dataset is divided into a training set (75%) and a testing set (25%).
@@ -69,7 +69,7 @@ The test MAPE for each unit is shown below, compared between the preprocessed da
     GBT Offline Prediction Performance
 </div>
 
-### Long-Short-Term Network: Online Predicting
+## Long-Short-Term Network: Online Predicting
 
 While the ofﬂine approach suits the need of the LAC curves, for real-time UDS with ﬁner granularity, the prediction quality of the ofﬂine approach needs further improvement. However, the UDS follows a rolling-horizon manner, which means for every ﬁve minutes, we could leverage the previously predicted error to enhance the current-interval prediction. This asynchronous error correction could be best tackled by an LSTM network. We adopt the following LSTM framework:
 <div class="row justify-content-sm-center">
@@ -91,7 +91,7 @@ Each LSTM cell leverages layer normalization (LN) to smooth the activations alon
     LSTM Online Prediction Performance
 </div>
 
-### Economic Assessment
+## Economic Assessment
 
 After we obtain the startup/shutdown curves discussed above, we plug in these curves for the LAC and UDS coordinated operation. We studied all units recorded in the MISO state estimation for the startup/shutdown curve prediction, but not all generators within the operation have associated curves. Some units might have startup/shutdown time shorter than ﬁfteen minutes, while some units are not frequently committed or de-committed. We choose units with a high prediction performance of startup/shutdown curves, i.e., MAPE less than 10%, in the test case. Whole-day operations with the rolling LAC instances and associated UDS instances are executed for a sample week in this study. Using SLAC could better capture the system characteristics conditioned by the uncertain renewable resources. Then, we pick two days, i.e., Day 1 and Day 5, to see whether the predicted startup/shutdown curves could synergize with SLAC. Below shows the economic improvements:
 <div class="row justify-content-sm-center">

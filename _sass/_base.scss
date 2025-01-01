@@ -1375,26 +1375,26 @@ ninja-keys::part(ninja-input-wrapper) {
 
 /* Tooltip container */
 .tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
+  position: relative !important;
+  display: inline-block !important;
+  border-bottom: 1px dotted black !important;
 }
 
 .tooltip:after {
-  content: attr(data-tooltip);
-  position: absolute;
-  top: -30px;
-  right: 0;
-  left: 0;
-  display: none;
-  text-align: center;
-  background-color: #000;
-  color: #fff;
-  border-radius: 4px;
-  padding: 2px;
+  content: attr(data-tooltip) !important;
+  position: absolute !important;
+  top: -30px !important;
+  right: 0 !important;
+  left: 0 !important;
+  display: none !important;
+  text-align: center !important;
+  background-color: #000 !important;
+  color: #fff !important;
+  border-radius: 4px !important;
+  padding: 2px !important;
 }
 .tooltip:hover:after {
-  display: block;
+  display: block !important;
 }
 
 .google-scholar {
