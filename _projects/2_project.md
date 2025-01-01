@@ -10,10 +10,9 @@ category: Work
 [IBM ILOG CPLEX](https://www.ibm.com/products/ilog-cplex-optimization-studio) is one of the most powerful commercial solvers in the world widely used in industry and academia. However, as we all know, 
 
 <span
-  data-toggle="popover"
+  data-toggle="tooltip"
   data-placement="top"
-  data-html="true"
-  data-content="This is the popover content."
+  title="This is the popover content."
 >
   Hover over this text
 </span>
@@ -22,12 +21,12 @@ MIP problems could be extremely hard to solve especially when the problem size g
 
 ### General Rule of Thumb
 
-To be clear at the beginning, like all the tuning procedures, the ways provided in this guide is very **subjective**. All solvers in fact largely depend on many sophisticated heuristics to initialize the algorithm or preprocess the branch and cut searching. Refer to [this documentation](https://www.gurobi.com/resources/mixed-integer-programming-mip-a-primer-on-the-basics/) from Gurobi (yes, they get a far better and user-friendlier doc!) for more details regarding how solver works towards solving MIP. What we are technically doing for the solver tuning is to modify the heuristic methods (kind of adding another self-designed heuristic onto the existing ones). So it should be kept in mind that one good solver tuning result is with possibility zero applicable to all scenarios, even if the scenarios are alike. But it could hold substantial merits in sequential or parallel problem solving in large quantities for identical problem structure (like how GPU works for us). 
+To be clear at the beginning, like all the tuning procedures, the ways provided in this guide is very <b>subjective</b>. All solvers in fact largely depend on many sophisticated heuristics to initialize the algorithm or preprocess the branch and cut searching. Refer to [this documentation](https://www.gurobi.com/resources/mixed-integer-programming-mip-a-primer-on-the-basics/) from Gurobi (yes, they get a far better and user-friendlier doc!) for more details regarding how solver works towards solving MIP. What we are technically doing for the solver tuning is to modify the heuristic methods (kind of adding another self-designed heuristic onto the existing ones). So it should be kept in mind that one good solver tuning result is <u>with probability zero</u> applicable to all scenarios, even if the scenarios are alike. But it could hold substantial merits in sequential or parallel problem solving in large quantities for identical problem structure (like how GPU works for us). 
 
-It should be noted that the example case we are talking in this guide is a MILP problem with millions of constraints & variables for a unit commitment (UC) problem in the power sector. Compared to other MIP applications, the unit commitment problem has the following unique features:
+It should be noted that the example case we are talking in this guide is a MILP problem with millions of constraints & variables for a [unit commitment](https://en.wikipedia.org/wiki/Unit_commitment_problem_in_electrical_power_production) (UC) problem. Compared to other MIP applications, the unit commitment problem has the following unique features:
 - <b>Extremely high dimensionality</b> due to the tight coupling between the integer and continuous variables
 - <b>Stringent time coupling constraints</b> across the whole problem, which renders the feasibility space overwhelmingly large.
-- <b>Highly sparse yet potentially redundant constraints with highly symmetric formulation structure</b>, leading to heavy dual degeneracy risk.
+- <b>Highly sparse yet redundant constraints with highly symmetric formulation structure</b>, leading to heavy dual degeneracy risk.
 
 Those unique features give us an initial idea on how we should tell the solver to customize its solution procedure.
 
@@ -38,3 +37,8 @@ We should always start with the **default** solver setting. After getting the op
 #### Does the problem have a hard time finding incumbents?
 
 This is arguably the most common issue we would face when solving large-scale UC problems. [Incumbent](https://www.ibm.com/docs/en/cofz/12.9.0?topic=optimizer-when-integer-solution-is-found-incumbent) is the best feasible solution found so far that could satisfy all constraints in the model. So when the solver takes minutes or even hours finding the next improved incumbent, it means that the model is extremely near-infeasible or the constraint space is too smooth. Then, there are two potential ways to speed up the searching if you don't want to change (simplify) your model.
+
+- Set the solver option <b>MIP Emphasis</b> to <u>Emphasize Feasibility over Optimality</u>: `cpx.parameters.emphasis.mip.set(1)`. Doing so commands the solver to use more aggressive branching strategies to find feasible solutions as soon as possible.
+- Set the solver option <b>Variable Selection</b> to <u>Emphasize Feasibility over Optimality</u>: `cplex.parameters.mip.strategy.variableselect(3)`. This setting causes variable selection based on partially solving a number of subproblems with tentative branches to see which branch is most promising. This is often effective on large, difficult problems.
+
+#### Does the problem have a hard time finding incumbents?
