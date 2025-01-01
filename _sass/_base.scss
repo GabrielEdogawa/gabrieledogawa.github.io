@@ -1397,6 +1397,15 @@ ninja-keys::part(ninja-input-wrapper) {
   display: block !important;
 }
 
+[data-tooltip]:hover::after {
+  display: block;
+  position: absolute;
+  content: attr(data-tooltip);
+  border: 1px solid black;
+  background: #eee;
+  padding: .25em;
+}
+
 .google-scholar {
   position: relative; /* Allows precise positioning */
   text-align: right; /* Align content to the right */
