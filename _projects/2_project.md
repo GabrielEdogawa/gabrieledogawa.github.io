@@ -30,28 +30,62 @@ This is arguably the most common issue we would face when solving large-scale UC
 
 - Set the solver option <b>MIP emphasis</b> to <u>emphasize feasibility over optimality</u>:<br> 
   `cpx.parameters.emphasis.mip.set(1)`.<br> 
-  Doing so commands the solver to use more aggressive branching strategies to find feasible solutions as soon as possible.
+  Doing so commands the solver to use more aggressive branching strategies to find feasible solutions as soon as possible. This is also one of the most impactful meta options that one should usually try first when the solver performance is poor.
 - Set the solver option <b>variable selection</b> to <u>strong branching</u>:<br> 
-  `cpx.parameters.mip.strategy.variableselect(3)`.<br> 
+  `cpx.parameters.mip.strategy.variableselect.set(3)`.<br> 
   This setting causes variable selection based on partially solving a number of subproblems with tentative branches to see which branch is most promising. This is often effective on large, difficult problems.
+- Set the solver option <b>matrix scaling</b> to <u>more aggressive scaling</u>:<br> 
+  `cpx.parameters.preprocessing.scaling.set(1)`.<br> 
+  Sometimes the model could struggle with staying feasible during the solution procedure due to numerical stability and large differences in coefficient magnitudes. Hence, using more aggressive scaling appears to be effective.
 
-#### Does the solver spend too much time in presolve?
+#### Does the solver spend too much time in Presolve?
 
-[Presolve](https://support.gurobi.com/hc/en-us/articles/360024738352-How-does-presolve-work) is a significant procedure that the solver usually first enters in the solving stage, where it prunes the model with redundant constraints & variables and prepares reduced branches and nodes for further inspection. However, the abundance of tight physical constraints and symmetry model structure in large-scale UC problems could commonly jeopardize the presolve stage. When the presolve stage takes a majority of the total solution time, try the following solver options:
+[Presolve](https://support.gurobi.com/hc/en-us/articles/360024738352-How-does-presolve-work) is a significant procedure that the solver usually first enters in the solving stage, where it prunes the model with redundant constraints & variables and prepares reduced branches and nodes for further inspection. However, the abundance of tight physical constraints and symmetry model structure in large-scale UC problems could commonly jeopardize the Presolve stage. When the Presolve stage takes a majority of the total solution time, try the following solver options:
 
 - Set the solver option <b>node presolve selector</b> to <u>aggressive node probing</u>:<br>
-  `cpx.parameters.mip.strategy.presolvenode(3)`<br>
-  Setting this commands the solver to perform the maximally aggressive level of presolve performed at the node level during the branch solution search.
+  `cpx.parameters.mip.strategy.presolvenode.set(3)`<br>
+  Setting this commands the solver to perform the maximally aggressive level of Presolve performed at the node level during the branch solution search.
   
-In fact, when finding the solver gets stuck in presolve, the best practice should be to sit back and inspect the model again, trying to prune unnecessary constraints and variables manually.
+In fact, when finding the solver gets stuck in Presolve, the best practice should be to sit back and inspect the model again, trying to prune unnecessary constraints and variables manually.
   
-#### Does the solver struggles in reducing the gap at the initial stage?
+#### Does the solver struggles with reducing the gap at the initial stage?
 
-Somestimes the solver could have difficulty quickly improving the objective value or finding good-quality feasible solutions early in the process. Usually, the presolve could significantly improve the early-stage solution hunting, but for large-scale problems it could be way insufficent for solver to crack the nutshell at the beginning due to symmetry model structure, weak relaxation, and large coonstraint space. This issue could be detrimental to solution time even rendering the solver time-out. Fortunately, there are several effective solver options that could speed up.
+Somestimes the solver could have difficulty quickly improving the objective value or finding good-quality feasible solutions early in the process. Usually, Presolve could significantly improve the early-stage solution hunting, but for large-scale problems it could be way insufficent for solver to crack the nutshell at the beginning due to symmetry model structure, weak relaxation, and large coonstraint space. This issue could be detrimental to solution time even rendering the solver time-out. Fortunately, there are several effective solver options that could speed up.
 
 - Set the solver option <b>relative MIP gap before starting to polish a solution</b> to <u>some high percentage value</u>:<br>
-  `cpx.parameters.mip.tolerances.mipgappolish(0.9)`<br>
-  [Solution polishing](https://www.ibm.com/docs/en/icos/22.1.1?topic=heuristics-solution-polishing) can yield better solutions in situations where good solutions are otherwise hard to find. More time-intensive than other heuristics, solution polishing is actually a variety of branch-and-cut that works after an initial solution is available. Because of the high cost entailed by solution polishing, it is not called throughout branch-and-cut like other heuristics. So basically it only gets used when user calls it. As an additional step after branch-and-cut, solution polishing can potentially improve the incumbent quickly. Hence, one could enable this option in large percentage value to start polishing when the solver gets stuck early. And it is usually very powerful based on my experience for the early stuck scenarios.
-- Set the solver option <b>MIP starting value</b> to <u>set discrete variable values and use auto mipstart level</u>:<br>
-  `cpx.parameters.mip.start(2)`<br>
-  This option 
+  `cpx.parameters.mip.tolerances.mipgappolish.set(0.9)`<br>
+  [Solution polishing](https://www.ibm.com/docs/en/icos/22.1.1?topic=heuristics-solution-polishing) can yield better solutions in situations where good solutions are otherwise hard to find. More time-intensive than other heuristics, solution polishing is actually a variety of branch-and-cut that works after an initial solution is available. Because of the high cost entailed by solution polishing, it is not called throughout branch-and-cut like other heuristics. So basically it only gets used when user calls it. As an additional step after branch-and-cut, solution polishing can potentially improve the incumbent quickly. Hence, one could enable this option in large percentage value to start polishing when the solver gets stuck early. However, it is still particularly noteworthy that the polishing algorithm does not always work fine. In fact, it could in some scenarios even worsen the solution searching without any benefit. It inherently is a time-intensive and more aggressive refinement procedure that exploits and focuses on the neighbor nodes of the incumbent. Hence, when to activate the polishing is critical when tuning sophisticated problems. 
+- Set the solver option <b>MIP starting value</b> to <u>set discrete variable values and use check feasibility mipstart level</u>:<br>
+  `cpx.parameters.mip.start.set(2)`<br>
+  This option controls the use of advanced starting values for mixed integer programs. A setting of 2 indicates that the values should be checked to see if they provide an integer feasible solution before starting optimization. Setting like this would help facilitate the initial "feasibilization" and hence expedite the imcubent searching.
+- Set the solver option <b>symmetry breaking cuts</b> to <u>moderate level of symmetry breaking</u>:<br>
+  `cpx.parameters.mip.strategy.symmetry.set(1)`<br>
+  [Symmetry](https://en.wikipedia.org/wiki/Symmetry-breaking_constraints) in an optimization problem refers to cases where multiple equivalent solutions exist due to the interchangeable nature of variables, constraints, or other problem structures. A symmetry-breaking cut is a set of additional constraints to eliminate symmetric solutions without removing any feasible or optimal solutions, which could greatly reduce the searching effort.
+  
+#### Does the solver struggles with reducing the gap at the final stage?
+
+More often, in solving problems like UC, the solver spends hours reducing the gap from 5% to 1%, for example. This is because the solver does a bad job with fine-tuning the solution, often due to the diminishing returns of exploring the solution space as it approaches optimality. This issue is de facto one of the most common bottlenecks for large-scale MIP applications, not just UC, because of the <span class="dashed-popover" data-toggle="popover" data-placement="top" title="Weak LP relaxation; Diminishing marginal returns; Exponentional search space">natures of branch-and-cut</span>. It is also arguably the most difficult problems in tuning the solver. One might want to try with the following options:
+
+- Set the solver option <b>relative MIP gap before starting to polish a solution</b> to <u>some low percentage value</u>:<br>
+  `cpx.parameters.mip.tolerances.mipgappolish.set(0.1)`<br>
+  If the solver could easily reduce the gap at the beginning, there is no need to activate polishing at the early stage. Sometimes it could be very effective in tightening the bounds later because of its strong neighbor refinement capability.
+- Set the solver option <b>node selection strategy</b> to <u>choose the most recently created node</u>:<br>
+  `cpx.parameters.mip.strategy.nodeselect.set(0)`<br>
+  The default option for this one is choosing the unprocessed node with the best objective function for the associated LP relaxation. By setting it 0 commands the solver to choose the most recently created node, with the same reason of employing polishing.
+  
+### Some Possible Silver Bullets
+
+Sometimes the following options are elixirs that setting them correctly could work like magic, especially for <span class="dashed-popover" data-toggle="popover" data-placement="top" title="Problems with large differences in coefficient magnitudes and setting scaling is insufficient to work">ill-conditioned</span> MIP problems. 
+
+- Set the solver option <b>numerical emphasis</b> to <u>exercise extreme caution in computation</u>:<br>
+  `cpx.parameters.emphasis.numerical.set(1)`<br>
+  Setting this commands the solver to focus on avoiding numerical issues, which may involve slower but more robust calculations, with consequent performance trade-offs in time and memory. By sacrificing the solution effort in handling nodal relaxation problems, the solver could achieve an overall better solution time for problems highly sensitive to numerical stability.
+- Set the solver option <b>Markowitz tolerance</b> to <u>some tuned values</u>:<br>
+  `cpx.parameters.simplex.tolerances.markowitz.set(0.0001)`<br>
+  This is a very interesting solver option. [Markowitz tolerance](https://support.gurobi.com/hc/en-us/articles/14785877856145-What-does-the-Markowitz-tolerance-do) is a used as a criterion to decide which pivot elements are acceptable for simplex algorithm that controls the numerical stability during the factorization of the basis matrices. It also impacts the MIP problem due to the intensive procedure of solving LP relaxations. For ill-conditioned MIP problems, tuning this value could sometimes be very effective. Though the default value of this one is 0.01, decreasing it could help when one observes frequent infeasible incumbent or slow convergency, while increasing it could save the day if one encounters out-of-memory in solving LP relaxations.
+
+### One More Thing
+
+There are still a huge bunch of solver options out there for solvers like CPLEX that this guide doesn' touch. But I believe we have covered the most impactful ones. There are also some built-in tuning tools of these solvers, like [CPLEX automatic tuning tool](https://www.ibm.com/support/pages/cplex-performance-tuning-mixed-integer-programs#Item2), [Gurobi parameter tuning tool](https://docs.gurobi.com/projects/optimizer/en/current/features/tuning.html), and [FICO-Xpress optimizer built-in tuner](https://www.fico.com/fico-xpress-optimization/docs/dms2018-04/evalguide2/dhtml/eg2sec1_sec_eg2ssec12.html). Personally speaking, I don't usually find these tools useful, since they would yield very specific and ingeneral solver options that works specifically for the one instance you test. They are highly empirical. But at least you could give them a try when you are hopeless.
+
+Hope these recommendations give you a good start on tuning the solver!
