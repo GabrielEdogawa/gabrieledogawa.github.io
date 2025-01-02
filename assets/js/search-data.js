@@ -70,36 +70,41 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-solver-tuning-for-cplex",
-          title: 'Solver tuning for CPLEX',
-          description: "Beginner&#39;s guide on how to effectively make your optimization solver a pro",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-midas-scheduling",
-          title: 'MIDAS-Scheduling',
-          description: "Open-source codebase for scheduling in Python",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-unit-startup-shutdown-prediction",
-          title: 'Unit Startup/Shutdown Prediction',
-          description: "Use ML/DL for generation apparatus modeling",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-electric-gas-heat-coordination",
-          title: 'Electric-Gas-Heat Coordination',
-          description: "Energy hub scheduling with multiple energy networks",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-chuqi-photography",
+          section: "News",},{id: "projects-chuqi-photography",
           title: 'Chuqi Photography',
           description: "Some stupid but funny photos for my beloved cat, Chuqi",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
+              window.location.href = "/projects/chuqi_photography/";
             },},{id: "projects-cuisine-recipes",
           title: 'Cuisine Recipes',
           description: "Self-scribed secret recipes for both authentic Chinese and Western cuisines",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
+              window.location.href = "/cuisine_recipes";
+            },},{id: "projects-cuisine-recipes",
+          title: 'Cuisine Recipes',
+          description: "Self-scribed secret recipes for both authentic Chinese and Western cuisines",
+          section: "Projects",handler: () => {
+              window.location.href = "/cuisine_recipes_zh";
+            },},{id: "projects-electric-gas-heat-coordination",
+          title: 'Electric-Gas-Heat Coordination',
+          description: "Energy hub scheduling with multiple energy networks",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/electric_gas_heat_coordination/";
+            },},{id: "projects-midas-scheduling",
+          title: 'MIDAS-Scheduling',
+          description: "Open-source codebase for scheduling in Python",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/midas_scheduling/";
+            },},{id: "projects-solver-tuning-for-beginners",
+          title: 'Solver Tuning for Beginners',
+          description: "Beginner&#39;s guide on how to effectively make your optimization solver a pro",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/solver_tuning_for_beginners/";
+            },},{id: "projects-unit-startup-shutdown-prediction",
+          title: 'Unit Startup/Shutdown Prediction',
+          description: "Use ML/DL for generation apparatus modeling",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/unit_startup_shutdown_prediction/";
             },},{
         id: 'social-scholar',
         title: 'Google Scholar',
