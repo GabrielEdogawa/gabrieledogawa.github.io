@@ -18,7 +18,7 @@ social: false # includes social icons at the bottom of the page
 - <b>Senior Software Engineer - Lead Professional</b> at [GE Vernova, Inc](https://www.gevernova.com/software/products/gridos/energy-markets-software). 
 - Past Senior Optimization Engineer at [Ascend Analytics, LLC](https://www.ascendanalytics.com/) in 2022-2024. 
 - Past Postdoc at the [Lawrence Berkeley Lab](https://emp.lbl.gov/) in 2021-2022.
-- Past Researcher of the R&D Department at [Midcontinent Independent System Operator, Inc.](https://www.misoenergy.org/) in 2020-2021. 
+- Past Researcher at [Midcontinent Independent System Operator, Inc.](https://www.misoenergy.org/) in 2020-2021. 
 - Past Research Intern at PSEC of [National Renewable Energy Laboratory](https://www.nrel.gov/grid/) in 2019.
 
 I received the Ph.D. degree from <b>Southern Methodist University</b>, *Dallas*, *TX*, in 2021, the M.S. degree from <b>Illinois Institute of Technology</b>, *Chicago*, *IL*, in 2017, and the B. Eng. degree from <b>Hunan University</b>, *Changsha*, *China*, in 2016, all majoring in Electrical Engineering. My Ph.D. advisor is [Prof. Jianhui Wang, IEEE Fellow](https://sites.google.com/site/eejhwang/). My Master advisor is [Prof. Zuyi Li, IEEE Fellow](https://www.iit.edu/directory/people/zuyi-li).
