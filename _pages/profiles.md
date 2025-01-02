@@ -1,6 +1,6 @@
 ---
 layout: profiles
-permalink: /people/
+permalink: /family/
 title: Family
 description: $${\Large \textit{Love always protects, always trusts, always hopes, always perseveres.}}$$
 nav: true
