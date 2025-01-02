@@ -5,5 +5,5 @@ description: Beginner's guide on how to effectively make your optimization solve
 img: assets/img/cplex/cplex_logo.jpg
 importance: 2
 category: Work
-redirect: /solver
+redirect: /work_life/solver
 ---

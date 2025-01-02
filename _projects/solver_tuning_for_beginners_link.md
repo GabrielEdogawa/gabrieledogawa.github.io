@@ -1,7 +1,7 @@
 ---
 layout: distill
 title: Solver Tuning for Beginners
-permalink: /solver
+permalink: /work_life/solver
 description: Beginner's guide on how to effectively make your optimization solver a pro
 tags: solver tuning
 giscus_comments: true
@@ -128,4 +128,4 @@ Sometimes the following options are elixirs that setting them correctly could wo
 
 There are still a huge bunch of solver options out there for solvers like CPLEX that this guide doesn't touch. But I believe we have covered the most impactful ones. There are also some built-in tuning tools of these solvers, like [CPLEX automatic tuning tool](https://www.ibm.com/support/pages/cplex-performance-tuning-mixed-integer-programs#Item2), [Gurobi parameter tuning tool](https://docs.gurobi.com/projects/optimizer/en/current/features/tuning.html), and [FICO-Xpress tuner](https://www.fico.com/fico-xpress-optimization/docs/dms2018-04/evalguide2/dhtml/eg2sec1_sec_eg2ssec12.html). Personally speaking, I don't usually find these tools useful, since they would yield very specific and non-generalizable solver options that works particularly for the one instance you test. They are also frustratingly empirical. 
 
-Hope these recommendations give you a good start on tuning the solver. Have fun 👻
+Hope these recommendations give you a good start on tuning the solver. Leave me a comment below if you have any questions! Have fun 👻
