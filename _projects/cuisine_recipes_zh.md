@@ -11,7 +11,6 @@ category: Hidden
   <a href="cuisine_recipes" class="fancy-button">English</a>
 </div>
 <br>
-<br>
 ### 葡式蛋挞
 
 ### 西班牙海鲜烩饭

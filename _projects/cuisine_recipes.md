@@ -11,7 +11,6 @@ category: Life
   <a href="cuisine_recipes_zh" class="fancy-button">中文</a>
 </div>
 <br>
-<br>
 ### Pastéis de Nata
 
 ### Paella
