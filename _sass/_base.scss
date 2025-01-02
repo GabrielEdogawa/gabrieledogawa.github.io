@@ -1373,37 +1373,10 @@ ninja-keys::part(ninja-input-wrapper) {
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
 }
 
-/* Tooltip container */
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-}
-
-.tooltip:after {
-  content: "kkk";
-  position: absolute;
-  top: -30px;
-  right: 0;
-  left: 0;
-  display: none;
-  text-align: center;
-  background-color: #000;
-  color: #fff;
-  border-radius: 4px;
-  padding: 2px;
-}
-.tooltip:hover:after {
-  display: block;
-}
-
-[data-tooltip]:hover::after {
-  display: block;
-  position: absolute;
-  content: attr(data-tooltip);
-  border: 1px solid black;
-  background: #eee;
-  padding: .25em;
+.dashed-popover {
+  text-decoration: none; /* Remove default text decoration */
+  border-bottom: 1px dashed #000; /* Add a dashed line */
+  cursor: pointer; /* Change cursor to pointer for interactivity */
 }
 
 .google-scholar {

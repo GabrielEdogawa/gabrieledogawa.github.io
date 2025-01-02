@@ -7,7 +7,7 @@ importance: 2
 category: Work
 ---
 
-[IBM ILOG CPLEX](https://www.ibm.com/products/ilog-cplex-optimization-studio) is one of the most powerful commercial solvers in the world widely used in industry and academia. However, as we all know, <span data-toggle="popover" data-placement="top" title="This is the popover content.">Hover over this text</span> MIP problems could be extremely hard to solve especially when the problem size goes wild or the problem falls into some specific structures like near-singular constraint space. In these cases, using particular solver options (often referred as <b>solver tuning</b>) could yield surprisingly efficient solution processes. This project offers a fundamental guidance for beginners facing excessively long solution times in CPLEX. The tuning procedures are also applicable to other solvers, such as FICO-Xpress and Gurobi, as they typically share similar solver options. (arguably Gurobi might have the best performance, but still case dependent).
+[IBM ILOG CPLEX](https://www.ibm.com/products/ilog-cplex-optimization-studio) is one of the most powerful commercial solvers in the world widely used in industry and academia. However, as we all know, <span class="dashed-popover" data-toggle="popover" data-placement="top" title="This is the popover content.">Hover over this text</span> MIP problems could be extremely hard to solve especially when the problem size goes wild or the problem falls into some specific structures like near-singular constraint space. In these cases, using particular solver options (often referred as <b>solver tuning</b>) could yield surprisingly efficient solution processes. This project offers a fundamental guidance for beginners facing excessively long solution times in CPLEX. The tuning procedures are also applicable to other solvers, such as FICO-Xpress and Gurobi, as they typically share similar solver options. (arguably Gurobi might have the best performance, but still case dependent).
 
 ### Preface
 
@@ -41,6 +41,10 @@ This is arguably the most common issue we would face when solving large-scale UC
 
 - Set the solver option <b>Node Presolve Selector</b> to <u>Aggressive Node Probing</u>:<br>
   `cpx.parameters.mip.strategy.presolvenode(3)`<br>
-  This parameter determines the level of presolve performed at the node level during the branch solution search.
+  Setting this commands the solver to perform the maximally aggressive level of presolve performed at the node level during the branch solution search.
   
-  In fact, 
+  In fact, when finding the solver gets stuck in presolve, the best practice should be to sit back and inspect the model again, trying to prune unnecessary constraints and variables manually.
+  
+#### Does the solver struggles in reducing the gap at the initial stage?
+
+Somestimes the solver could have difficulty quickly improving the objective value or finding good-quality feasible solutions early in the process. Usually, the presolve could significantly improve the early-stage solution hunting, but for large-scale problems it could be way insufficent for solver to crack the nutshell at the beginning due to symmetry model structure, weak relaxation, and large coonstraint space. This issue could also be detrimental to solution time even rendering the solver time-out.
