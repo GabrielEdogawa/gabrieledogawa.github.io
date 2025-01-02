@@ -79,7 +79,7 @@ ninja.data = [{
           title: 'Cuisine Recipes',
           description: "Self-scribed secret recipes for both authentic Chinese and Western cuisines",
           section: "Projects",handler: () => {
-              window.location.href = "/cuisine_recipes";
+              window.location.href = "/work_life/cuisine_recipes/";
             },},{id: "projects-cuisine-recipes",
           title: 'Cuisine Recipes',
           description: "Self-scribed secret recipes for both authentic Chinese and Western cuisines",
@@ -89,22 +89,22 @@ ninja.data = [{
           title: 'Electric-Gas-Heat Coordination',
           description: "Energy hub scheduling with multiple energy networks",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/electric_gas_heat_coordination/";
+              window.location.href = "/work_life/electric_gas_heat_coordination/";
             },},{id: "projects-midas-scheduling",
           title: 'MIDAS-Scheduling',
           description: "Open-source codebase for scheduling in Python",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/midas_scheduling/";
+              window.location.href = "/work_life/midas_scheduling/";
             },},{id: "projects-solver-tuning-for-beginners",
           title: 'Solver Tuning for Beginners',
           description: "Beginner&#39;s guide on how to effectively make your optimization solver a pro",
           section: "Projects",handler: () => {
-              window.location.href = "/work_life/solver";
+              window.location.href = "/work_life/solver/";
             },},{id: "projects-unit-startup-shutdown-prediction",
           title: 'Unit Startup/Shutdown Prediction',
           description: "Use ML/DL for generation apparatus modeling",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/unit_startup_shutdown_prediction/";
+              window.location.href = "/work_life/startup_shutdown_prediction/";
             },},{
         id: 'social-scholar',
         title: 'Google Scholar',
