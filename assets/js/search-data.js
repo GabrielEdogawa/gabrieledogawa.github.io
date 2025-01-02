@@ -35,7 +35,7 @@ ninja.data = [{
           description: "$${\Large \textit{Love always protects, always trusts, always hopes, always perseveres.}}$$",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/people/";
+            window.location.href = "/family/";
           },
         },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
       
