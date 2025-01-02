@@ -3,7 +3,7 @@
   contents:
     - category: Programming
       items:
-        - name: <b>Python (PyTorch/TensorFlow/Numpy/Pandas)</b>
+        - name: <span class="dashed-popover" data-toggle="popover" data-placement="top" title="PyTorch/TensorFlow/Gym/Numpy/Pandas/Matplotlib/Pyomo/Scikit-Learn"><b>Python</b></span>
         - name: <b>CPLEX/Gurobi/FICO-Xpress and APIs</b>
         - name: Julia/JuMP
         - name: GAMS/AMPL
@@ -23,9 +23,9 @@
         - name: Enterprise Architect
     - category: Domain Knowledge
       items:
-        - name: <b>Deep Learning</b>
-        - name: <b>Stochastic Optimization</b>
-        - name: <b>U.S. Electricity Market Operations</b>
+        - name: <span class="dashed-popover" data-toggle="popover" data-placement="top" title="LP/MIP/SOCP/SDP + Stochastic Programming/Robust Optimization/Reinforcement Learning"><b>Optimization Theories and Applications</b></span>
+        - name: <span class="dashed-popover" data-toggle="popover" data-placement="top" title="GBT/RF/SVM/LR + CNN/LSTM/VAE/UNet/Transformer"><b>Machine Learning and Deep Learning</b></span>
+        - name: <span class="dashed-popover" data-toggle="popover" data-placement="top" title="Unit Commitment/Economic Dispatch/Capacity Planning/Settlement Procedure/Market Power Exercise"><b>U.S. Electricity Market Operations</b></span>
         - name: <b>Transmission/Distribution System Operation</b>
         - name: <b>Battery Bidding Strategies</b>
     - category: Language
@@ -112,7 +112,7 @@
       year: 2019.05 - 2021.09
       items:
         - <u>Funded by DOE ARPA-E ($4.35M)</u>
-        - In this project, I focused on developing a new stochastic power flow model and solution techniques. I worked on tailoring the large-scale distributed ADMM algorithm and deployed it in the stochastic optimal power flow model with practical market operations. The multi-thread processing was utilized when solving independent stochastic subproblems.
+        - In this project, I focused on developing a new stochastic power flow model and solution techniques. I worked on tailoring the large-scale distributed <span class="dashed-popover" data-toggle="popover" data-placement="top" title="Alternating Direction Method of Multipliers">ADMM</span> algorithm and deployed it in the stochastic optimal power flow model with practical market operations. The multi-thread processing was utilized when solving independent stochastic subproblems.
         - I generated stochastic scenario trees based on historical wind and solar data by applying the K-means clustering.
         - <a href="https://www.osti.gov/servlets/purl/1990021">Final Tech Report</a>
     - title: Multi-timescale Integrated Dynamic And Scheduling (MIDAS)
@@ -133,7 +133,7 @@
       year: 2018.01 - 2019.10
       items:
         - <u>Funded by DOE NEPA ($400K)</u>
-        - I designed a multi-stage and multi-timescale capacity expansion planning framework considering plant contingencies and renewable uncertainties. I formulated the problem as a hybrid stochastic and robust MILP program with discrete and continuous uncertainties.
+        - I designed a multi-stage and multi-timescale capacity expansion planning framework considering plant contingencies and renewable uncertainties. I formulated the problem as a hybrid stochastic and robust <span class="dashed-popover" data-toggle="popover" data-placement="top" title="Mixed-Integer Linear Programming">MILP</span> program with discrete and continuous uncertainties.
         - I devised a Benders-embedded Column-and-Constraint Generation algorithm to facilitate the solution. Extensive economic assessments were carried out to evaluate long-term renewable paybacks.
         - <a href="https://www.osti.gov/servlets/purl/1868949">Final Tech Report</a>, <a href="https://www.energy.gov/sites/prod/files/2017/07/f35/3.%20Wu%20Clarkson.pdf">Presentation</a>.
         
