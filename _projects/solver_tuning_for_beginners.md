@@ -1,7 +1,7 @@
 ---
 layout: distill
 title: Solver Tuning for Beginners
-permalink: /work_life/solver
+permalink: /work_life/solver/
 description: Beginner's guide on how to effectively make your optimization solver a pro
 tags: solver tuning
 giscus_comments: true

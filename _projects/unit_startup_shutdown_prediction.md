@@ -2,6 +2,7 @@
 layout: page
 title: Unit Startup/Shutdown Prediction
 description: Use ML/DL for generation apparatus modeling
+permalink: /work_life/startup_shutdown_prediction/
 img: assets/img/susd_pic.jpg
 importance: 4
 category: Work

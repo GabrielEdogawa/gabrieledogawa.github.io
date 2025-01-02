@@ -1,7 +1,7 @@
 ---
 layout: profiles
 title: Cuisine Recipes
-permalink: /cuisine_recipes
+permalink: /work_life/cuisine_recipes/
 description: Self-scribed secret recipes for both authentic Chinese and Western cuisines
 img: assets/img/cooking/cooking_title.jpg
 importance: 2

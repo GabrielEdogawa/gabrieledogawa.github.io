@@ -1,6 +1,7 @@
 ---
 layout: page
 title: MIDAS-Scheduling
+permalink: /work_life/midas_scheduling/
 description: Open-source codebase for scheduling in Python
 img: assets/img/midas_pic.jpg
 importance: 3

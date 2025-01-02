@@ -2,6 +2,7 @@
 layout: page
 title: Electric-Gas-Heat Coordination
 description: Energy hub scheduling with multiple energy networks
+permalink: /work_life/electric_gas_heat_coordination/
 img: assets/img/geirina/title.png
 importance: 5
 category: Work
