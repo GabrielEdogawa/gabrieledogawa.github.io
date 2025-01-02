@@ -104,7 +104,7 @@ ninja.data = [{
           title: 'Solver Tuning for Beginners',
           description: "Beginner&#39;s guide on how to effectively make your optimization solver a pro",
           section: "Projects",handler: () => {
-              window.location.href = "/solver";
+              window.location.href = "/work_life/solver";
             },},{id: "projects-solver-tuning-for-beginners",
           title: 'Solver Tuning for Beginners',
           description: "Beginner&#39;s guide on how to effectively make your optimization solver a pro",
