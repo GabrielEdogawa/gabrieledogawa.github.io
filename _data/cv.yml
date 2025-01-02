@@ -3,8 +3,8 @@
   contents:
     - category: Programming
       items:
-        - name: <span class="dashed-popover" data-toggle="popover" data-placement="top" title="PyTorch/TensorFlow/Gym/Numpy/Pandas/Matplotlib/Pyomo/Scikit-Learn"><b>Python</b></span>
-        - name: <b>CPLEX/Gurobi/FICO-Xpress and APIs</b>
+        - name: '<span class="dashed-popover" data-toggle="popover" data-placement="top" title="PyTorch/TensorFlow/Gym/Numpy/Pandas/Matplotlib/Pyomo/Scikit-Learn"><b>Python</b></span>'
+        - name: '<b>CPLEX/Gurobi/FICO-Xpress and APIs</b>'
         - name: Julia/JuMP
         - name: GAMS/AMPL
         - name: Java
@@ -23,9 +23,9 @@
         - name: Enterprise Architect
     - category: Domain Knowledge
       items:
-        - name: <span class="dashed-popover" data-toggle="popover" data-placement="top" title="LP/MIP/SOCP/SDP + Stochastic Programming/Robust Optimization/Reinforcement Learning"><b>Optimization Theories and Applications</b></span>
-        - name: <span class="dashed-popover" data-toggle="popover" data-placement="top" title="GBT/RF/SVM/LR + CNN/LSTM/VAE/UNet/Transformer"><b>Machine Learning and Deep Learning</b></span>
-        - name: <span class="dashed-popover" data-toggle="popover" data-placement="top" title="Unit Commitment/Economic Dispatch/Capacity Planning/Settlement Procedure/Market Power Exercise"><b>U.S. Electricity Market Operations</b></span>
+        - name: '<span class="dashed-popover" data-toggle="popover" data-placement="top" title="LP/MIP/SOCP/SDP + Stochastic Programming/Robust Optimization/Reinforcement Learning"><b>Optimization Theories and Applications</b></span>'
+        - name: '<span class="dashed-popover" data-toggle="popover" data-placement="top" title="GBT/RF/SVM/LR + CNN/LSTM/VAE/UNet/Transformer"><b>Machine Learning and Deep Learning</b></span>'
+        - name: '<span class="dashed-popover" data-toggle="popover" data-placement="top" title="Unit Commitment/Economic Dispatch/Capacity Planning/Settlement Procedure/Market Power Exercise"><b>U.S. Electricity Market Operations</b></span>'
         - name: <b>Transmission/Distribution System Operation</b>
         - name: <b>Battery Bidding Strategies</b>
     - category: Language
