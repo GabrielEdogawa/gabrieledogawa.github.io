@@ -10,6 +10,17 @@ category: Life
 <div class="button-row">
   <a href="cuisine_recipes_zh" class="fancy-button">中文</a>
 </div>
+<br>
+<br>
+### Pastéis de Nata
 
-## Pastéis de Nata
+### Paella
+
+### Handpulled Shrimp Paste
+
+### Chongqing Chicken Pot
+
+### Convenient Fried Cup Noodle
+
+### Malatang (Numbing and Spicy Pot)
 

@@ -8,8 +8,19 @@ importance: 2
 category: Hidden
 ---
 <div class="button-row">
-  <a href="cuisine_recipes_" class="fancy-button">English</a>
+  <a href="cuisine_recipes" class="fancy-button">English</a>
 </div>
+<br>
+<br>
+### 葡式蛋挞
 
-## 葡式蛋挞
+### 西班牙海鲜烩饭
+
+### 手打虾滑
+
+### 重庆鸡公煲
+
+### 速拌辛拉面
+
+### 麻辣烫
 

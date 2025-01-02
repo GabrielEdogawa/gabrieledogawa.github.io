@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Work & Life
-permalink: /projects/
+permalink: /work_life/
 description: Work hard, play harder 🤓
 nav: true
 nav_order: 2
-display_categories: [Life, Work]
+display_categories: [Work, Life]
 horizontal: false
 ---
 
