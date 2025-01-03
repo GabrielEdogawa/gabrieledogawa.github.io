@@ -19,10 +19,10 @@
     - Red pepper <b>half</b><br>
     - Garlic <b>half</b><br>
     - Tomato <b>half</b><br>
-    - Saffron threads <b>$\frac{1}{2}$ tsp</b><br>
+    - Saffron threads <b>&frac12; tsp</b><br>
     - Chicken broth <b>300 g</b><br>
     - Spanish wine <b>200 mL</b><br>
-    - Salt <b>$\frac{1}{2}$ tsp</b><br>
+    - Salt <b>&frac12; tsp</b><br>
     - Extra virgin olive oil <b>2 tsp</b><br>
     - <span class="dashed-popover" data-toggle="popover" data-placement="top" title="Calaspara rice preferred. However, premium-level Thai jasmine rice or sushi rice is also delicious with a unique flavor"><b>White rice</b></span> <b>350 g</b>
     </td>
