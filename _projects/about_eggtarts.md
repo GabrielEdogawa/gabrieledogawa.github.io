@@ -10,7 +10,7 @@
 <tbody>
   <tr>
     <td style="text-align: left; vertical-align: top;">
-    - Egg <span class="dashed-popover" data-toggle="popover" data-placement="top" title="The weights above have to be precise!"><b>83 g</b></span><br>(one and half large eggs)</td><br>
+    - Egg <span class="dashed-popover" data-toggle="popover" data-placement="top" title="The weights above have to be precise!"><b>83 g</b></span> (one and half large eggs)<br>
     - White sugar <b>60 g</b><br>
     - Whipping cream <b>236 ml (8 oz)</b><br>
     - Milk <b>81g</b><br>
@@ -28,4 +28,3 @@
 </tbody>
 </table>
 <br>
-Enjoy!
