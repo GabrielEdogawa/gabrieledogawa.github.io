@@ -3,8 +3,8 @@
 <table style="width: 66%; margin: 0 auto; border-collapse: collapse; text-align: left;">
 <thead>
   <tr>
-    <th text-align: left; vertical-align: top; style="width: 40%;">Ingredients</th>
-    <th text-align: left; vertical-align: top; tyle="width: 60%;">Workflow</th>
+    <th style="width: 40%;">Ingredients</th>
+    <th style="width: 60%;">Workflow</th>
   </tr>
 </thead>
 <tbody>

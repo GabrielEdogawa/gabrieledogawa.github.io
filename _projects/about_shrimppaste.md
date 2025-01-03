@@ -1,1 +1,1 @@
-### Handpulled Shrimp Paste
+### Hand-pounded Shrimp Paste
