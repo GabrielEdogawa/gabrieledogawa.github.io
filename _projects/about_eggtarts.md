@@ -1,6 +1,6 @@
 ### Pastéis de Nata
 
-<table style="width: 65%; border-collapse: collapse; text-align: left;">
+<table style="width: 70%; border-collapse: collapse; text-align: left;">
 <thead>
   <tr>
     <th>Ingredients</th>
@@ -9,7 +9,7 @@
 </thead>
 <tbody>
   <tr>
-    <td>- Egg <b>83 g</b> (one and half large eggs)</td>
+    <td>- Egg <b>83 g</b> <br>(one and half large eggs)</td>
     <td><u>Step 1.</u> Mix a small portion of milk with sugar and Bain-marie heating till sugar melts.</td>
   </tr>
   <tr>
