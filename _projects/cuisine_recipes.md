@@ -13,7 +13,7 @@ profiles:
     content: about_eggtarts.md
     image_circular: false # crops the image to make it circular
     more_info: >
-  - align: left
+  - align: right
     image: cooking/paella.jpg
     content: about_paella.md
     image_circular: false # crops the image to make it circular
