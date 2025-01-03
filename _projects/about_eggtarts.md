@@ -1,6 +1,6 @@
 ### Pastéis de Nata
 
-<table style="width: 70%; border-collapse: collapse; text-align: left;">
+<table style="width: 66%; border-collapse: collapse; text-align: left;">
 <thead>
   <tr>
     <th>Ingredients</th>
@@ -22,14 +22,14 @@
   </tr>
   <tr>
     <td>- Milk <b>81g</b></td>
-    <td><u>Step 4.</u> Use spoon to add the mixture into each tart shell.</td>
+    <td><u>Step 4.</u> Use a spoon to add the mixture into each tart shell.</td>
   </tr>
   <tr>
     <td>- Frozen tart shells</td>
     <td><u>Step 5.</u> Pre-heat the oven to 450 °F.</td>
   </tr>
   <tr>
-    <td>Note: The weight has to be precise!</td>
+    <td><span class="dashed-popover" data-toggle="popover" data-placement="top" title="The weights above have to be precise!"><b>REMINDER</b></span></td>
     <td><u>Step 6.</u> Bake for 10 minutes, then rotate 180° and bake for another 10 minutes.</td>
   </tr>
 </tbody>
