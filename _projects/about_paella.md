@@ -1,10 +1,10 @@
 ### Paella
 
-<table style="width: 66%; border-collapse: collapse; text-align: left;">
+<table style="width: 66%; margin: 0 auto; border-collapse: collapse; text-align: left;">
 <thead>
   <tr>
-    <th>Ingredients</th>
-    <th>Workflow</th>
+    <th style="width: 40%;">Ingredients</th>
+    <th style="width: 60%;">Workflow</th>
   </tr>
 </thead>
 <tbody>
@@ -28,13 +28,13 @@
     </td>
     <td>
     <u>Step 1.</u> Add salt and saffron threads inside a boiling pot.<br>
-    <u>Step 2.</u> Add chicken broth, then switch high fire till water boils for 5 min, switch off.
-    <u>Step 3.</u> Add olive oil inside a large frying pan over medium heat.
-    <u>Step 4.</u> Add fine-chopped onions and red peppers. Sauté until onion is translucent. Add fine-chopped garlic.
-    <u>Step 5.</u> Add peeled tomatoes and rice, stir nicely for 2 min. Then add the sweet peas.
-    <u>Step 6.</u> Add Spanish wine. Stir for 2 min or till the alchohol evaporates.
-    <u>Step 7.</u> Switch to low heat. Add the prepared chicken broth in Step 2 to the pan in five separate portions. <span class="dashed-popover" data-toggle="popover" data-placement="top" title="Prevent the rice from sticking to the bottom of the pan"> Stir diligently</span> each portion until no visible liquid remains before adding the next portion.
-    <u>Step 8.</u> After adding the fifth portion, stop stirring. Add the white shrimps, mussels, scallops, and squids, spreading it evenly over the rice. 
+    <u>Step 2.</u> Add chicken broth, then switch high fire till water boils for 5 min, switch off.<br>
+    <u>Step 3.</u> Add olive oil inside a large frying pan over medium heat.<br>
+    <u>Step 4.</u> Add fine-chopped onions and red peppers. Sauté until onion is translucent. Add fine-chopped garlic.<br>
+    <u>Step 5.</u> Add peeled tomatoes and rice, stir nicely for 2 min. Then add the sweet peas.<br>
+    <u>Step 6.</u> Add Spanish wine. Stir for 2 min or till the alchohol evaporates.<br>
+    <u>Step 7.</u> Switch to low heat. Add the prepared chicken broth in Step 2 to the pan in five separate portions. <span class="dashed-popover" data-toggle="popover" data-placement="top" title="Prevent the rice from sticking to the bottom of the pan"> Stir diligently</span> each portion until no visible liquid remains before adding the next portion.<br>
+    <u>Step 8.</u> After adding the fifth portion, stop stirring. Add the white shrimps, mussels, scallops, and squids, spreading it evenly over the rice.<br>
     <u>Step 9.</u> Cover with a lid and let it cook for 3 minutes.
     </td>
   </tr>

@@ -1,10 +1,10 @@
 ### Pastéis de Nata
 
-<table style="width: 66%; border-collapse: collapse; text-align: left;">
+<table style="width: 66%; margin: 0 auto; border-collapse: collapse; text-align: left;">
 <thead>
   <tr>
-    <th>Ingredients</th>
-    <th>Workflow</th>
+    <th style="width: 40%;">Ingredients</th>
+    <th style="width: 60%;">Workflow</th>
   </tr>
 </thead>
 <tbody>
