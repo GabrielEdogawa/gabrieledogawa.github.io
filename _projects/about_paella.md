@@ -3,13 +3,13 @@
 <table style="width: 66%; margin: 0 auto; border-collapse: collapse; text-align: left;">
 <thead>
   <tr>
-    <th style="width: 40%;">Ingredients</th>
-    <th style="width: 60%;">Workflow</th>
+    <th text-align: left; vertical-align: top; style="width: 40%;">Ingredients</th>
+    <th text-align: left; vertical-align: top; style="width: 60%;">Workflow</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>
+    <td style="text-align: left; vertical-align: top;">
     - White shrimp <b>12 pcs</b><br>
     - Mussels <b>12 pcs</b><br>
     - Scallops <b>10 pcs</b><br>
@@ -26,7 +26,7 @@
     - Extra virgin olive oil <b>2 tsp</b><br>
     - <span class="dashed-popover" data-toggle="popover" data-placement="top" title="Calaspara rice preferred. However, premium-level Thai jasmine rice or sushi rice is also delicious with a unique flavor"><b>White rice</b></span> <b>350 g</b>
     </td>
-    <td>
+    <td style="text-align: left; vertical-align: top;">
     <u>Step 1.</u> Add salt and saffron threads inside a boiling pot.<br>
     <u>Step 2.</u> Add chicken broth, then switch high fire till water boils for 5 min, switch off.<br>
     <u>Step 3.</u> Add olive oil inside a large frying pan over medium heat.<br>
