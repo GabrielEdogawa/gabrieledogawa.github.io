@@ -140,25 +140,27 @@
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Electrical Engineering
+    - title: Ph.D.
       institution: <a href="https://www.smu.edu/lyle/departments/ece">Southern Methodist University (SMU)</a>
       location: Dallas, USA
       year: 2018 - 2021
       description:
-        - Specializing in <u>Energy System Optimization</u>.
+        - Major in <u>Electrical Engineering</u>, specializing in <u>Energy System Optimization</u>.
         - Advised by <a href="https://sites.google.com/site/eejhwang/">Prof. Jianhui Wang, IEEE Fellow</a>.
         - <a href="https://scholar.smu.edu/engineering_electrical_etds/44/">Dissertation</a>
-    - title: M.Sc. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Electrical Engineering
+    - title: M.Sc.
       institution: <a href="https://www.iit.edu/ece">Illinois Institute of Technology (IIT)</a>
       location: Chicago, USA
       year: 2017 - 2018
       description:
-        - Specializing in <u>Energy Economics</u>.
+        - Major in <u>Electrical Engineering</u>, specializing in <u>Energy Economics</u>.
         - Advised by <a href="https://www.iit.edu/directory/people/zuyi-li">Prof. Zuyi Li, IEEE Fellow</a>.
-    - title: B.Eng. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Electrical Engineering and Authomation
+    - title: B.Eng.
       institution: <a href="https://www-en.hnu.edu.cn/">Hunan University (HNU)</a>
       location: Changsha, PRC
       year: 2012 - 2016
+      description:
+        - Major in <u>Electrical Engineering and Authomation</u>
     - title: High School Diploma
       institution: <a href="https://www.changjun.com.cn/">Changjun High School</a>
       location: Changsha, PRC
