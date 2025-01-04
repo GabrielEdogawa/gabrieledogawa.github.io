@@ -40,7 +40,7 @@
 - title: Work Experience
   type: time_table
   contents:
-    - title: Senior Software Engineer - Lead Professional
+    - title: <b>Senior Software Engineer - Lead Professional</b>
       department: <a href="https://www.gevernova.com/software/products/gridos/energy-markets-software">GE Vernova, Inc.</a>
       year: 2024.06 - Present
       description:
@@ -53,7 +53,7 @@
             - Upgrade and optimize the workflow and automatic <b>Jenkins Cucumber Test</b> pipelines between operation codebase, customers, and database.
             - Communicate with clients and lead a seasoned team with technical know-how.
             
-    - title: Senior Optimization Engineer
+    - title: <b>Senior Optimization Engineer</b>
       department: <a href="https://www.ascendanalytics.com/">Ascend Analytics, LLC</a>
       year: 2022.03 - 2024.06
       description:
@@ -66,7 +66,7 @@
             - Upgrade and optimize the workflow and automatic <b>pytest</b> unit test pipelines between operation code and database, accelerating pre-/post-processing within the solution procedure.
             - Develop new features in optimization models to satisfy clients' needs, involving tens of unit modules such as battery storage, hydro operation, multi-energy networks, etc.
 
-    - title: Postdoctoral Research Associate
+    - title: <b>Postdoctoral Research Associate</b>
       department: <a href="https://emp.lbl.gov/">Lawrence Berkeley National Laboratory (LBNL)</a>
       year: 2021.09 - 2022.03
       description:
@@ -79,7 +79,7 @@
             - Draft grant proposals for US DOE and California funding agencies, including the California multi-objective power-eco optimization and 2050 carbon neutrality projects.
             - Mentor interns and visiting Ph.D., host research calls, and manage academic seminars.
             
-    - title: Research and Development Fellow (Co-op)
+    - title: <b>Research and Development Fellow (Co-op)</b>
       department: <a href="https://www.misoenergy.org/">Midcontinent Independent System Operator (MISO)</a>
       year: 2020.05 - 2021.06
       description:
@@ -92,7 +92,7 @@
             - Deploy the improved start/shutdown curves in the stochastic supply chain optimization model on several typical operation days. The daily production cost saving on average is around 8% (<b>10<sup>6</sup></b> level in dollars).
             - Assist in software documentation, team collaboration, and milestone reports.
             
-    - title: Research Engineer (Summer Intern)
+    - title: <b>Research Engineer (Summer Intern)</b>
       department: <a href="https://research-hub.nrel.gov/en/organisations/grid-planning-and-analysis-center">National Renewable Energy Laboratory (NREL)</a>
       year: 2019.05 - 2019.08
       description:
@@ -108,28 +108,28 @@
 - title: Project Participation
   type: time_table
   contents:
-    - title: Stochastic Optimal Power Flow for Real-time Management of DERs (SLAC)
+    - title: <b>Stochastic Optimal Power Flow for Real-time Management of DERs (SLAC)</b>
       year: 2019.05 - 2021.09
       items:
         - <u>Funded by DOE ARPA-E ($4.35M)</u>
         - In this project, I focused on developing a new stochastic power flow model and solution techniques. I worked on tailoring the large-scale distributed <span class="dashed-popover" data-toggle="popover" data-placement="top" title="Alternating Direction Method of Multipliers">ADMM</span> algorithm and deployed it in the stochastic optimal power flow model with practical market operations. The multi-thread processing was utilized when solving independent stochastic subproblems.
         - I generated stochastic scenario trees based on historical wind and solar data by applying the K-means clustering.
         - <a href="https://www.osti.gov/servlets/purl/1990021">Final Tech Report</a>
-    - title: Multi-timescale Integrated Dynamic And Scheduling (MIDAS)
+    - title: <b>Multi-timescale Integrated Dynamic And Scheduling (MIDAS)</b>
       year: 2018.09 - 2021.11
       items:
         - <u>Funded by DOE SETO ($3.00M)</u>
         - In this project, I focused on developing a generalized software package on <b>Python/Pyomo</b> for multi-timescale short-term market operations interfaced with the system dynamics simulation. Final code availability is dependent of NREL.
         - Focusing on the scheduling part, I designed and realized flexible and user-friendly functions for system operations, such as retrievals of system sensitivities like LMPs. The I/O interfaces between different optimization modules were also implemented.
         - <a href="https://www.nrel.gov/docs/fy23osti/85679.pdf">Final Tech Report</a>
-    - title: Hybrid Stochastic Energy Storage Management for Integrated Energy Systems
+    - title: <b>Hybrid Stochastic Energy Storage Management for Integrated Energy Systems</b>
       year: 2019.10 - 2020.10
       items:
         - <u>Funded by GEIRI-NA ($500K)</u> via <a href="https://www.linkedin.com/in/xiaohu-zhang-05593a56/">Dr. X. Zhang</a>.
         - I developed a power market simulation platform in MATLAB for the multi-energy network, including electricity, gas, and heat, exemplified by the operations of multi-energy storage systems. Nonconvex power flow, gas flow, and heat flow equations are convexified via the second-order cone.
         - I analyzed energy storages' capability of providing different energy products in the steady-state energy market. Scenario-based stochastic programming for a massive amount of distributed renewable resources was employed.
         - <a href="https://github.com/GabrielEdogawa/GERINA-Multi-Energy-Project">Code</a>
-    - title: Multi-Stage Stochastic \& Robust Power System Capacity Expansion Planning
+    - title: <b>Multi-Stage Stochastic \& Robust Power System Capacity Expansion Planning</b>
       year: 2018.01 - 2019.10
       items:
         - <u>Funded by DOE NEPA ($400K)</u>
@@ -140,27 +140,25 @@
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D.
+    - title: <b>Ph.D.</b> - Electrical Engineering
       institution: <a href="https://www.smu.edu/lyle/departments/ece">Southern Methodist University (SMU)</a>
       location: Dallas, USA
       year: 2018 - 2021
       description:
-        - Major in <u>Electrical Engineering</u>, specializing in <u>Energy System Optimization</u>.
+        - Specializing in <u>Energy System Optimization</u>.
         - Advised by <a href="https://sites.google.com/site/eejhwang/">Prof. Jianhui Wang, IEEE Fellow</a>.
         - <a href="https://scholar.smu.edu/engineering_electrical_etds/44/">Dissertation</a>
-    - title: M.Sc.
+    - title: <b>M.Sc.</b> - Electrical Engineering
       institution: <a href="https://www.iit.edu/ece">Illinois Institute of Technology (IIT)</a>
       location: Chicago, USA
       year: 2017 - 2018
       description:
-        - Major in <u>Electrical Engineering</u>, specializing in <u>Energy Economics</u>.
+        - Specializing in <u>Energy Economics</u>.
         - Advised by <a href="https://www.iit.edu/directory/people/zuyi-li">Prof. Zuyi Li, IEEE Fellow</a>.
-    - title: B.Eng.
+    - title: <b>B.Eng.</b> - Electrical Engineering
       institution: <a href="https://www-en.hnu.edu.cn/">Hunan University (HNU)</a>
       location: Changsha, PRC
       year: 2012 - 2016
-      description:
-        - Major in <u>Electrical Engineering and Authomation</u>
     - title: High School Diploma
       institution: <a href="https://www.changjun.com.cn/">Changjun High School</a>
       location: Changsha, PRC
@@ -201,7 +199,7 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - title: University Outstanding Graduate Student
+    - title: <b>University Outstanding Graduate Student</b>
       institution: <a href="https://www.smu.edu/lyle/departments/ece">Southern Methodist University (SMU)</a>
       location: Dallas, USA
       year: 2021
