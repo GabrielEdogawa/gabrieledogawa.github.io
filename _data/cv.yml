@@ -128,7 +128,7 @@
         - <u>Funded by GEIRI-NA ($500K)</u> via <a href="https://www.linkedin.com/in/xiaohu-zhang-05593a56/">Dr. X. Zhang</a>.
         - I developed a power market simulation platform in MATLAB for the multi-energy network, including electricity, gas, and heat, exemplified by the operations of multi-energy storage systems. Nonconvex power flow, gas flow, and heat flow equations are convexified via the second-order cone.
         - I analyzed energy storages' capability of providing different energy products in the steady-state energy market. Scenario-based stochastic programming for a massive amount of distributed renewable resources was employed.
-        - <a href="https://www">Code</a>
+        - <a href="https://github.com/GabrielEdogawa/GERINA-Multi-Energy-Project">Code</a>
     - title: Multi-Stage Stochastic \& Robust Power System Capacity Expansion Planning
       year: 2018.01 - 2019.10
       items:
