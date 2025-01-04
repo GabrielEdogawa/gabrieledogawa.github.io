@@ -47,7 +47,7 @@
         - Work for the Market Clearing Engine Division as the lead optimization architect/developer for the energy management system. Report to <a href="https://www.linkedin.com/in/maria-tamayo-a9762326/">Maria Tamayo - Senior Manager, Software Engineering</a>.
         - title: Details
           contents:
-            - Develop ISO-scale unit commitment and dispatch operations, working for national-level energy market clearing engines used by MISO, PJM, SPP, and ISO-NE covering 30+ states' electricity management in the US.
+            - Develop ISO-scale unit commitment and dispatch operations, working for national-level energy market clearing engines used by MISO, PJM, SPP, and ISO-NE covering 30+ states' electricity management in the U.S.
             - Conduct research and development on large-scale and distributed mathematical optimization models with practical implementations.
             - Lead on the production-level optimization software development using <b>Java-CPLEX</b> API with best software development practice.
             - Upgrade and optimize the workflow and automatic <b>Jenkins Cucumber Test</b> pipelines between operation codebase, customers, and database.
@@ -61,7 +61,7 @@
         - title: Details
           contents:
             - Develop large-scale mixed-integer programming models, including single/dual battery storage bidding, renewable-dominant energy market clearing operations, and multi-year generation and transmission expansion planning for <a href="https://www.ascendanalytics.com/solutions/powersimm-suite">PowerSIMM™ Suite</a> and <a href="https://www.ascendanalytics.com/solutions/smartbidder">Smartbidder™</a>.
-            - Lead on the production-level software refactoring from GAMS to <b>Python-FICO Xpress</b> API with solver tuning to achieve higher computational performance and a more flexible user interface.
+            - Lead on the production-level software refactoring from GAMS to <b>Python-FICO Xpress</b> API to achieve better coding efficiency and accessibility.
             - Develop production-level optimization solver tuning and achieve higher than <b>50%</b> performance boost for large-scale mixed-integer program series with million-level variables and constraints.
             - Upgrade and optimize the workflow and automatic <b>pytest</b> unit test pipelines between operation code and database, accelerating pre-/post-processing within the solution procedure.
             - Develop new features in optimization models to satisfy clients' needs, involving tens of unit modules such as battery storage, hydro operation, multi-energy networks, etc.
@@ -75,7 +75,7 @@
           contents:
             - Predict and analyze the solar generation potential in existing building rooftops by <b>Deep Learning</b> techniques, including Graph Neural Nets.
             - Implement Python programs for automatic I/O data flow with professional simulation software. Develop GUI and SQL databases for open-source power system optimization software.
-            - Model and simulate the national power capacity expansion planning and production cost modeling in <b>PLEXOS</b> through 2020-2035, considering the power reliability and CO<sub>2</sub>/SO<sub>2</sub>/NO<sub>x</sub> emission.
+            - Model and simulate the national power capacity expansion planning and production cost modeling in <b>PLEXOS</b> through 2020-2035, considering the power reliability and greenhouse gas emission.
             - Draft grant proposals for US DOE and California funding agencies, including the California multi-objective power-eco optimization and 2050 carbon neutrality projects.
             - Mentor interns and visiting Ph.D., host research calls, and manage academic seminars.
             
