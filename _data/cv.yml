@@ -68,7 +68,7 @@
 
     - title: <b>Postdoctoral Research Associate</b>
       department: <a href="https://emp.lbl.gov/">Lawrence Berkeley National Laboratory (LBNL)</a>
-      year: 2021.09 - 2022.03
+      year: 2021.09 - 2022.12
       description:
         - Work for the LBNL Electricity Market and Policy Department. This research position involves the investigation on future clean energy market with environmental impacts via machine learning and optimization. Report to <a href="https://eta.lbl.gov/people/jiang-lin">Dr. Jiang Lin - Staff Scientist</a>.
         - title: Details
@@ -129,10 +129,10 @@
         - I developed a power market simulation platform in MATLAB for the multi-energy network, including electricity, gas, and heat, exemplified by the operations of multi-energy storage systems. Nonconvex power flow, gas flow, and heat flow equations are convexified via the second-order cone.
         - I analyzed energy storages' capability of providing different energy products in the steady-state energy market. Scenario-based stochastic programming for a massive amount of distributed renewable resources was employed.
         - <a href="https://github.com/GabrielEdogawa/GERINA-Multi-Energy-Project">Code</a>
-    - title: <b>Multi-Stage Stochastic \& Robust Power System Capacity Expansion Planning</b>
+    - title: <b>Multi-Stage Stochastic & Robust Power System Capacity Expansion Planning</b>
       year: 2018.01 - 2019.10
       items:
-        - <u>Funded by DOE NEPA ($400K)</u>
+        - <u>Funded by DOE NETL ($400K)</u>
         - I designed a multi-stage and multi-timescale capacity expansion planning framework considering plant contingencies and renewable uncertainties. I formulated the problem as a hybrid stochastic and robust <span class="dashed-popover" data-toggle="popover" data-placement="top" title="Mixed-Integer Linear Programming">MILP</span> program with discrete and continuous uncertainties.
         - I devised a Benders-embedded Column-and-Constraint Generation algorithm to facilitate the solution. Extensive economic assessments were carried out to evaluate long-term renewable paybacks.
         - <a href="https://www.osti.gov/servlets/purl/1868949">Final Tech Report</a>, <a href="https://www.energy.gov/sites/prod/files/2017/07/f35/3.%20Wu%20Clarkson.pdf">Presentation</a>.
@@ -151,7 +151,7 @@
     - title: <b>M.Sc.</b> - Electrical Engineering
       institution: <a href="https://www.iit.edu/ece">Illinois Institute of Technology (IIT)</a>
       location: Chicago, USA
-      year: 2017 - 2018
+      year: 2016 - 2017
       description:
         - Specializing in <u>Energy Economics</u>.
         - Advised by <a href="https://www.iit.edu/directory/people/zuyi-li">Prof. Zuyi Li, IEEE Fellow</a>.
