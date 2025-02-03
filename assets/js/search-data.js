@@ -180,7 +180,7 @@ ninja.data = [{
         title: 'Myworld',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.gabriel-yin.com/", "_blank");
+          window.open("https://gyin.me/", "_blank");
         },
       },{
       id: 'light-theme',
