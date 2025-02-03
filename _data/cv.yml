@@ -5,22 +5,23 @@
       items:
         - name: '<span class="dashed-popover" data-toggle="popover" data-placement="top" title="PyTorch/TensorFlow/Gym/Numpy/Pandas/Matplotlib/Pyomo/Scikit-Learn"><b>Python</b></span>'
         - name: '<b>CPLEX/Gurobi/FICO-Xpress and APIs</b>'
-        - name: Julia/JuMP
-        - name: GAMS/AMPL
         - name: Java
-        - name: MATLAB (Simulink)
+        - name: C/C++
+        - name: Julia/JuMP
+        - name: GAMS
+        - name: MATLAB/Simulink
         - name: SQL
         - name: R
-        - name: C/C++
     - category: Software
       items:
-        - name: <b>PLEXOS</b>
-        - name: <b>Tableau</b>
-        - name: AIMMS
+        - name: <b>AIMMS</b>
+        - name: PLEXOS
+        - name: Enterprise Architect
+        - name: Tableau
         - name: PSS®E
+        - name: PSCAD
         - name: AutoCAD
         - name: MS Office Suite
-        - name: Enterprise Architect
     - category: Domain Knowledge
       items:
         - name: '<span class="dashed-popover" data-toggle="popover" data-placement="top" title="LP/MIP/SOCP/SDP + Stochastic Programming/Robust Optimization/Reinforcement Learning"><b>Optimization Theories and Applications</b></span>'
