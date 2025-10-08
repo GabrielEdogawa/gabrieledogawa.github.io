@@ -171,31 +171,31 @@
     - category: SMU
       items:
         - name: <b>Adaptive Algorithms in Machine Learning</b>
-          level: (A)
+          level: A
         - name: <b>Deep Learning and Neural Networks</b>
-          level: (A)
+          level: A
         - name: <b>Stochastic Optimization</b>
-          level: (A-)
+          level: A-
         - name: Distribution System Analysis
-          level: (A)
+          level: A
         - name: Data Analytics and Decision Support
-          level: (A)
+          level: A
         - name: Machine Learning in Power Systems
-          level: (A)
+          level: A
     - category: IIT
       items:
         - name: <b>Statistical Pattern Recognition</b>
-          level: (A)
+          level: A
         - name: <b>Applied Optimization for Engineering</b>
-          level: (A)
+          level: A
         - name: <b>Objective-oriented Programming and Computer Simulation</b>
-          level: (A)
+          level: A
         - name: Power Market Operation and Economics
-          level: (A)
+          level: A
         - name: Control and Operation of Electric Power Systems
-          level: (A-)
+          level: A-
         - name: Power System Planning
-          level: (A)
+          level: A
             
 - title: Honors and Awards
   type: time_table

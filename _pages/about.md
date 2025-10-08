@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: Me
 permalink: /
 subtitle: Operations Research Researcher, Deep Learning Learner, Cat Fanatic
 

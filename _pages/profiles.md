@@ -24,4 +24,9 @@ profiles:
     content: about_chuqi.md
     image_circular: true # crops the image to make it circular
     more_info: >
+  - align: left
+    image: conan_pic.jpg
+    content: about_conan.md
+    image_circular: true # crops the image to make it circular
+    more_info: >
 ---
