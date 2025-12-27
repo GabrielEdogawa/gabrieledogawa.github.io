@@ -32,11 +32,12 @@
     <span class="dashed-popover" data-toggle="popover" data-placement="top" title="To be honest, this is a better and preferred approach 😋"><u>Alt Step 1/2.</u></span> Add a small amount of olive oil. Put the heads of the large black tiger prawns into a frying pan and sauté until the prawn oil renders out. Add a few slices of garlic and onion, then pour in 450 g of boiling water. Add two bay leaves. Bring to a boil over high heat, add salt and saffron threads, then keep it at a steady boil over medium heat for 10 minutes. Turn off the heat.<br>
     <u>Step 3.</u> Add olive oil inside another large frying pan over medium heat.<br>
     <u>Step 4.</u> Add fine-chopped onions and red peppers. Sauté until onion is translucent. Add fine-chopped garlic.<br>
-    <u>Step 5.</u> Add peeled tomatoes and rice, stir nicely for 2 min. Then add the sweet peas.<br>
-    <u>Step 6.</u> Add white wine. Stir for 2 min or till the alchohol evaporates.<br>
-    <u>Step 7.</u> Switch on low heat. Add the prepared chicken broth in Step 2 to the pan in five separate portions. <span class="dashed-popover" data-toggle="popover" data-placement="top" title="Prevent the rice from sticking to the bottom of the pan"> Stir diligently</span> each portion until no visible liquid remains before adding the next portion.<br>
-    <u>Step 8.</u> After adding the fifth portion, stop stirring. Add the white shrimps, mussels, scallops, and squids, spreading it evenly over the rice.<br>
-    <u>Step 9.</u> Cover with a lid and let it stay over medium heat for 3 minutes.
+    <u>Step 5.</u> Sauté the scallops, shrimps and squids until half-cooked, then take them out.<br>
+    <u>Step 6.</u> Add peeled tomatoes and rice, stir nicely for 2 min. Then add the sweet peas.<br>
+    <u>Step 7.</u> Add white wine. Stir for 2 min or till the alchohol evaporates.<br>
+    <u>Step 8.</u> Switch on low heat. Add the prepared chicken broth in Step 2 to the pan in five separate portions. <span class="dashed-popover" data-toggle="popover" data-placement="top" title="Prevent the rice from sticking to the bottom of the pan. But real authentic paella in Spain would ask for the rice crust, which means you don't need this step. Just pour all the broth into the pan and cover the lid."> Stir diligently</span> each portion until no visible liquid remains before adding the next portion.<br>
+    <u>Step 9.</u> After adding the fifth portion, stop stirring. Add the white shrimps, mussels, scallops, and squids, spreading it evenly over the rice.<br>
+    <u>Step 10.</u> Cover with a lid and let it stay over medium heat for 3 minutes. Before taking out, squeeze some lemons.
     </td>
   </tr>
 </tbody>
